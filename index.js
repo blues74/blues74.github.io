@@ -20,10 +20,11 @@ function byName(name, $el) {
     return $(`[data-name="${name}"]`);
 }
 
-function getButtonWithPopover(val, title, text) {
+function getButtonWithPopover(val, title, text, nio) {
   return `<button
     type="button"
     data-name="word"
+    data-nio="${nio}"
     class="btn btn-lg btn-outline-primary"
     style="margin-bottom: .5rem;"
     data-toggle="popover"
@@ -33,30 +34,68 @@ function getButtonWithPopover(val, title, text) {
   `;
 }
 
-function loadWords (id) {
-  let arr = wordsAll[id].trim().split('\n');
+function getWordDialogBody(item) {
+  let arr = item.split('---').map(item => item.trim()).filter(item => !!item);
+  const word = arr[0];
+  const trn = arr[1];  
+  const tip  = arr[3].split(' ').shift();
+  const translate = arr[2];
+  const phrase = arr[3];
+  return `
+    <div><strong>${word} --- ${trn}</strong></div>
+    <div>${translate}</div>
+    <div class="bg-warning">${phrase}</div>
+  `;
+}
+
+function showSet(arrSet) {
   let html = '';
 
-  arr.forEach((item, i) => {
-    item = item.split('---').map(item => item.trim());
-    const word = item[0];
-    const tip  = item[3].split(' ').shift();
-    const text = item[3] + ' --- ' + item[2];
+  arrSet.forEach((item, i) => {
+    let arr = item.split('---').map(item => item.trim()).filter(item => !!item);
+    const word = arr[0];
+    const tip  = arr[3].split(' ').shift();
+    const text = arr[3] + ' --- ' + arr[2];
     let value = word;
-    let title = item[1] + ' --- ' + tip;
+    let title = arr[1] + ' --- ' + tip;
     if (options.traceByTip) {
       value = tip;
-      title = word + ' --- ' + item[1];
+      title = word + ' --- ' + arr[1];
     }
-    html += getButtonWithPopover(value, title, text);
+    html += getButtonWithPopover(value, title, text, i);
   });
 
   byId('current_words').html(html);
 
-  byName('word', byId('current_words')).popover({
-    container: 'body',
-    trigger: 'focus'
+  //byName('word', byId('current_words')).popover({
+  //  container: 'body',
+  //  trigger: 'focus'
+  //});
+
+  byName('word', byId('current_words')).on('click', (e) => {
+    const nio = parseInt($(e.target).data().nio, 10);
+    const item = app.currSet[nio];
+
+    byName('deleteWord').unbind('click');
+    byName('deleteWord').on('click', (e) => {
+      console.log(item);
+      app.currSet.splice(nio, 1);
+      showSet(app.currSet);
+      byId('wordDialog').modal('hide');
+    });
+
+    const html = getWordDialogBody(item);
+    byName('wordDialogBody').html(html);
+    byId('wordDialog').modal('show');
+
+    // console.log($(e.target).data().nio);
   });
+}
+
+function loadWords (id) {
+  let arr = wordsAll[id].trim().split('\n');
+  app.currSet = _.shuffle(arr);
+  showSet(app.currSet);
 }
 
 function initView () {

@@ -19,6 +19,7 @@
   <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <!-- JS, Popper.js, and jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js" integrity="sha256-kzv+r6dLqmz7iYuR2OdwUgl4X5RVsoENBzigdF5cxtU=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -34,30 +35,29 @@
         <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">42</button>
         <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">64</button>
         <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">84</button>
-
-        <div class="custom-control custom-switch" style="display: inline-block;">
-          <input type="checkbox" class="custom-control-input" id="traceByTip">
-          <label class="custom-control-label" for="traceByTip">по подсказке</label>
-        </div>
-
-        <!--div class="custom-control custom-checkbox" style="display: inline-block;">
-          <input type="checkbox" class="custom-control-input" id="customCheck1">
-          <label class="custom-control-label" for="customCheck1">по подсказке</label>
-       </div-->
-
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-bottom: .5rem;">
       <div id="current_words" class="col"></div>
     </div>
 
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="traceByTip">
+      <label class="custom-control-label" for="traceByTip">по подсказке</label>
+    </div>
+
+    <!--div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="traceByTip">
+      <label class="custom-control-label" for="traceByTip">по подсказке</label>
+   </div-->
+
     <!-- Button trigger modal -->
-    <button
+    <!--button
       type="button"
       class="btn btn-primary"
       id="showModal"
-    >Launch demo modal</button>
+    >Launch demo modal</button-->
 
     <!-- Modal -->
     <div 
@@ -70,16 +70,16 @@
     >
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
-          <div class="modal-header">
+          <!--div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body" data-name="wordDialogBody"></div>
+          </div-->
+          <div class="modal-body" data-name="wordDialogBody" style="font-size: 1.25rem;"></div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-            <button type="button" class="btn btn-primary">Удалить</button>
+            <button data-name="deleteWord" type="button" class="btn btn-primary">Удалить</button>
           </div>
         </div>
       </div>
