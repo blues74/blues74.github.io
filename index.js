@@ -1,21 +1,22 @@
-const appData = `
-drag --- dræɡ --- тащить(ся), тянуть, землечерпалка --- тащить ДРЭГоценности землечерпалкой
-draw --- drɔː --- рисовать, чертить --- ДРООжь мешает рисовать
-draw --- drɔː --- тяга, натяжение, лотерея, тащить, вытаскивать --- тащить ДРООва
-drawer --- drɔː(r) --- чертёжник, рисовальщик --- чертёжник рисовал ДРООРва
-drawer --- drɔː(r) --- выдвижной ящик --- порубил на ДРООРва выдвижной ящик
-drawer --- drɔː(r) --- буфетчик --- ДРООРва рубил буфетчик
-drawers --- ˈdrɔː(r)z --- кальсоны --- ДРООЗд в кальсонах
-dream --- driːm --- сон, сновидение, мечта, видеть сон, мечтать, сниться --- ДРИИМота переходит в сон
-dress --- dres --- платье, одежда, одеваться, наряжаться --- ДРЕСсировщица в красивом платье
-`;
+function byId$ (id) {
+  return $(`#${id}`);
+}
+
+function loadWords (id) {
+  let arr = wordsAll[id].trim().split('\n');
+  let html = '';
+  arr.forEach((item, i) => {
+    //itemArr = item.split('---');
+    html += item + '<br/>';
+  });
+
+  byId$('current_words').html(html);
+}
+
+function initView () {
+
+}
 
 $(document).ready(() => {
-    let arr = appData.trim().split('\n');
-    let html = '';
-    arr.forEach((item, i) => {
-      //itemArr = item.split('---');
-      html += item + '<br/>';
-    });
-    $('#app').html(html);
+  loadWords('words30');
 });
