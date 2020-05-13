@@ -1,3 +1,10 @@
+const app = {
+  options: {
+    traceByTip: false
+  },
+  currSet: null,
+};
+
 const options = {
     traceByTip: false
 }
@@ -50,7 +57,6 @@ function loadWords (id) {
     container: 'body',
     trigger: 'focus'
   });
-
 }
 
 function initView () {
@@ -61,6 +67,15 @@ function initView () {
   byName('goToWords', byId('toolbar')).on('click', (e) => {
     loadWords(e.target.innerText);
   });
+
+  byId('showModal').on('click', () => {
+    byName('wordDialogBody').html('hello');
+    byId('wordDialog').modal('show');
+  });  
+
+  //byId('wordDialog').on('show.bs.modal', (e) => {
+  //  console.log('show', e);
+  //});
 }
 
 $(document).ready(() => {
