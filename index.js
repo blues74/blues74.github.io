@@ -1,5 +1,12 @@
-function byId$ (id) {
+function byId (id) {
   return $(`#${id}`);
+}
+
+function byName(name, $el) {
+    if ($el)
+      return $el.find(`[data-name="${name}"]`);
+
+    return $(`[data-name="${name}"]`);
 }
 
 function getButtonWithPopover(val, title, text) {
@@ -26,9 +33,9 @@ function loadWords (id) {
     html += subhtml; // + '<br/>';
   });
 
-  byId$('current_words').html(html);
+  byId('current_words').html(html);
 
-  byId$('current_words').find('[data-name="word"]').popover({
+  byName('word', byId('current_words')).popover({
     container: 'body',
     trigger: 'focus'
   });
@@ -36,9 +43,11 @@ function loadWords (id) {
 }
 
 function initView () {
-
+  byName('goToWords', byId('toolbar')).on('click', (e) => {
+    loadWords('words' + e.target.innerText);
+  });
 }
 
 $(document).ready(() => {
-  loadWords('words30');
+    initView();
 });
