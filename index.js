@@ -44,7 +44,7 @@ function loadWords (id) {
 
 function initView () {
   byName('goToWords', byId('toolbar')).on('click', (e) => {
-    loadWords('words' + e.target.innerText);
+    loadWords(e.target.innerText);
   });
 }
 
