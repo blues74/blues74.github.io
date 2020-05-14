@@ -130,7 +130,7 @@ function initView () {
   let $toolbar = byId('toolbar');
   
   let toolbarHtml = '';
-  _.each(wordsAll, (item, key) => {
+  _.each(quickLinks, (key) => {
     toolbarHtml += `
       <button data-name="goToWords" type="button"
         class="btn btn-primary btn-lg mb-1" 
