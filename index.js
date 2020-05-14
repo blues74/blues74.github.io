@@ -49,8 +49,8 @@ function getWordDialogBody(item) {
   return `
     <h2>${word}</h2>
     <h2 style="text-align: right;">${trn}</h2>
-    <div style="font-size: 2rem;">${translate}</div>
-    <div style="font-size: 2rem; padding: .25rem;" class="bg-warning">${phrase}</div>
+    <div style="font-size: 2rem; line-height: 1.2; margin-bottom: .5rem;">${translate}</div>
+    <div style="font-size: 2rem; line-height: 1.2; padding: .125rem;" class="bg-warning">${phrase}</div>
   `;
 }
 
