@@ -29,6 +29,52 @@ class MainView {
     showSet(app.currSet);
   }
 
+  initToolbarTop() {
+    const $toolbar = this.$toolbar;
+    let html = '';
+    _.each(quickLinks, (key) => {
+      html += `
+        <button data-name="goToWords" type="button"
+          class="btn btn-primary btn-lg mb-1" 
+          style="font-size: 2rem; line-height: 1; padding: .25rem;"
+        >${key}</button>    
+      `;
+    });
+    
+    html += `
+      <button data-name="openConfig type="button"
+        class="btn btn-primary btn-lg mb-1" 
+        style="font-size: 2rem; line-height: 1; padding: .25rem;"
+      >&#9881;</button>    
+    `;
+
+    $toolbar.html(html);
+  
+    byName('goToWords', $toolbar).on('click', (e) => {
+        byName('goToWords', $toolbar)
+        .removeClass('btn-success')
+        .addClass('btn-primary');
+  
+        $(e.target)
+        .removeClass('btn-primary')
+        .addClass('btn-success');
+  
+        this.loadWords(e.target.innerText);
+    });    
+  }
+
+  init() {
+    this.initToolbarTop();
+
+    byId('traceByTip').on('click', (e) => {
+      app.options.traceByTip = e.target.checked;
+    });
+  
+    byId('byOrder').on('click', (e) => {
+      app.options.byOrder = e.target.checked;
+    });      
+  }
+
 }
 
 let vMain;
@@ -119,58 +165,7 @@ function showSet(arrSet) {
   });
 }
 
-function loadWords (id) {
-  let arr = wordsAll[id].trim().split('\n');
-  app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
-  showSet(app.currSet);
-}
-
-function initView () {
-  vMain = new MainView();
-  let $toolbar = byId('toolbar');
-  
-  let toolbarHtml = '';
-  _.each(quickLinks, (key) => {
-    toolbarHtml += `
-      <button data-name="goToWords" type="button"
-        class="btn btn-primary btn-lg mb-1" 
-        style="font-size: 2rem; line-height: 1; padding: .25rem;"
-      >${key}</button>    
-    `;
-  });
-  $toolbar.html(toolbarHtml);
-
-  byId('traceByTip').on('click', (e) => {
-    app.options.traceByTip = e.target.checked;
-  });
-
-  byId('byOrder').on('click', (e) => {
-    app.options.byOrder = e.target.checked;
-  });
-
-  byName('goToWords', $toolbar).on('click', (e) => {
-      byName('goToWords', $toolbar)
-      .removeClass('btn-success')
-      .addClass('btn-primary');
-
-      $(e.target)
-      .removeClass('btn-primary')
-      .addClass('btn-success');
-
-      vMain.loadWords(e.target.innerText);
-    // loadWords(e.target.innerText);
-  });
-
-  byId('showModal').on('click', () => {
-    byName('wordDialogBody').html('hello');
-    byId('wordDialog').modal('show');
-  });
-
-  //byId('wordDialog').on('show.bs.modal', (e) => {
-  //  console.log('show', e);
-  //});
-}
-
 $(document).ready(() => {
-    initView();
+  vMain = new MainView();
+  vMain.init();
 });
