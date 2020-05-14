@@ -1,13 +1,10 @@
 const app = {
   options: {
-    traceByTip: false
+    traceByTip: false,
+    byOrder: false,
   },
   currSet: null,
 };
-
-const options = {
-    traceByTip: false
-}
 
 function byId (id) {
   return $(`#${id}`);
@@ -21,17 +18,25 @@ function byName(name, $el) {
 }
 
 function getButtonWithPopover(val, title, text, nio) {
-  return `<button
-    type="button"
+  return `<h2
     data-name="word"
     data-nio="${nio}"
-    class="btn btn-lg btn-outline-primary"
-    style="margin-bottom: .5rem;"
-    data-toggle="popover"
-    title="${title}"
-    data-content="${text}"
+    class="d-inline-block bg-light"
+    style="margin-bottom: .5rem; margin-right: .5rem; padding: .25rem;"
   >${val}</button>
   `;
+
+  // return `<button
+  //   type="button"
+  //   data-name="word"
+  //   data-nio="${nio}"
+  //   class="btn btn-lg btn-outline-primary"
+  //   style="margin-bottom: .5rem;"
+  //   data-toggle="popover"
+  //   title="${title}"
+  //   data-content="${text}"
+  // >${val}</button>
+  // `;
 }
 
 function getWordDialogBody(item) {
@@ -39,13 +44,13 @@ function getWordDialogBody(item) {
   const word = arr[0];
   const trn = arr[1];
   const tip  = arr[3].split(' ').shift();
-  const translate = arr[2];
+  const translate = _.toLower(arr[2]);
   const phrase = arr[3];
   return `
-    <h3>${word}</h3>
-    <h3 style="text-align: right;">${trn}</h3>
-    <div style="font-size: 1.5rem;">${translate}</div>
-    <div style="font-size: 1.5rem; padding: .125rem;" class="bg-warning">${phrase}</div>
+    <h2>${word}</h2>
+    <h2 style="text-align: right;">${trn}</h2>
+    <div style="font-size: 2rem;">${translate}</div>
+    <div style="font-size: 2rem; padding: .25rem;" class="bg-warning">${phrase}</div>
   `;
 }
 
@@ -59,7 +64,7 @@ function showSet(arrSet) {
     const text = arr[3] + ' --- ' + arr[2];
     let value = word;
     let title = arr[1] + ' --- ' + tip;
-    if (options.traceByTip) {
+    if (app.options.traceByTip) {
       value = tip;
       title = word + ' --- ' + arr[1];
     }
@@ -100,13 +105,17 @@ function showSet(arrSet) {
 
 function loadWords (id) {
   let arr = wordsAll[id].trim().split('\n');
-  app.currSet = _.shuffle(arr);
+  app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
   showSet(app.currSet);
 }
 
 function initView () {
   byId('traceByTip').on('click', (e) => {
-    options.traceByTip = e.target.checked;
+    app.options.traceByTip = e.target.checked;
+  });
+
+  byId('byOrder').on('click', (e) => {
+    app.options.byOrder = e.target.checked;
   });
 
   byName('goToWords', byId('toolbar')).on('click', (e) => {
