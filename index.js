@@ -37,14 +37,15 @@ function getButtonWithPopover(val, title, text, nio) {
 function getWordDialogBody(item) {
   let arr = item.split('---').map(item => item.trim()).filter(item => !!item);
   const word = arr[0];
-  const trn = arr[1];  
+  const trn = arr[1];
   const tip  = arr[3].split(' ').shift();
   const translate = arr[2];
   const phrase = arr[3];
   return `
-    <div><strong>${word} --- ${trn}</strong></div>
-    <div>${translate}</div>
-    <div class="bg-warning">${phrase}</div>
+    <h3>${word}</h3>
+    <h3 style="text-align: right;">${trn}</h3>
+    <div style="font-size: 1.5rem;">${translate}</div>
+    <div style="font-size: 1.5rem; padding: .125rem;" class="bg-warning">${phrase}</div>
   `;
 }
 
@@ -78,8 +79,15 @@ function showSet(arrSet) {
 
     byName('deleteWord').unbind('click');
     byName('deleteWord').on('click', (e) => {
-      console.log(item);
       app.currSet.splice(nio, 1);
+      showSet(app.currSet);
+      byId('wordDialog').modal('hide');
+    });
+
+    byName('wordToTheEnd').unbind('click');
+    byName('wordToTheEnd').on('click', (e) => {
+      const item = app.currSet.splice(nio, 1);
+      app.currSet.push(item[0]);
       showSet(app.currSet);
       byId('wordDialog').modal('hide');
     });
@@ -87,8 +95,6 @@ function showSet(arrSet) {
     const html = getWordDialogBody(item);
     byName('wordDialogBody').html(html);
     byId('wordDialog').modal('show');
-
-    // console.log($(e.target).data().nio);
   });
 }
 
@@ -110,7 +116,7 @@ function initView () {
   byId('showModal').on('click', () => {
     byName('wordDialogBody').html('hello');
     byId('wordDialog').modal('show');
-  });  
+  });
 
   //byId('wordDialog').on('show.bs.modal', (e) => {
   //  console.log('show', e);

@@ -31,10 +31,12 @@
 
     <div class="row">
       <div id="toolbar" class="col" style="margin-bottom: 1rem;">
-        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">30</button>
-        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">42</button>
         <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">64</button>
+        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">42</button>
+        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">30</button>
         <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">84</button>
+        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">52</button>
+        <button data-name="goToWords" type="button" class="btn btn-primary btn-lg">19</button>
       </div>
     </div>
 
@@ -60,7 +62,7 @@
     >Launch demo modal</button-->
 
     <!-- Modal -->
-    <div 
+    <div
       class="modal fade"
       id="wordDialog"
       tabindex="-1"
@@ -76,11 +78,15 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div-->
-          <div class="modal-body" data-name="wordDialogBody" style="font-size: 1.25rem;"></div>
+          <div class="modal-body" data-name="wordDialogBody"></div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-            <button data-name="deleteWord" type="button" class="btn btn-primary">Удалить</button>
+            <button data-name="wordToTheEnd" type="button" class="btn btn-primary">В конец</button>
+            <button data-name="deleteWord" type="button" class="btn btn-danger">Удалить</button><br/>
+            <!--button type="button" class="btn btn-secondary" data-dismiss="modal">&times;</button-->
           </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: .5rem;">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
       </div>
     </div>
