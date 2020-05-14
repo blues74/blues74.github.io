@@ -19,6 +19,10 @@ function byName(name, $el) {
 
 
 class MainView {
+  constructor() {
+    this.$toolbar = byId('toolbar');
+  }
+
   loadWords (id) {
     let arr = wordsAll[id].trim().split('\n');
     app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
