@@ -17,6 +17,18 @@ function byName(name, $el) {
     return $(`[data-name="${name}"]`);
 }
 
+
+class MainView {
+  loadWords (id) {
+    let arr = wordsAll[id].trim().split('\n');
+    app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
+    showSet(app.currSet);
+  }
+
+}
+
+let vMain;
+
 function getButtonWithPopover(val, title, text, nio) {
   return `<h2
     data-name="word"
@@ -110,6 +122,20 @@ function loadWords (id) {
 }
 
 function initView () {
+  vMain = new MainView();
+  let $toolbar = byId('toolbar');
+  
+  let toolbarHtml = '';
+  _.each(wordsAll, (item, key) => {
+    toolbarHtml += `
+      <button data-name="goToWords" type="button"
+        class="btn btn-primary btn-lg mb-1" 
+        style="font-size: 2rem; line-height: 1; padding: .25rem;"
+      >${key}</button>    
+    `;
+  });
+  $toolbar.html(toolbarHtml);
+
   byId('traceByTip').on('click', (e) => {
     app.options.traceByTip = e.target.checked;
   });
@@ -118,8 +144,17 @@ function initView () {
     app.options.byOrder = e.target.checked;
   });
 
-  byName('goToWords', byId('toolbar')).on('click', (e) => {
-    loadWords(e.target.innerText);
+  byName('goToWords', $toolbar).on('click', (e) => {
+      byName('goToWords', $toolbar)
+      .removeClass('btn-success')
+      .addClass('btn-primary');
+
+      $(e.target)
+      .removeClass('btn-primary')
+      .addClass('btn-success');
+
+      vMain.loadWords(e.target.innerText);
+    // loadWords(e.target.innerText);
   });
 
   byId('showModal').on('click', () => {
