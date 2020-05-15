@@ -12,11 +12,17 @@ function byId (id) {
 
 function byName(name, $el) {
     if ($el)
+      return $el.find(`[name="${name}"]`);
+
+    return $(`[name="${name}"]`);
+}
+
+function dyName(name, $el) {
+    if ($el)
       return $el.find(`[data-name="${name}"]`);
 
     return $(`[data-name="${name}"]`);
 }
-
 
 class MainView {
   constructor() {
@@ -35,32 +41,32 @@ class MainView {
     _.each(quickLinks, (key) => {
       html += `
         <button data-name="goToWords" type="button"
-          class="btn btn-primary btn-lg mb-1" 
+          class="btn btn-primary btn-lg mb-1"
           style="font-size: 2rem; line-height: 1; padding: .25rem;"
-        >${key}</button>    
+        >${key}</button>
       `;
     });
-    
+
     html += `
       <button data-name="openConfig type="button"
-        class="btn btn-primary btn-lg mb-1" 
+        class="btn btn-primary btn-lg mb-1"
         style="font-size: 2rem; line-height: 1; padding: .25rem;"
-      >&#9881;</button>    
+      >&#9881;</button>
     `;
 
     $toolbar.html(html);
-  
-    byName('goToWords', $toolbar).on('click', (e) => {
-        byName('goToWords', $toolbar)
+
+    dyName('goToWords', $toolbar).on('click', (e) => {
+        dyName('goToWords', $toolbar)
         .removeClass('btn-success')
         .addClass('btn-primary');
-  
+
         $(e.target)
         .removeClass('btn-primary')
         .addClass('btn-success');
-  
+
         this.loadWords(e.target.innerText);
-    });    
+    });
   }
 
   init() {
@@ -69,10 +75,10 @@ class MainView {
     byId('traceByTip').on('click', (e) => {
       app.options.traceByTip = e.target.checked;
     });
-  
+
     byId('byOrder').on('click', (e) => {
       app.options.byOrder = e.target.checked;
-    });      
+    });
   }
 
 }
@@ -84,7 +90,7 @@ function getButtonWithPopover(val, title, text, nio) {
     data-name="word"
     data-nio="${nio}"
     class="d-inline-block bg-light"
-    style="margin-bottom: .5rem; margin-right: .5rem; padding: .25rem;"
+    style="margin-bottom: .5rem; margin-right: .5rem; padding: .25rem; word-break: break-all;"
   >${val}</button>
   `;
 
@@ -102,7 +108,7 @@ function getButtonWithPopover(val, title, text, nio) {
 }
 
 function getWordDialogBody(item) {
-  let arr = item.split('---').map(item => item.trim()).filter(item => !!item);
+  let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
   const word = arr[0];
   const trn = arr[1];
   const tip  = arr[3].split(' ').shift();
@@ -111,8 +117,13 @@ function getWordDialogBody(item) {
   return `
     <h2>${word}</h2>
     <h2 style="text-align: right;">${trn}</h2>
-    <div style="font-size: 2rem; line-height: 1.2; margin-bottom: .5rem;">${translate}</div>
-    <div style="font-size: 2rem; line-height: 1.2; padding: .125rem;" class="bg-warning">${phrase}</div>
+    <div
+      style="font-size: 2rem; line-height: 1.2; margin-bottom: .5rem;"
+    >${translate}</div>
+    <div
+      style="font-size: 2rem; line-height: 1.2; padding: .125rem; word-break: break-all;"
+      class="bg-warning"
+    >${phrase}</div>
   `;
 }
 
@@ -120,7 +131,7 @@ function showSet(arrSet) {
   let html = '';
 
   arrSet.forEach((item, i) => {
-    let arr = item.split('---').map(item => item.trim()).filter(item => !!item);
+    let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
     const word = arr[0];
     const tip  = arr[3].split(' ').shift();
     const text = arr[3] + ' --- ' + arr[2];
@@ -140,19 +151,19 @@ function showSet(arrSet) {
   //  trigger: 'focus'
   //});
 
-  byName('word', byId('current_words')).on('click', (e) => {
+  dyName('word', byId('current_words')).on('click', (e) => {
     const nio = parseInt($(e.target).data().nio, 10);
     const item = app.currSet[nio];
 
-    byName('deleteWord').unbind('click');
-    byName('deleteWord').on('click', (e) => {
+    dyName('deleteWord').unbind('click');
+    dyName('deleteWord').on('click', (e) => {
       app.currSet.splice(nio, 1);
       showSet(app.currSet);
       byId('wordDialog').modal('hide');
     });
 
-    byName('wordToTheEnd').unbind('click');
-    byName('wordToTheEnd').on('click', (e) => {
+    dyName('wordToTheEnd').unbind('click');
+    dyName('wordToTheEnd').on('click', (e) => {
       const item = app.currSet.splice(nio, 1);
       app.currSet.push(item[0]);
       showSet(app.currSet);
@@ -160,7 +171,7 @@ function showSet(arrSet) {
     });
 
     const html = getWordDialogBody(item);
-    byName('wordDialogBody').html(html);
+    dyName('wordDialogBody').html(html);
     byId('wordDialog').modal('show');
   });
 }
