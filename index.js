@@ -4,9 +4,13 @@ const app = {
     byOrder: false,
   },
   currSet: null,
+  currSetInfo: null,
 };
 
-function byId (id) {
+function byId (id, $el) {
+  if ($el)
+    return $el.find(`[id="${id}"]`);
+
   return $(`#${id}`);
 }
 
@@ -31,13 +35,23 @@ class MainView {
 
   loadWords (id) {
     let arr = wordsAll[id].trim().split('\n');
+    arr = arr.slice(1);
+
     app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
     showSet(app.currSet);
   }
 
   initToolbarTop() {
     const $toolbar = this.$toolbar;
-    let html = '';
+    let html = `
+      <button
+        id="openConfigDialog"
+        type="button"
+        class="btn btn-primary btn-lg mb-1"
+        style="font-size: 2rem; line-height: 1; padding: .25rem;"
+      >&#9881;</button>
+    `;
+
     _.each(quickLinks, (key) => {
       html += `
         <button data-name="goToWords" type="button"
@@ -46,13 +60,6 @@ class MainView {
         >${key}</button>
       `;
     });
-
-    html += `
-      <button data-name="openConfig type="button"
-        class="btn btn-primary btn-lg mb-1"
-        style="font-size: 2rem; line-height: 1; padding: .25rem;"
-      >&#9881;</button>
-    `;
 
     $toolbar.html(html);
 
@@ -65,20 +72,38 @@ class MainView {
         .removeClass('btn-primary')
         .addClass('btn-success');
 
+        dyName('currentBoard').remove();
+        $(e.target).after('<div data-name="currentBoard"></div>');
         this.loadWords(e.target.innerText);
+    });
+  }
+
+  initConfigDialog() {
+    const $configDialog = byId('configDialog');
+
+    byId('openConfigDialog').on('click', () => {
+      $configDialog.modal('show');
+    })
+
+    byId('traceByTip2').on('click', (e) => {
+      app.options.traceByTip = e.target.checked;
+    });
+
+    byId('byOrder2').on('click', (e) => {
+      app.options.byOrder = e.target.checked;
+    });
+
+    dyName('ok', $configDialog).on('click', (e) => {
+      if (app.currSet) {
+        showSet(app.currSet);
+      }
+      $configDialog.modal('hide');
     });
   }
 
   init() {
     this.initToolbarTop();
-
-    byId('traceByTip').on('click', (e) => {
-      app.options.traceByTip = e.target.checked;
-    });
-
-    byId('byOrder').on('click', (e) => {
-      app.options.byOrder = e.target.checked;
-    });
+    this.initConfigDialog();
   }
 
 }
@@ -107,7 +132,7 @@ function getButtonWithPopover(val, title, text, nio) {
   // `;
 }
 
-function getWordDialogBody(item) {
+function getWordCardDialogBody(item) {
   let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
   const word = arr[0];
   const trn = arr[1];
@@ -144,14 +169,9 @@ function showSet(arrSet) {
     html += getButtonWithPopover(value, title, text, i);
   });
 
-  byId('current_words').html(html);
+  dyName('currentBoard').html(html); // current_words
 
-  //byName('word', byId('current_words')).popover({
-  //  container: 'body',
-  //  trigger: 'focus'
-  //});
-
-  dyName('word', byId('current_words')).on('click', (e) => {
+  dyName('word', dyName('currentBoard')).on('click', (e) => { // current_words
     const nio = parseInt($(e.target).data().nio, 10);
     const item = app.currSet[nio];
 
@@ -159,7 +179,7 @@ function showSet(arrSet) {
     dyName('deleteWord').on('click', (e) => {
       app.currSet.splice(nio, 1);
       showSet(app.currSet);
-      byId('wordDialog').modal('hide');
+      byId('wordCardDialog').modal('hide');
     });
 
     dyName('wordToTheEnd').unbind('click');
@@ -167,12 +187,12 @@ function showSet(arrSet) {
       const item = app.currSet.splice(nio, 1);
       app.currSet.push(item[0]);
       showSet(app.currSet);
-      byId('wordDialog').modal('hide');
+      byId('wordCardDialog').modal('hide');
     });
 
-    const html = getWordDialogBody(item);
-    dyName('wordDialogBody').html(html);
-    byId('wordDialog').modal('show');
+    const html = getWordCardDialogBody(item);
+    dyName('wordCardDialogBody').html(html);
+    byId('wordCardDialog').modal('show');
   });
 }
 
