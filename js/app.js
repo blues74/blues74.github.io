@@ -1,9 +1,9 @@
 var $$ = Dom7;
 
 var app = new Framework7({
-  root: '#app', // App root element
-  name: 'Zubr', // App name
-  theme: 'auto', // Automatic theme detection
+  root: '#app',
+  name: 'giv.zubrilo', // app name
+  theme: 'auto', // automatic theme detection
   // App root data
   data: function () {
     return {
@@ -17,7 +17,9 @@ var app = new Framework7({
         info: '',
         showByOrder: false,
         showByTip: false,
-      }
+      },
+      wordsAll: wordsAll,
+      quickLinks: quickLinks,
     };
   },
   // App root methods
