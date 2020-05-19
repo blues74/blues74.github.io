@@ -85,11 +85,11 @@ class MainView {
       $configDialog.modal('show');
     })
 
-    byId('traceByTip2').on('click', (e) => {
+    byId('traceByTip').on('click', (e) => {
       app.options.traceByTip = e.target.checked;
     });
 
-    byId('byOrder2').on('click', (e) => {
+    byId('byOrder').on('click', (e) => {
       app.options.byOrder = e.target.checked;
     });
 

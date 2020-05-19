@@ -100,7 +100,7 @@ const digits8xB = `
 8 на 9 --- --- --- 72
 `;
 
-const digitsDifficultAxB = `
+const digitsAxB_hard = `
 # digits
 9 на 4 --- --- --- 36
 9 на 5 --- --- --- 45
@@ -113,7 +113,7 @@ const digitsDifficultAxB = `
 8 на 9 --- --- --- 72
 `;
 
-const digitsDifficultAxBadc = `
+const digitsAxB_hard_adc = `
 # digits
 яйЦо на Чай  --- --- --- КЛей
 яйЦо на оБои --- --- --- ЧиП
@@ -126,7 +126,7 @@ const digitsDifficultAxBadc = `
 иВа на яйЦо  --- --- --- яЗыК
 `;
 
-const digitsHardAxB-adc = `
+const digitsAxB_super_hard_adc = `
 # digits
 яйЦо да юЛа --- --- --- ПеЧь
 иВа да оСа  --- --- --- ПиЛа

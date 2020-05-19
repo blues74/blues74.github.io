@@ -119,7 +119,7 @@ gush --- gʌʃ --- ливень, стремительный поток, (пер�
 // ‘ ˈ æ dʒ ʌ
 
 const quickLinks = [
-  '9xB', 'AxA', 'D0', 'D00', 'D11', 'D61', 'difficultAxB',
+  '9xB', 'AxA', 'D0', 'D00', 'D11', 'D61', 'AxB-hard', 'AxB-hard-adc', 'AxB-super-hard-adc',
   '1-11', '023', '062', '052', '019', '064', '042', '030', '084'
 ];
 
@@ -136,11 +136,13 @@ const wordsAll = {
   // digits
   'AxA': digitsAxA,
   '9xB': digits9xB,
-  'difficultAxB': digitsDifficultAxB,
   'D0': digitsD0,
   'D00': digitsD00,
   'D11': digitsD11,
   'D61': digitsD61,
+  'AxB-hard': digitsAxB_hard,
+  'AxB-hard-adc': digitsAxB_hard_adc,
+  'AxB-super-hard-adc': digitsAxB_super_hard_adc,
 };
 
 // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/
