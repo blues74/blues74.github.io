@@ -54,8 +54,8 @@ class MainView {
         style="font-size: 2rem; line-height: 1; padding: .25rem;"
       >&#9881;</button>
     `;
-    // _.each(QUICK_LINKS, (key) => {
-    _.each(['A', 'B'], (key) => {
+    
+    _.each(QUICK_LINKS, (key) => {
       html += `
         <button data-name="goToWords" type="button"
           class="btn btn-primary btn-lg mb-1"
