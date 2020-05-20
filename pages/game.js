@@ -8,20 +8,41 @@ class GameBoard {
     this.$root = $root;
     const self = this;
 
-    $root.html(`
-      <h1
-        style="display: inline-block; margin: 0 1rem .5rem 0; padding: .25rem;"
-        data-name="item"
-      >
-        item
-      </h1>
-      <h1
-        style="display: inline-block; margin: 0 1rem .5rem 0; padding: .25rem;"
-        data-name="item"
-      >
-        item
-      </h1>
-    `);
+    let html = `
+      <div
+        style="
+          display: inline-flex;
+          background-color: lightblue;
+          height: 48px;
+        ">
+        <p 
+          style="
+            display: inline-flex;
+            align-items: center;
+            font-size: 2rem;
+            line-height: 1.25;
+            padding: 0 .5rem 0 .5rem;
+            margin: 0;
+          "
+        ><i class="icon material-icons">settings</i></p>
+      </div>
+    `;
+
+    _.each(QUICK_LINKS, (key) => {
+      html += `
+        <h1 data-name="item" type="button"
+          style="
+            display: inline-block;
+            margin: 0 .25rem .5rem 0;
+            padding: .25rem;
+            font-size: 2rem;
+            line-height: 1.25;
+            background-color: lightblue;
+          "
+        >${key}</h1>
+      `;
+    });
+    $root.html(html);
 
     dyName('item', $root).on('click', function (e) {
       var dialog = self.$app.dialog.create({
