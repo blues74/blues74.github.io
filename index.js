@@ -34,7 +34,10 @@ class MainView {
   }
 
   loadWords (id) {
-    let arr = wordsAll[id].trim().split('\n');
+    let x = ALL_KEYS[id];
+    // console.log(x);
+    // console.log(ALL_DATA[x.i][x.j]);
+    let arr = ALL_DATA[x.i][x.j].trim().split('\n');
     arr = arr.slice(1);
 
     app.currSet = app.options.byOrder ? arr : _.shuffle(arr);
@@ -52,7 +55,7 @@ class MainView {
       >&#9881;</button>
     `;
 
-    _.each(quickLinks, (key) => {
+    _.each(QUICK_LINKS, (key) => {
       html += `
         <button data-name="goToWords" type="button"
           class="btn btn-primary btn-lg mb-1"

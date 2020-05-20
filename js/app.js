@@ -18,8 +18,6 @@ var app = new Framework7({
         showByOrder: false,
         showByTip: false,
       },
-      wordsAll: wordsAll,
-      quickLinks: quickLinks,
     };
   },
   // App root methods
