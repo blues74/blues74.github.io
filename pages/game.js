@@ -1,12 +1,14 @@
 class GameBoard {
 
-  constructor($app) {
-    this.$app = $app;
+  constructor($vc) {
+    this.$vc = $vc;
+    //console.log('this.$app', this.$app);
   }
 
   init($root) {
     this.$root = $root;
-    const self = this;
+    const $app = this.$vc.$app;
+    const $vc  = this.$vc;
 
     let html = `
       <div
@@ -28,6 +30,8 @@ class GameBoard {
       </div>
     `;
 
+    console.log('this.$vc', this.$vc.$route.params.id);
+
     _.each(QUICK_LINKS, (key) => {
       html += `
         <h1 data-name="item" type="button"
@@ -45,14 +49,14 @@ class GameBoard {
     $root.html(html);
 
     dyName('item', $root).on('click', function (e) {
-      var dialog = self.$app.dialog.create({
+      var dialog = $app.dialog.create({
         // text: 'Hello World',
         cssClass: 'super',
         content: '<h1>Content content</h1>',
         closeByBackdropClick: true,
         on: {
           opened: function () {
-            console.log('Dialog opened')
+            console.log('Dialog opened');
           }
         }
       });
@@ -116,9 +120,6 @@ const gamePageTpl = `
         <button class="col button button-large button-raised button-fill">Raised Fill</button>
       </p>
     </div-->
-
-    <i class="icon icon-back"></i>
-    <i class="f7-icons">house</i>
         
     <div style="margin: 1rem; padding: 0;">
       <div data-name="gameBoard"></div>
@@ -161,9 +162,10 @@ const gamePage = {
   methods: {
     init: function() {
       // this: $app, $route
-      let gameBoard = new GameBoard(this.$app);
+      let gameBoard = new GameBoard(this);
       gameBoard.init(dyName('gameBoard'));
-      console.log('INIT', this.$route);
+      //console.log('INIT', this);
+      // console.log('INIT', this.$route);
       // bus.on('some-event', function (e) {
       //   console.log('some-event', e);
       // });
