@@ -42,6 +42,10 @@ function dyName(name, $el) {
     return $(`[data-name="${name}"]`);
 }
 
+function formatStyle(str) {
+  str = str || '';
+  return str.split('\n').map(line => line.trim()).filter(line => !!line).join(' ');
+}
 
 
 // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/

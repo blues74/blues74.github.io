@@ -1,16 +1,13 @@
-console.log('GameBoard');
-
 class GameBoard {
 
   constructor($vc) {
-    // console.log('GameBoard.init', $vc);
-    this.$root = null;
+    this.$el = null;
     this.$vc = $vc;
   }
 
-  init($root) {
+  init($el) {
     const self = this;
-    this.$root = $root;
+    this.$el = $el;
     const $vc  = this.$vc;
     const $app = this.$vc.$app;
     const $route = this.$vc.$route;
@@ -58,7 +55,7 @@ class GameBoard {
       el: '.panel-right',
       on: {
         opened: function () {
-          console.log('Panel opened')
+          // console.log('Panel opened')
         }
       }
     });
@@ -72,6 +69,7 @@ class GameBoard {
     dyName('item', panelContent).on('click', (e) => {
       const id = e.target.innerText;
       this.loadWords(id);
+      panelVc.close();
     });
 
   }
@@ -100,6 +98,41 @@ class GameBoard {
     `;
   }
 
+  getDialogContent(item) {
+    let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
+    const word = arr[0];
+    const trn = arr[1];
+    const tip  = arr[3].split(' ').shift();
+    const translate = _.toLower(arr[2]);
+    const phrase = arr[3];
+    const style = formatStyle(`
+      font-size: 2rem;
+      color: #333;
+      line-height: 1.2;
+      padding: .125rem;
+      word-break: break-all;
+      margin-bottom: .5rem;
+      margin-top: 0;
+    `);
+
+    return `
+      <p style="${style}">${word}</p>
+      <p style="${style} text-align: right;">${trn}</p>
+      <p style="${style}">${translate}</p>
+      <p style="${style}">${phrase}</p>
+      <p class="row">
+        <button
+          data-name="toTheEnd"
+          class="col button button-large button-raised button-fill color-red"
+        >В конец</button>
+        <button
+          data-name="remove"
+          class="col button button-large button-raised button-fill color-green"
+        >Удалить</button>
+      </p>
+    `;
+  }  
+
   showSet(arrSet) {
     let html = '';
 
@@ -117,52 +150,60 @@ class GameBoard {
       html += this.getItemTpl(value, title, text, i);
     });
 
-    this.$root.html(html);
+    html = `
+      <div
+        style="display: inline-flex; background-color: lightblue; height: 48px;"
+        data-name="settings"
+      >
+        <p
+          style="
+            display: inline-flex;
+            align-items: center;
+            font-size: 2rem;
+            line-height: 1.25;
+            padding: 0 .5rem 0 .5rem;
+            margin: 0;
+          "
+        ><i class="icon material-icons">settings</i></p>
+      </div>
+    ` + html;
 
-    dyName('item', this.$root).on('click', (e) => {
-      // // console.log($('.panel.panel-right .page-content .block'));
-      // // console.log($app.panel.get('.panel-right'));
+    this.$el.html(html);
 
-      var dialog = this.$vc.$app.dialog.create({
+  /* item click action */
+    dyName('item', this.$el).on('click', (e) => {
+      const nio = parseInt($(e.target).data('nio'), 10);
+      const item = APP_DATA.currSet[nio];
+      let html = this.getDialogContent(item);
+
+    /* create/open dialog */
+      var dialogVc = this.$vc.$app.dialog.create({
         // text: 'Hello World',
         cssClass: 'super',
-        content: '<h1>Content content</h1>',
+        content: html,
         closeByBackdropClick: true,
         on: {
           opened: function () {
-            console.log('Dialog opened');
+            // console.log('Dialog opened');
           }
         }
       });
-      dialog.open();
+      dialogVc.open();
 
-      // // console.log(dialog);
-      // // $app.dialog.open(dialog.$el);
+    /* remove item action */
+      dyName('remove', dialogVc.$el).on('click', (e) => {
+        APP_DATA.currSet.splice(nio, 1);
+        this.showSet(APP_DATA.currSet);
+        dialogVc.close();
+      });
+
+    /* toTheEnd action */
+      dyName('toTheEnd', dialogVc.$el).on('click', (e) => {
+        const item = APP_DATA.currSet.splice(nio, 1);
+        APP_DATA.currSet.push(item[0]);
+        this.showSet(APP_DATA.currSet);
+        dialogVc.close();
+      });
     });
-
-    // dyName('word', dyName('currentBoard')).on('click', (e) => { // current_words
-    //   const nio = parseInt($(e.target).data().nio, 10);
-    //   const item = app.currSet[nio];
-    //
-    //   dyName('deleteWord').unbind('click');
-    //   dyName('deleteWord').on('click', (e) => {
-    //     app.currSet.splice(nio, 1);
-    //     showSet(app.currSet);
-    //     byId('wordCardDialog').modal('hide');
-    //   });
-    //
-    //   dyName('wordToTheEnd').unbind('click');
-    //   dyName('wordToTheEnd').on('click', (e) => {
-    //     const item = app.currSet.splice(nio, 1);
-    //     app.currSet.push(item[0]);
-    //     showSet(app.currSet);
-    //     byId('wordCardDialog').modal('hide');
-    //   });
-    //
-    //   const html = getWordCardDialogBody(item);
-    //   dyName('wordCardDialogBody').html(html);
-    //   byId('wordCardDialog').modal('show');
-    // });
   }
-
 }
