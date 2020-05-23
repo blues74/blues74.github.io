@@ -1,4 +1,3 @@
-
 var routes = [
   {
     path: '/',
@@ -9,12 +8,12 @@ var routes = [
     path: '/home/',
     // url: './index.html',
     component: homePage,
-  },  
+  },
   {
     path: '/game/:id/',
     // url: './pages/about.html',
     component: gamePage,
-  },  
+  },
   {
     path: '/about/',
     // url: './pages/about.html',
@@ -33,7 +32,7 @@ var routes = [
   },
   {
     path: '/left-page-2/',
-    template: leftPage2Tpl,    
+    template: leftPage2Tpl,
     // url: './pages/left-page-2.html',
   },
   {

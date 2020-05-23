@@ -7,27 +7,6 @@ const app = {
   currSetInfo: null,
 };
 
-function byId (id, $el) {
-  if ($el)
-    return $el.find(`[id="${id}"]`);
-
-  return $(`#${id}`);
-}
-
-function byName(name, $el) {
-    if ($el)
-      return $el.find(`[name="${name}"]`);
-
-    return $(`[name="${name}"]`);
-}
-
-function dyName(name, $el) {
-    if ($el)
-      return $el.find(`[data-name="${name}"]`);
-
-    return $(`[data-name="${name}"]`);
-}
-
 class MainView {
   constructor() {
     this.$toolbar = byId('toolbar');
@@ -54,7 +33,7 @@ class MainView {
         style="font-size: 2rem; line-height: 1; padding: .25rem;"
       >&#9881;</button>
     `;
-    
+
     _.each(QUICK_LINKS, (key) => {
       html += `
         <button data-name="goToWords" type="button"

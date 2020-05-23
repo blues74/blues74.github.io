@@ -34,7 +34,7 @@ var app = new Framework7({
       // $(document).on('page:init', function (e) {
       //   console.log('page:init', arguments.length);
       //   // Do something here when page loaded and initialized
-      // });      
+      // });
       // Option 2. Using live 'page:init' event handlers for each page
       $(document).on('page:init', '.page[data-name="home"]', function (e) {
         console.log('page:init.home', arguments.length, e, e.detail);
@@ -46,7 +46,7 @@ var app = new Framework7({
     //   console.log('Page initialized', arguments.length, arguments[0]);
     // },
     // pageMounted: function () {
-    //   console.log('Page mounted', arguments.length);      
+    //   console.log('Page mounted', arguments.length);
     // }
   }
 });
