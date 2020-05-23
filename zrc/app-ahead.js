@@ -2,6 +2,12 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
+const APP_DATA = {
+  currSet: null,
+  options: {
+
+  },
+};
 
 try {
   if (Dom7) {
