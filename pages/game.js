@@ -30,9 +30,12 @@ class GameBoard {
       </div>
     `;
 
-    console.log('this.$vc', this.$vc.$route.params.id);
+    // console.log('this.$vc', this.$vc.$route.params.id);
+    const groupData = ALL_BY_GROUPS[this.$vc.$route.params.id];
+    // console.log(groupData);
 
-    _.each(QUICK_LINKS, (key) => {
+    // QUICK_LINKS
+    _.each(groupData.$keys, (key) => {
       html += `
         <h1 data-name="item" type="button"
           style="
@@ -48,7 +51,27 @@ class GameBoard {
     });
     $root.html(html);
 
+    var panel = $app.panel.create({
+      el: '.panel-right',
+      on: {
+        opened: function () {
+          console.log('Panel opened')
+        }
+      }
+    });
+
+    $app.utils.nextTick(() => {
+      panel.open();
+    }, 500);
+    dyName('panel-right-content').html(html);
+    // Promise.resolve(null).then(() => {
+    //   console.log('Hello');
+    //   panel.open();
+    // });
+
     dyName('item', $root).on('click', function (e) {
+      // console.log($('.panel.panel-right .page-content .block'));
+      // console.log($app.panel.get('.panel-right'));
       var dialog = $app.dialog.create({
         // text: 'Hello World',
         cssClass: 'super',

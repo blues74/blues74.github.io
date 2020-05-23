@@ -69,11 +69,14 @@
                   <a href="#" data-view=".view-main" class="back panel-close">Back in history</a>
                 </li-->
                 <li>
-                  <a href="/game/english/" data-view=".view-main" class="panel-close">Английский</a>
+                  <a href="/game/words/" data-view=".view-main" class="panel-close">Английский</a>
                 </li>
                 <li>
-                  <a href="/game/alphanumeric_code/" data-view=".view-main" class="panel-close">Буквенно-цифровой код</a>
+                  <a href="/game/digits/" data-view=".view-main" class="panel-close">Буквенно-цифровой код</a>
                 </li>
+                <li>
+                  <a href="/game/multiplication_table/" data-view=".view-main" class="panel-close">Таблица умножения</a>
+                </li>                
               </ul>
             </div>
 
@@ -101,14 +104,14 @@
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Right panel content goes here</div>
+            <div class="block" data-name="panel-right-content">Right panel content goes here</div>
           </div>
         </div>
       </div>
     </div>
     
     <!-- Your main view, should have "view-main" class -->
-    <div class="view view-main view-init safe-areas" data-url="/game/math/">
+    <div class="view view-main view-init safe-areas" data-url="/home/">
 
     </div>
 
@@ -178,6 +181,7 @@
   </div>
   
   <!-- App routes -->
+  <script src="a_multiplication_table.js"></script>
   <script src="a_digits.js"></script>
   <script src="a_words.js"></script>
   

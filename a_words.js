@@ -150,7 +150,11 @@ ALL_DATA.push([
   /* \engRusWordsMnemo */
   
   // одухотворение
-  
+
+  const ALL_KEYS = {};
+  const QUICK_LINKS = [];
+  const ALL_BY_GROUPS = {};
+
   const QUICK_LINKS_BY_GROUP = {
     multiplication_table: [
       '9xB', '8xB', '7xB', '6xB', '5xB', '4xB', '3xB', '2xB', '1xB',
@@ -160,7 +164,7 @@ ALL_DATA.push([
     digits: [
       '0#', '00#', '11#', '61#',
     ],
-    consonant_sounds: [
+    words: [ // consonant_sounds
       'Крещение', // 988
       'да-Винчи',  'да-Винчи-2',  // 1452-1519
       'Грозный',   'Грозный-2',   // 1530-1584      
@@ -170,22 +174,32 @@ ALL_DATA.push([
     ],
   };
   
-  const ALL_KEYS = {};
-  const QUICK_LINKS = [];
-  
-  _.each(QUICK_LINKS_BY_GROUP, (keys, group) => {
+  _.each(QUICK_LINKS_BY_GROUP, (keys, groupName) => {
     _.each(keys, key => {
       QUICK_LINKS.push(key);
       // console.log(group, key);
     });
   });
-  
+
+
   // console.log(QUICK_LINKS);
   _.each(ALL_DATA, (group, i) => {
     _.each(group, (item, j) => {      
       let arr = item.trim().split('\n');
       let meta = arr[0].trim().split(' ');
       let key = meta[0];
+      let groupName = meta[1];
+      if (!ALL_BY_GROUPS[groupName]) {
+        ALL_BY_GROUPS[groupName] = {
+          $keys: []
+        };
+      }
+
+      console.log(groupName, key);
+
+      ALL_BY_GROUPS[groupName][key] = {i, j};
+      ALL_BY_GROUPS[groupName].$keys.push(key);
+
       arr.splice(0, 1);
       if (ALL_KEYS[key]) {
         key += `~${j}`;
@@ -199,6 +213,6 @@ ALL_DATA.push([
     });
   });
   
-  //console.log(ALL_KEYS);
+  console.log(ALL_BY_GROUPS);
   
   // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/

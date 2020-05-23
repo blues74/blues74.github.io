@@ -1,3 +1,4 @@
+// var $ = Dom7;
 ALL_DATA.push([
 
 `

@@ -6,6 +6,11 @@ var routes = [
     component: homePage,
   },
   {
+    path: '/home/',
+    // url: './index.html',
+    component: homePage,
+  },  
+  {
     path: '/game/:id/',
     // url: './pages/about.html',
     component: gamePage,

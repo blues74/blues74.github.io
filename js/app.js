@@ -1,4 +1,4 @@
-var $$ = Dom7;
+// var $ = Dom7;
 
 var app = new Framework7({
   root: '#app',
@@ -31,14 +31,14 @@ var app = new Framework7({
   on: {
     init: function () {
       console.log('App initialized', arguments.length, this);
-      // $$(document).on('page:init', function (e) {
+      // $(document).on('page:init', function (e) {
       //   console.log('page:init', arguments.length);
       //   // Do something here when page loaded and initialized
       // });      
       // Option 2. Using live 'page:init' event handlers for each page
-      $$(document).on('page:init', '.page[data-name="home"]', function (e) {
+      $(document).on('page:init', '.page[data-name="home"]', function (e) {
         console.log('page:init.home', arguments.length, e, e.detail);
-        console.log($$('.page[data-name="home"]')[0].f7Page);
+        console.log($('.page[data-name="home"]')[0].f7Page);
         // Do something here when page with data-name="about" attribute loaded and initialized
       });
     },
@@ -52,9 +52,9 @@ var app = new Framework7({
 });
 
 // Login Screen Demo
-$$('#my-login-screen .login-button').on('click', function () {
-  var username = $$('#my-login-screen [name="username"]').val();
-  var password = $$('#my-login-screen [name="password"]').val();
+$('#my-login-screen .login-button').on('click', function () {
+  var username = $('#my-login-screen [name="username"]').val();
+  var password = $('#my-login-screen [name="password"]').val();
 
   // Close login screen
   app.loginScreen.close('#my-login-screen');
