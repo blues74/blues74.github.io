@@ -2,6 +2,9 @@
 // digits
 // words
 const QUICK_LINKS_BY_GROUP = {
+  math_term: [
+    'base', 'vector',
+  ],  
   multiplication_table: [
     '9xB', '8xB', '7xB', '6xB', '5xB', '4xB', '3xB', '2xB', '1xB',
     'AxA', 'AxB-hard',
