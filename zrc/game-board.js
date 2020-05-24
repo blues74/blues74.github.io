@@ -8,7 +8,6 @@ class GameBoard {
   init($el) {
     const self = this;
     this.$el = $el;
-    const $vc  = this.$vc;
     const $app = this.$vc.$app;
     const $route = this.$vc.$route;
 
@@ -98,7 +97,7 @@ class GameBoard {
     `;
   }
 
-  getDialogContent(item) {
+  getItemCardContent(item) {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
     const word = arr[0];
     const trn = arr[1];
@@ -174,36 +173,124 @@ class GameBoard {
     dyName('item', this.$el).on('click', (e) => {
       const nio = parseInt($(e.target).data('nio'), 10);
       const item = APP_DATA.currSet[nio];
-      let html = this.getDialogContent(item);
+      let html = this.getItemCardContent(item);
+
+      dyName('itemCard', this.$el).remove();
+      let itemCard = $(document.createElement('div')).html(html);
+      itemCard.attr('data-name', 'itemCard');
+      $(itemCard).insertAfter(e.target);
 
     /* create/open dialog */
-      var dialogVc = this.$vc.$app.dialog.create({
-        // text: 'Hello World',
-        cssClass: 'super',
-        content: html,
-        closeByBackdropClick: true,
-        on: {
-          opened: function () {
-            // console.log('Dialog opened');
-          }
-        }
-      });
-      dialogVc.open();
+      // var dialogVc = this.$vc.$app.dialog.create({
+      //   // text: 'Hello World',
+      //   cssClass: 'super',
+      //   content: html,
+      //   closeByBackdropClick: true,
+      //   on: {
+      //     opened: function () {
+      //       // console.log('Dialog opened');
+      //     }
+      //   }
+      // });
+      // dialogVc.open();
 
     /* remove item action */
-      dyName('remove', dialogVc.$el).on('click', (e) => {
+      dyName('remove', itemCard /*dialogVc.$el*/).on('click', (e) => {
         APP_DATA.currSet.splice(nio, 1);
         this.showSet(APP_DATA.currSet);
-        dialogVc.close();
+        // dialogVc.close();
       });
 
     /* toTheEnd action */
-      dyName('toTheEnd', dialogVc.$el).on('click', (e) => {
+      dyName('toTheEnd', itemCard /*dialogVc.$el*/).on('click', (e) => {
         const item = APP_DATA.currSet.splice(nio, 1);
         APP_DATA.currSet.push(item[0]);
         this.showSet(APP_DATA.currSet);
-        dialogVc.close();
+        // dialogVc.close();
       });
     });
+
+    /* settings action */
+    dyName('settings', this.$el).on('click', (e) => {
+      const dataName = 'settingsPopup'
+      const html = `
+        <div class="popup" data-name="${dataName}">
+          <div class="view">
+            <div class="page">
+              <div class="navbar">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner">
+                  <div class="title">Настройки</div>
+                  <div class="right">
+                    <a href="#" class="link popup-close">Закрыть</a>
+                  </div>
+                </div>
+              </div>
+              <div class="page-content">
+                <div class="block-title">Form Example</div>
+                <div class="list no-hairlines-md" data-name="${dataName}Content">
+                  <ul>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">По порядку</div>
+                          <div class="item-after">
+                            <label class="toggle toggle-init" data-name="byOrder">
+                              <input type="checkbox">
+                              <span class="toggle-icon"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">По подсказке</div>
+                          <div class="item-after">
+                            <label class="toggle toggle-init" data-name="byTip">
+                              <input type="checkbox">
+                              <span class="toggle-icon"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      let popup = this.$vc.$app.popup.create({
+        content: html,
+        on: {
+          opened: function () {
+            console.log('Popup opened')
+          }
+        }
+      });
+
+      popup.open();
+
+      app.toggle.create({
+        el: '.toggle',
+        on: {
+          change: function (e) {
+            console.log('Toggle changed', e, this);
+          }
+        }
+      });
+
+
+    });
+
   }
+
+  initSettings() {
+
+  }
+
 }
