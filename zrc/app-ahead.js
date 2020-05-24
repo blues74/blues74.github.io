@@ -5,7 +5,8 @@ const ALL_BY_GROUPS = {};
 const APP_DATA = {
   currSet: null,
   options: {
-
+    showByOrder: false,
+    showByTip: false,
   },
 };
 

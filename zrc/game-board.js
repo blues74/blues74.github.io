@@ -36,7 +36,7 @@ class GameBoard {
     // QUICK_LINKS
     _.each(groupData.$keys, (key) => {
       html += `
-        <h1 data-name="item" type="button"
+        <h1 data-name="item"
           style="
             display: inline-block;
             margin: 0 .25rem .5rem 0;
@@ -77,7 +77,7 @@ class GameBoard {
     let x = ALL_KEYS[id];
     let arr = ALL_DATA[x.i][x.j].trim().split('\n');
     arr = arr.slice(1);
-    APP_DATA.currSet = APP_DATA.options.byOrder ? arr : _.shuffle(arr);
+    APP_DATA.currSet = APP_DATA.options.showByOrder ? arr : _.shuffle(arr);
     this.showSet(APP_DATA.currSet);
   }
 
@@ -142,7 +142,7 @@ class GameBoard {
       const text = arr[3] + ' --- ' + arr[2];
       let value = word;
       let title = arr[1] + ' --- ' + tip;
-      if (APP_DATA.options.traceByTip) {
+      if (APP_DATA.options.showByTip) {
         value = tip;
         title = word + ' --- ' + arr[1];
       }
@@ -235,7 +235,7 @@ class GameBoard {
                         <div class="item-inner">
                           <div class="item-title">По порядку</div>
                           <div class="item-after">
-                            <label class="toggle toggle-init" data-name="byOrder">
+                            <label class="toggle toggle-init" data-name="showByOrder">
                               <input type="checkbox">
                               <span class="toggle-icon"></span>
                             </label>
@@ -248,7 +248,7 @@ class GameBoard {
                         <div class="item-inner">
                           <div class="item-title">По подсказке</div>
                           <div class="item-after">
-                            <label class="toggle toggle-init" data-name="byTip">
+                            <label class="toggle toggle-init" data-name="showByTip">
                               <input type="checkbox">
                               <span class="toggle-icon"></span>
                             </label>
@@ -258,7 +258,13 @@ class GameBoard {
                     </li>
                   </ul>
                 </div>
-              </div>
+                <div class="block">
+                  <button
+                    data-name="saveSettings"
+                    class="button button-large button-raised button-fill color-green"
+                  >Применить</button>
+                </div>
+              </div> <!-- /page-content -->
             </div>
           </div>
         </div>
@@ -275,21 +281,39 @@ class GameBoard {
 
       popup.open();
 
-      app.toggle.create({
-        el: '.toggle',
+      let toggleByOrder = app.toggle.create({
+        el: dyName('showByOrder', popup.$el),
         on: {
-          change: function (e) {
-            console.log('Toggle changed', e, this);
+          change: function (vc) {
+            const name = vc.$el.dataset().name;
+            APP_DATA.options[name] = vc.checked;
           }
         }
       });
+      toggleByOrder.checked = !!APP_DATA.options.showByOrder;
 
+
+      let toggleByTip = app.toggle.create({
+        el: dyName('showByTip', popup.$el),
+        on: {
+          change: function (vc) {
+            const name = vc.$el.dataset().name;
+            APP_DATA.options[name] = vc.checked;
+          }
+        }
+      });
+      toggleByTip.checked = !!APP_DATA.options.showByTip;
+
+      dyName('saveSettings', popup.$el).on('click', (e) => {
+        this.showSet(APP_DATA.currSet);
+        popup.close();
+      });
 
     });
 
   }
 
-  initSettings() {
+  initSettingsPopup() {
 
   }
 
