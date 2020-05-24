@@ -6,17 +6,22 @@ class GameBoard {
   }
 
   init($el) {
-    const self = this;
-    this.$el = $el;
-    const $app = this.$vc.$app;
-    const $route = this.$vc.$route;
+    this.initContentsList($el);
+  }
 
-    let html = `
+  getIconContent(light) {
+    const bgColor = light ? '#ddd' : '#222';
+    const color = light ? '#222' : '#ddd';
+
+    return `
       <div
+        data-name="settings"
         style="
           display: inline-flex;
-          background-color: lightblue;
+          background-color: ${bgColor};
           height: 48px;
+          width: 48px;
+          justify-content: center;
         ">
         <p
           style="
@@ -26,26 +31,37 @@ class GameBoard {
             line-height: 1.25;
             padding: 0 .5rem 0 .5rem;
             margin: 0;
+            color: ${color};
           "
         ><i class="icon material-icons">settings</i></p>
       </div>
-    `;
+  `;
+  }
 
+  initContentsList($el) {
+    const self = this;
+    this.$el = $el;
+    const $app = this.$vc.$app;
+    const $route = this.$vc.$route;
     const groupData = ALL_BY_GROUPS[$route.params.id];
+    let html = this.getIconContent();
 
     // QUICK_LINKS
     _.each(groupData.$keys, (key) => {
       html += `
-        <h1 data-name="item"
+        <p 
+          data-name="item"
           style="
             display: inline-block;
             margin: 0 .25rem .5rem 0;
             padding: .25rem;
             font-size: 2rem;
             line-height: 1.25;
-            background-color: lightblue;
+            background-color: #222;
+            color: white;
+            min-width: 2.5rem;
           "
-        >${key}</h1>
+        >${key}</p>
       `;
     });
 
@@ -68,8 +84,11 @@ class GameBoard {
     dyName('item', panelContent).on('click', (e) => {
       const id = e.target.innerText;
       this.loadWords(id);
+      dyName('item', panelContent).removeClass('text-color-orange');
+      $(e.target).addClass('text-color-orange');
       panelVc.close();
     });
+
 
   }
 
@@ -82,7 +101,7 @@ class GameBoard {
   }
 
   getItemTpl(val, title, text, nio) {
-    return `<h1
+    return `<p
       data-name="item"
       style="
         display: inline-block;
@@ -90,10 +109,12 @@ class GameBoard {
         padding: .25rem;
         font-size: 2rem;
         line-height: 1.25;
-        background-color: lightblue;
+        background-color: #ddd;
+        min-width: 2.5rem;
+        text-align: center;
       "
       data-nio="${nio}"
-    >${val}</h1>
+    >${val}</p>
     `;
   }
 
@@ -133,7 +154,7 @@ class GameBoard {
   }  
 
   showSet(arrSet) {
-    let html = '';
+    let html = this.getIconContent(true);
 
     arrSet.forEach((item, i) => {
       let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
@@ -148,24 +169,6 @@ class GameBoard {
       }
       html += this.getItemTpl(value, title, text, i);
     });
-
-    html = `
-      <div
-        style="display: inline-flex; background-color: lightblue; height: 48px;"
-        data-name="settings"
-      >
-        <p
-          style="
-            display: inline-flex;
-            align-items: center;
-            font-size: 2rem;
-            line-height: 1.25;
-            padding: 0 .5rem 0 .5rem;
-            margin: 0;
-          "
-        ><i class="icon material-icons">settings</i></p>
-      </div>
-    ` + html;
 
     this.$el.html(html);
 

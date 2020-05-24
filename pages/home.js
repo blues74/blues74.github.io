@@ -31,6 +31,12 @@ const homePageTpl = `
 </div-->
 <!-- Scrollable page content-->
 <div class="page-content">
+
+  <!--div class="accordion-item">
+      <div class="accordion-item-toggle">Collapse</div>
+      <div class="accordion-item-content">,,,,,,,</div>
+  </div-->
+
   <div class="block block-strong">
     <p>This is an example of split view application layout, commonly used on tablets. The main approach of such kind of layout is that you can see different views at the same time.</p>
 
