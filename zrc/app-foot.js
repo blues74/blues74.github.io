@@ -56,3 +56,5 @@ _.each(ALL_DATA, (group, i) => {
 
   });
 });
+
+ALL_BY_GROUPS.words.$keys = _.reverse(ALL_BY_GROUPS.words.$keys);

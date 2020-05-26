@@ -130,8 +130,10 @@ class GameBoard {
 
     const word = arr[0];
     const trn = arr[1];
-    const tip  = arr[3].split(' ').shift();
-    const translate = _.toLower(arr[2]);
+    const tip  = _.last(arr);
+    // const tip  = arr[3].split(' ').shift();
+    // const translate = _.toLower(arr[2]);
+    const translate = arr[2];
     const phrase = arr[3];
 
     const style = formatStyle(`
