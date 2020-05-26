@@ -10,8 +10,11 @@ var routes = [
     component: homePage,
   },
   {
+    path: '/game/',
+    component: gamePage,
+  },
+  {
     path: '/game/:id/',
-    // url: './pages/about.html',
     component: gamePage,
   },
   {

@@ -44,7 +44,7 @@ class GameBoard {
     this.$el = $el;
     const $app = this.$vc.$app;
     const $route = this.$vc.$route;
-    const groupData = ALL_BY_GROUPS[$route.params.id];
+    const groupData = ALL_BY_GROUPS[$route.params.id || 'words'];
     let html = this.getIconContent();
 
     // QUICK_LINKS
