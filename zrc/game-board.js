@@ -128,13 +128,13 @@ class GameBoard {
   getItemCardContent(item) {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
 
-    const word = arr[0];
-    const trn = arr[1];
-    const tip  = _.last(arr);
-    // const tip  = arr[3].split(' ').shift();
-    // const translate = _.toLower(arr[2]);
-    const translate = arr[2];
-    const phrase = arr[3];
+    // const word = arr[0];
+    // const trn = arr[1];
+    // const tip  = _.last(arr);
+    // // const tip  = arr[3].split(' ').shift();
+    // // const translate = _.toLower(arr[2]);
+    // const translate = arr[2];
+    // const phrase = arr[3];
 
     const style = formatStyle(`
       font-size: 2rem;
@@ -146,11 +146,20 @@ class GameBoard {
       margin-top: 0;
     `);
 
-    return `
-      <p style="${style}">${word}</p>
-      <p style="${style}">${trn}</p>
-      <p style="${style}">${translate}</p>
-      <p style="${style}">${phrase}</p>
+    let html = `
+      <p style="${style}">${arr[0]}</p>
+      <p style="${style}">${arr[1]}</p>
+    `;
+
+    if (arr[2]) {
+      html += `<p style="${style}">${arr[2]}</p>`;
+    }
+
+    if (arr[3]) {
+      html += `<p style="${style}">${arr[3]}</p>`;
+    }
+
+    html += `
       <p class="row">
         <button
           data-name="toTheEnd"
@@ -162,6 +171,8 @@ class GameBoard {
         >Удалить</button>
       </p>
     `;
+
+    return html;
   }
 
   showSet(arrSet) {
