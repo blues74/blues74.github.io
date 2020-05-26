@@ -22,6 +22,7 @@ class GameBoard {
           height: 48px;
           width: 48px;
           justify-content: center;
+          margin: 0 .25rem .5rem 0;
         ">
         <p
           style="
@@ -49,7 +50,7 @@ class GameBoard {
     // QUICK_LINKS
     _.each(groupData.$keys, (key) => {
       html += `
-        <p 
+        <p
           data-name="item"
           style="
             display: inline-block;
@@ -95,12 +96,18 @@ class GameBoard {
   loadWords (id) {
     let x = ALL_KEYS[id];
     let arr = ALL_DATA[x.i][x.j].trim().split('\n');
+    let meta = arr[0].trim();
+
     arr = arr.slice(1);
     APP_DATA.currSet = APP_DATA.options.showByOrder ? arr : _.shuffle(arr);
+    APP_DATA.currMeta = meta;
+
+    // console.log(/ consonant_sounds/.test(meta), meta);
+
     this.showSet(APP_DATA.currSet);
   }
 
-  getItemTpl(val, title, text, nio) {
+  getItemTpl(val, nio) {
     return `<p
       data-name="item"
       style="
@@ -120,11 +127,13 @@ class GameBoard {
 
   getItemCardContent(item) {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
+
     const word = arr[0];
     const trn = arr[1];
     const tip  = arr[3].split(' ').shift();
     const translate = _.toLower(arr[2]);
     const phrase = arr[3];
+
     const style = formatStyle(`
       font-size: 2rem;
       color: #333;
@@ -137,7 +146,7 @@ class GameBoard {
 
     return `
       <p style="${style}">${word}</p>
-      <p style="${style} text-align: right;">${trn}</p>
+      <p style="${style}">${trn}</p>
       <p style="${style}">${translate}</p>
       <p style="${style}">${phrase}</p>
       <p class="row">
@@ -151,23 +160,21 @@ class GameBoard {
         >Удалить</button>
       </p>
     `;
-  }  
+  }
 
   showSet(arrSet) {
     let html = this.getIconContent(true);
 
     arrSet.forEach((item, i) => {
       let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
-      const word = arr[0];
-      const tip  = arr[3].split(' ').shift();
-      const text = arr[3] + ' --- ' + arr[2];
-      let value = word;
-      let title = arr[1] + ' --- ' + tip;
+      const last = arr.length - 1;
+
+      let val = arr[0];
+      let tip  = arr[last];
       if (APP_DATA.options.showByTip) {
-        value = tip;
-        title = word + ' --- ' + arr[1];
+        val = tip;
       }
-      html += this.getItemTpl(value, title, text, i);
+      html += this.getItemTpl(val, i);
     });
 
     this.$el.html(html);
@@ -290,6 +297,7 @@ class GameBoard {
           change: function (vc) {
             const name = vc.$el.dataset().name;
             APP_DATA.options[name] = vc.checked;
+            saveAppData();
           }
         }
       });
@@ -302,6 +310,7 @@ class GameBoard {
           change: function (vc) {
             const name = vc.$el.dataset().name;
             APP_DATA.options[name] = vc.checked;
+            saveAppData();
           }
         }
       });
@@ -313,10 +322,6 @@ class GameBoard {
       });
 
     });
-
-  }
-
-  initSettingsPopup() {
 
   }
 

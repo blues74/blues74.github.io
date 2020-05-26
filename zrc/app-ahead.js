@@ -2,8 +2,9 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
-const APP_DATA = {
+let APP_DATA = {
   currSet: null,
+  currMeta: null,
   options: {
     showByOrder: false,
     showByTip: false,
@@ -48,5 +49,25 @@ function formatStyle(str) {
   return str.split('\n').map(line => line.trim()).filter(line => !!line).join(' ');
 }
 
+function saveAppData() {
+  try{
+    localStorage.setItem('APP_DATA', JSON.stringify(APP_DATA));
+  } catch(e) {}
+}
+
+function getAppData() {
+  try {
+    let appData = localStorage.getItem('APP_DATA');
+    appData = JSON.parse(appData);
+    if (appData && typeof appData === 'object' ) {
+        APP_DATA = appData;
+    }
+
+    // console.log('APP_DATa', APP_DATA);
+
+  } catch(e) {}
+}
+
+getAppData();
 
 // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/
