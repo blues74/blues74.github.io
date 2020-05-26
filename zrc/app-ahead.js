@@ -2,14 +2,8 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
-let APP_DATA = {
-  currSet: null,
-  currMeta: null,
-  options: {
-    showByOrder: false,
-    showByTip: false,
-  },
-};
+let APP_DATA = getEmptyAppData();
+let STAT = {};
 
 try {
   if (Dom7) {
@@ -49,25 +43,61 @@ function formatStyle(str) {
   return str.split('\n').map(line => line.trim()).filter(line => !!line).join(' ');
 }
 
-function saveAppData() {
+function localStorageSaveItem(key, val) {
   try{
-    localStorage.setItem('APP_DATA', JSON.stringify(APP_DATA));
+    localStorage.setItem(key, JSON.stringify(val));
   } catch(e) {}
+}
+
+function localStorageGetItem(key) {
+  try {
+    let data = localStorage.getItem(key);
+    return JSON.parse(data);
+  } catch(e) {
+    return null;
+  }
+}
+
+function getEmptyAppData() {
+  return {
+    currSet: null,
+    currMeta: null,
+    options: {
+      showByOrder: false,
+      showByTip: false,
+    }
+  };  
+}
+
+function saveAppData() {
+  localStorageSaveItem('APP_DATA', APP_DATA);
 }
 
 function getAppData() {
-  try {
-    let appData = localStorage.getItem('APP_DATA');
-    appData = JSON.parse(appData);
-    if (appData && typeof appData === 'object' ) {
-        APP_DATA = appData;
-    }
+  APP_DATA = localStorageGetItem('APP_DATA') || getEmptyAppData();
+}
 
-    // console.log('APP_DATa', APP_DATA);
+function saveStat() {
+  // if (typeof STAT === 'object') {
+  //   _.each(STAT, (i, key) => {
+  //     console.log(key);
+  //     if (key !== 'words') {
+  //       delete STAT[key];
+  //     }
+  //   })
+  // }
 
-  } catch(e) {}
+  localStorageSaveItem('STAT', STAT);
+}
+
+function getStat() {
+  STAT = localStorageGetItem('STAT') || {};
 }
 
 getAppData();
+getStat();
+
+console.log('APP_DATA', APP_DATA);
+console.log('STAT', STAT);
 
 // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/

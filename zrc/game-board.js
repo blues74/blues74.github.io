@@ -44,14 +44,15 @@ class GameBoard {
     this.$el = $el;
     const $app = this.$vc.$app;
     const $route = this.$vc.$route;
-    const groupData = ALL_BY_GROUPS[$route.params.id || 'words'];
+    const groupName = $route.params.id || 'words';
+    const groupData = ALL_BY_GROUPS[groupName];
     let html = this.getIconContent();
 
     // QUICK_LINKS
     _.each(groupData.$keys, (key) => {
+      let count = _.get(STAT, `${groupName}.${key}.count`);
       html += `
         <p
-          data-name="item"
           style="
             display: inline-block;
             margin: 0 .25rem .5rem 0;
@@ -62,7 +63,10 @@ class GameBoard {
             color: white;
             min-width: 2.5rem;
           "
-        >${key}</p>
+        >
+          <span data-name="item">${key}</span>
+          ${count ? `<span class="badge">${count}</span>` : ''}
+        </p>
       `;
     });
 
@@ -221,6 +225,21 @@ class GameBoard {
       dyName('remove', itemCard /*dialogVc.$el*/).on('click', (e) => {
         APP_DATA.currSet.splice(nio, 1);
         this.showSet(APP_DATA.currSet);
+        const meta = APP_DATA.currMeta.split(' ').map(item => item.trim()).filter(item => !!item);
+        const key = meta[0];
+        const group = meta[1];
+        if (group === 'words')
+          if (!STAT[group]) {
+            STAT[group] = {};
+          }
+          if (!STAT[group][key] || isNaN(STAT[group][key].count)) {
+            STAT[group][key] = {count: 0};
+          }
+          if (!APP_DATA.currSet.length) {
+            // console.log(STAT);
+            STAT[group][key].count = 1 + STAT[group][key].count;
+            saveStat();
+          }
         // dialogVc.close();
       });
 
