@@ -112,6 +112,7 @@ class GameBoard {
   }
 
   getItemTpl(val, nio) {
+    const textAlign = val.length < 3 ? 'center' : 'left';
     return `<p
       data-name="item"
       style="
@@ -122,7 +123,7 @@ class GameBoard {
         line-height: 1.25;
         background-color: #ddd;
         min-width: 2.5rem;
-        text-align: center;
+        text-align: ${textAlign};
       "
       data-nio="${nio}"
     >${val}</p>

@@ -17,11 +17,10 @@ In This Chapter
 - ˈkælkjʊleɪtɪŋ wɪð ðə bɪg fɔːr ˌɒpəˈreɪʃənz (ˈædɪŋ, səbˈtræktɪŋ, ˈmʌltɪplaɪɪŋ, ænd dɪˈvaɪdɪŋ)
 - ˈgɛtɪŋ_ˈkʌmf(ə)təbl wɪð lɒŋ dɪˈvɪʒən
 
-
 <eng>
-In this chapter, I give you a review of basic math, and I do mean basic.
+In this chapter, I give you a review of basic math, and I do_mean basic.
 I bet you know a lot of this stuff already.
-So consider this a trip down memory lane, a mini-vacation from whatever math you may be working on right now.
+So consider this a trip_down memory lane, a mini-vacation from whatever math you may be working on right now.
 With a really strong foundation in these areas, you'll find the chapters that follow a lot easier.
 <rus>
 В этой главе я дам вам обзор базовой математики, и я имею в виду базовую.
@@ -38,7 +37,7 @@ wɪð ə ˈrɪəli strɒŋ faʊnˈdeɪʃən ɪn ðiːz ˈeərɪəz,  juːl faɪn
 First, I discuss how the number system you’re familiar with — called the Hindu-Arabic number system (or decimal numbers) — uses digits and place value to express numbers.
 Next, I show you how to round numbers to the nearest ten, hundred, or thousand.
 After that, I discuss the Big Four operations: adding, subtracting, multiplying, and dividing.
-You see how to use the number line to make sense of all four operations.
+You see how to use the number line to make_sense_of all four operations.
 Then I give you practice doing calculations with larger numbers.
 To finish up, I make sure you know how to do long division both with and without a remainder.
 Algebra often uses the dot (.) in place of the times sign (x) to indicate multiplication, so that’s what I use in this book.
