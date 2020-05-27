@@ -1,0 +1,58 @@
+<eng>
+The Column Lineup: Adding and Subtracting.
+To add or subtract large numbers, stack the numbers on top of each other so that all similar digits (ones, tens, hundreds, and so forth) form columns.
+Then work from right to left. Do the calculations vertically, starting with the ones column, then going to the tens column, and so forth:
+- When you’re adding and a column adds up to 10 or more, write down the ones digit of the result and carry the tens digit over to the column on the immediate left.
+- When you’re subtracting and the top digit in a column is less than the bottom digit, borrow from the column on the immediate left.
+<rus>
+Состав столбцов: сложение и вычитание.
+Чтобы сложить или вычесть большие числа, сложите числа друг над другом так, чтобы все похожие цифры (единицы, десятки, сотни и т.д.) образовывали столбцы.
+Затем работайте справа налево. Выполните вычисления по вертикали, начиная со столбца единиц, затем до столбца десятков и т. Д.
+- Когда вы добавляете и столбец добавляет до 10 или более, запишите одну цифру результата и перенесите десятки в столбец слева.
+- Если вычитаете, а верхняя цифра в столбце меньше, чем нижняя цифра, позаимствуйте из столбца слева.
+<trn>
+ðə ˈkɒləm ˈlaɪnʌp: ˈædɪŋ ænd səbˈtræktɪŋ.
+tuː æd ɔː səbˈtrækt lɑːʤ ˈnʌmbəz, stæk ðə ˈnʌmbəz ɒn tɒp ɒv iːʧ ˈʌðə səʊ ðæt ɔːl ˈsɪmɪlə ˈdɪʤɪts (wʌnz, tɛnz, ˈhʌndrədz, ænd səʊ fɔːθ) fɔːm ˈkɒləmz.
+ðɛn wɜːk frɒm raɪt tuː lɛft. duː ðə ˌkælkjʊˈleɪʃənz ˈvɜːtɪkəli, ˈstɑːtɪŋ wɪð ðə wʌnz ˈkɒləm, ðɛn ˈgəʊɪŋ tuː ðə tɛnz ˈkɒləm, ænd səʊ fɔːθ:
+- wɛn jʊər ˈædɪŋ ænd ə ˈkɒləm ædz ʌp tuː 10 ɔː mɔː, raɪt daʊn ðə wʌnz ˈdɪʤɪt ɒv ðə rɪˈzʌlt ænd ˈkæri ðə tɛnz ˈdɪʤɪt ˈəʊvə tuː ðə ˈkɒləm ɒn ði ɪˈmiːdiət lɛft.
+- wɛn jʊə səbˈtræktɪŋ ænd ðə tɒp ˈdɪʤɪt ɪn ə ˈkɒləm ɪz lɛs ðæn ðə ˈbɒtəm ˈdɪʤɪt, ˈbɒrəʊ frɒm ðə ˈkɒləm ɒn ði ɪˈmiːdiət lɛft.
+
+<eng>
+Add 35 + 26 + 142
+Stack the numbers and add the columns from right to left:
+Notice that when I add the ones column (5 + 6 + 2 = 13), I write the 3 below this column and carry the 1 over to the tens column.
+Then, when I add the tens column (1 + 3 + 2 + 4 = 10), I write the 0 below this column and carry the 1 over to the hundreds column.
+<rus>
+Добавить 35 + 26 + 142
+Сложите числа и добавьте столбцы справа налево:
+Обратите внимание, что когда я добавляю столбец единиц (5 + 6 + 2 = 13), я пишу 3 под этим столбцом и переносу 1 в столбец десятков.
+Затем, когда я добавляю столбец десятков (1 + 3 + 2 + 4 = 10), я пишу 0 ниже этого столбца и переносу 1 в столбец сотен.
+<trn>
+æd 35 + 26 + 142
+stæk ðə ˈnʌmbəz ænd æd ðə ˈkɒləmz frɒm raɪt tuː lɛft:
+ˈnəʊtɪs ðæt wɛn aɪ æd ðə wʌnz ˈkɒləm (5 + 6 + 2 = 13), aɪ raɪt ðiː 3 bɪˈləʊ ðɪs ˈkɒləm ænd ˈkæri ðiː 1 ˈəʊvə tuː ðə tɛnz ˈkɒləm.
+ðɛn, wɛn aɪ æd ðə tɛnz ˈkɒləm (1 + 3 + 2 + 4 = 10), aɪ raɪt ðiː 0 bɪˈləʊ ðɪs ˈkɒləm ænd ˈkæri ðiː 1 ˈəʊvə tuː ðə ˈhʌndrədz ˈkɒləm.
+
+<eng>
+Subtract 843 – 91
+Stack the numbers and subtract the columns from right to left:
+When I try to subtract the tens column, 4 is less than 9, so I borrow 1 from the hundreds column, changing the 8 to 7.
+Then I place this 1 in front of the 4, changing it to 14. Now I can subtract 14 – 9 = 5.
+<rus>
+Вычесть 843 - 91
+Сложите числа и вычтите столбцы справа налево:
+Когда я пытаюсь вычесть столбец десятков, 4 меньше 9, поэтому я заимствую 1 из столбца сотен, изменив 8 на 7.
+Затем я помещаю это 1 перед 4, меняя его на 14. Теперь я могу вычесть 14 - 9 = 5.
+<trn>
+səbˈtrækt 843 – 91
+stæk ðə ˈnʌmbəz ænd səbˈtrækt ðə ˈkɒləmz frɒm raɪt tuː lɛft:
+wɛn aɪ traɪ tuː səbˈtrækt ðə tɛnz ˈkɒləm, 4 ɪz lɛs ðæn 9, səʊ aɪ ˈbɒrəʊ 1 frɒm ðə ˈhʌndrədz ˈkɒləm, ˈʧeɪnʤɪŋ ðiː 8 tuː 7.
+ðɛn aɪ pleɪs ðɪs 1 ɪn frʌnt ɒv ðiː 4, ˈʧeɪnʤɪŋ ɪt tuː 14. naʊ aɪ kæn səbˈtrækt 14 – 9 = 5.
+
+<eng>
+<rus>
+<trn>
+
+<eng>
+<rus>
+<trn>

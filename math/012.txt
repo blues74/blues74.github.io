@@ -1,0 +1,102 @@
+<eng>
+Using the Number Line with the Big Four.
+The number line is just a line with numbers marked off at regular intervals.
+You probably saw your first number line when you were first figuring out how to count to ten.
+In this section, I show you how to use this trusty tool to perform the Big Four operations (adding, subtracting, multiplying, and dividing) on relatively small numbers.
+<rus>
+Использование числовой линии с большой четверкой.
+Цифровая строка - это просто строка с номерами, отмеченными через равные промежутки.
+Вы, вероятно, видели свою первую числовую линию, когда вы впервые поняли, как считать до десяти.
+В этом разделе я покажу вам, как использовать этот надежный инструмент для выполнения операций большой четверки (сложение, вычитание, умножение и деление) относительно небольших чисел.
+<trn>
+ˈjuːzɪŋ ðə ˈnʌmbə laɪn wɪð ðə bɪg fɔː.
+ðə ˈnʌmbə laɪn ɪz ʤʌst ə laɪn wɪð ˈnʌmbəz mɑːkt ɒf æt ˈrɛgjʊlər ˈɪntəvəlz.
+juː ˈprɒbəbli sɔː jɔː fɜːst ˈnʌmbə laɪn wɛn juː wɜː fɜːst ˈfɪgərɪŋ aʊt haʊ tuː kaʊnt tuː tɛn.
+ɪn ðɪs ˈsɛkʃən, aɪ ʃəʊ juː haʊ tuː juːz ðɪs ˈtrʌsti tuːl tuː pəˈfɔːm ðə bɪg fɔːr ˌɒpəˈreɪʃənz (ˈædɪŋ, səbˈtræktɪŋ, ˈmʌltɪplaɪɪŋ, ænd dɪˈvaɪdɪŋ) ɒn ˈrɛlətɪvli smɔːl ˈnʌmbəz.
+
+<eng>
+The number line can be a useful tool for adding and subtracting small numbers:
+- When you add, move up the number line, to the right.
+- When you subtract, move down the number line, to the left.
+To multiply on the number line, start at 0 and count by the first number in the problem as many times as indicated by the second number.
+<rus>
+Числовая строка может быть полезным инструментом для сложения и вычитания небольших чисел:
+- При добавлении переместитесь вверх по числовой строке вправо.
+- Когда вычитаете, двигайтесь вниз по числовой линии влево.
+Чтобы умножить числовую строку, начните с 0 и посчитайте по первому числу в задаче столько раз, сколько указано вторым числом.
+<trn>
+ðə ˈnʌmbə laɪn kæn biː ə ˈjuːsfʊl tuːl fɔːr ˈædɪŋ ænd səbˈtræktɪŋ smɔːl ˈnʌmbəz:
+- wɛn juː æd, muːv ʌp ðə ˈnʌmbə laɪn, tuː ðə raɪt.
+- wɛn juː səbˈtrækt, muːv daʊn ðə ˈnʌmbə laɪn, tuː ðə lɛft.
+tuː ˈmʌltɪplaɪ ɒn ðə ˈnʌmbə laɪn, stɑːt æt 0 ænd kaʊnt baɪ ðə fɜːst ˈnʌmbər ɪn ðə ˈprɒbləm æz ˈmɛni taɪmz æz ˈɪndɪkeɪtɪd baɪ ðə ˈsɛkənd ˈnʌmbə.
+
+<eng>
+To divide on the number line, first block off a segment of the number line from 0 to the first number in the problem.
+Then divide this segment evenly into the number of pieces indicated by the second number.
+The length of each piece is the answer to the division.
+<rus>
+Чтобы разделить числовую линию, сначала заблокируйте отрезок числовой линии от 0 до первого числа в задаче.
+Затем разделите этот сегмент равномерно на количество частей, указанное вторым числом.
+Длина каждого куска является ответом на деление.
+<trn>
+tuː dɪˈvaɪd ɒn ðə ˈnʌmbə laɪn, fɜːst blɒk ɒf ə ˈsɛgmənt ɒv ðə ˈnʌmbə laɪn frɒm 0 tuː ðə fɜːst ˈnʌmbər ɪn ðə ˈprɒbləm.
+ðɛn dɪˈvaɪd ðɪs ˈsɛgmənt ˈiːvənli ˈɪntuː ðə ˈnʌmbər ɒv ˈpiːsɪz ˈɪndɪkeɪtɪd baɪ ðə ˈsɛkənd ˈnʌmbə.
+ðə lɛŋθ ɒv iːʧ piːs ɪz ði ˈɑːnsə tuː ðə dɪˈvɪʒən.
+
+<eng>
+Add 6 + 7 on the number line.
+The expression 6 + 7 means start at 6, up 7, which brings you to 13 (see Figure 1-1):
+<rus>
+Добавьте 6 + 7 в числовой строке.
+Выражение 6 + 7 означает начало от 6 до 7, что приводит к 13 (см. Рисунок 1-1):
+<trn>
+æd 6 + 7 ɒn ðə ˈnʌmbə laɪn.
+ði ɪksˈprɛʃən 6 + 7 miːnz stɑːt æt 6, ʌp 7, wɪʧ brɪŋz juː tuː 13 (siː ˈfɪgə 1-1):
+
+<eng>
+Subtract 12 – 4 on the number line.
+The expression 12 – 4 means start at 12, down 4, which brings you to 8 (see Figure 1-2):
+<rus>
+Вычтите 12 - 4 в числовой строке.
+Выражение 12 - 4 означает начало от 12 до 4, что приводит к 8 (см. Рис. 1-2):
+<trn>
+səbˈtrækt 12 – 4 ɒn ðə ˈnʌmbə laɪn.
+ði ɪksˈprɛʃən 12 – 4 miːnz stɑːt æt 12, daʊn 4, wɪʧ brɪŋz juː tuː 8 (siː ˈfɪgə 1-2):
+
+<eng>
+Multiply 2 · 5 on the number line.
+Starting at 0, count by twos a total of five times, which brings you to 10 (see Figure 1-3).
+<rus>
+Умножьте 2 · 5 на числовой строке.
+Начиная с 0, посчитайте по два в общей сложности пять раз, что приведет вас к 10 (см. Рисунок 1-3).
+<trn>
+ˈmʌltɪplaɪ 2 · 5 ɒn ðə ˈnʌmbə laɪn.
+ˈstɑːtɪŋ æt 0, kaʊnt baɪ tuːz ə ˈtəʊtl ɒv faɪv taɪmz, wɪʧ brɪŋz juː tuː 10 (siː ˈfɪgə 1-3).
+
+<eng>
+Divide 12/4 on the number line.
+Block off the segment of the number line from 0 to 12.
+Now divide this segment evenly into three smaller pieces, as shown in Figure 1-4.
+Each of these pieces has a length of 4, so this is the answer to the problem.
+<rus>
+Разделите 12/4 на числовой линии.
+Заблокируйте отрезок номерной линии от 0 до 12.
+Теперь разделите этот сегмент равномерно на три меньшие части, как показано на рисунке 1-4.
+Каждая из этих частей имеет длину 4, так что это ответ на проблему.
+<trn>
+dɪˈvaɪd 12/4 ɒn ðə ˈnʌmbə laɪn.
+blɒk ɒf ðə ˈsɛgmənt ɒv ðə ˈnʌmbə laɪn frɒm 0 tuː 12.
+naʊ dɪˈvaɪd ðɪs ˈsɛgmənt ˈiːvənli ˈɪntuː θriː ˈsmɔːlə ˈpiːsɪz, æz ʃəʊn ɪn ˈfɪgə 1-4.
+iːʧ ɒv ðiːz ˈpiːsɪz hæz ə lɛŋθ ɒv 4, səʊ ðɪs ɪz ði ˈɑːnsə tuː ðə ˈprɒbləm.
+
+<eng>
+<rus>
+<trn>
+
+<eng>
+<rus>
+<trn>
+
+<eng>
+<rus>
+<trn>

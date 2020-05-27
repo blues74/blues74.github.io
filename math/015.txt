@@ -1,0 +1,70 @@
+<eng>
+Multiplying Multiple Digits
+To multiply large numbers, stack the first number on top of the second.
+Then multiply each digit of the bottom number, from right to left, by the top number.
+In other words, first multiply the top number by the ones digit of the bottom number.
+Then write down a 0 as a placeholder and multiply the top number by the tens digit of the bottom number.
+Continue the process, adding placeholders and multiplying the top number by the next digit in the bottom number.
+When the result is a two-digit number, write down the ones digit and carry the tens digit to the next column.
+After multiplying the next two digits, add the number you carried over.
+Add the results to obtain the final answer.
+<rus>
+Умножение нескольких цифр
+Чтобы умножить большие числа, поместите первое число поверх второго.
+Затем умножьте каждую цифру нижнего числа справа налево на верхнее число.
+Другими словами, сначала умножьте верхнее число на цифру нижнего числа.
+Затем запишите 0 в качестве заполнителя и умножьте верхнее число на цифру десятков нижнего числа.
+Продолжите процесс, добавив заполнители и умножив верхнее число на следующую цифру в нижнем числе.
+Если результатом будет двузначное число, запишите цифру единиц и перенесите десятки в следующий столбец.
+Умножив следующие две цифры, добавьте число, которое вы перенесли.
+Сложите результаты, чтобы получить окончательный ответ.
+<trn>
+ˈmʌltɪplaɪɪŋ ˈmʌltɪpl ˈdɪʤɪts
+tuː ˈmʌltɪplaɪ lɑːʤ ˈnʌmbəz, stæk ðə fɜːst ˈnʌmbər ɒn tɒp ɒv ðə ˈsɛkənd.
+ðɛn ˈmʌltɪplaɪ iːʧ ˈdɪʤɪt ɒv ðə ˈbɒtəm ˈnʌmbə, frɒm raɪt tuː lɛft, baɪ ðə tɒp ˈnʌmbə.
+ɪn ˈʌðə wɜːdz, fɜːst ˈmʌltɪplaɪ ðə tɒp ˈnʌmbə baɪ ðə wʌnz ˈdɪʤɪt ɒv ðə ˈbɒtəm ˈnʌmbə.
+ðɛn raɪt daʊn eɪ 0 æz ə ˈpleɪsˌhəʊldər ænd ˈmʌltɪplaɪ ðə tɒp ˈnʌmbə baɪ ðə tɛnz ˈdɪʤɪt ɒv ðə ˈbɒtəm ˈnʌmbə.
+kənˈtɪnju(ː) ðə ˈprəʊsɛs, ˈædɪŋ ˈpleɪsˌhəʊldəz ænd ˈmʌltɪplaɪɪŋ ðə tɒp ˈnʌmbə baɪ ðə nɛkst ˈdɪʤɪt ɪn ðə ˈbɒtəm ˈnʌmbə.
+wɛn ðə rɪˈzʌlt ɪz ə tuː-ˈdɪʤɪt ˈnʌmbə, raɪt daʊn ðə wʌnz ˈdɪʤɪt ænd ˈkæri ðə tɛnz ˈdɪʤɪt tuː ðə nɛkst ˈkɒləm.
+ˈɑːftə ˈmʌltɪplaɪɪŋ ðə nɛkst tuː ˈdɪʤɪts, æd ðə ˈnʌmbə juː ˈkærid ˈəʊvə.
+æd ðə rɪˈzʌlts tuː əbˈteɪn ðə ˈfaɪnl ˈɑːnsə.
+
+<eng>
+Multiply 742 on 136.
+Stack the first number on top of the second:
+Now multiply 6 by every number in 742, starting from the right.
+Because 2 on 6 = 12, a two-digit number, you write down the 2 and carry the 1 to the tens column.
+In the next column, you multiply 4 on 6 = 24 and add the 1 you carried over, giving you a total of 25.
+Write down the 5 and carry the 2 to the hundreds column.
+Multiply 7 on 6 = 42 and add the 2 you carried over, giving you 44:
+Next, write down a 0 all the way to the right in the row below the one that you just wrote.
+Multiply 3 by every number in 742, starting from the right and carrying when necessary:
+Write down two 0s all the way to the right of the row below the one that you just wrote.
+Repeat the process with 1:
+To finish, add up the results:
+<rus>
+Умножьте 742 на 136.
+Сложите первый номер поверх второго:
+Теперь умножьте 6 на каждое число в 742, начиная справа.
+Поскольку 2 на 6 = 12, двузначное число, вы записываете 2 и переносите 1 в столбец десятков.
+В следующем столбце вы умножаете 4 на 6 = 24 и прибавляете 1, который вы перенесли, что дает вам в общей сложности 25.
+Запишите 5 и перенесите 2 в столбец сотен.
+Умножьте 7 на 6 = 42 и сложите 2, которые вы перенесли, получив 44:
+Затем запишите 0 до упора вправо в строке ниже той, которую вы только что написали.
+Умножьте 3 на каждое число в 742, начиная справа и перенося при необходимости:
+Запишите два 0 полностью справа от ряда, который вы только что написали.
+Повторите процесс с 1:
+Чтобы закончить, сложите результаты:
+<trn>
+
+<eng>
+<rus>
+<trn>
+
+<eng>
+<rus>
+<trn>
+
+<eng>
+<rus>
+<trn>
