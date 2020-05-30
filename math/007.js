@@ -1,38 +1,4 @@
-<eng>
-In This Chapter
-- Understanding how place_value turns digits into numbers
-- Rounding numbers to the nearest ten, hundred, or thousand
-- Calculating with the Big Four operations (adding, subtracting, multiplying, and dividing)
-- Getting_comfortable with long division
-<rus>
-В этой главе
-- Понимание того, как поместное значение превращает цифры в числа
-- округление чисел до ближайших десяти, ста или тысяч
-- Расчет с помощью операций большой четверки (сложение, вычитание, умножение и деление)
-- Освоиться с длинным делением
-<trn>
-ɪn ðɪs ˈʧæptə
-- ˌʌndəˈstændɪŋ haʊ pleɪs_ˈvæljuː tɜːnz ˈdɪʤɪts ˈɪntuː ˈnʌmbəz
-- ˈraʊndɪŋ ˈnʌmbəz tuː ðə ˈnɪərɪst tɛn, ˈhʌndrəd, ɔː ˈθaʊzənd
-- ˈkælkjʊleɪtɪŋ wɪð ðə bɪg fɔːr ˌɒpəˈreɪʃənz (ˈædɪŋ, səbˈtræktɪŋ, ˈmʌltɪplaɪɪŋ, ænd dɪˈvaɪdɪŋ)
-- ˈgɛtɪŋ_ˈkʌmf(ə)təbl wɪð lɒŋ dɪˈvɪʒən
-
-<eng>
-In this chapter, I give you a review of basic math, and I do_mean basic.
-I bet you know a lot of this stuff already.
-So consider this a trip_down memory lane, a mini-vacation from whatever math you may be working on right now.
-With a really strong foundation in these areas, you'll find the chapters that follow a lot easier.
-<rus>
-В этой главе я дам вам обзор базовой математики, и я имею в виду базовую.
-Могу поспорить, вы уже знаете много этого материала.
-Так что считайте это путешествием по переулку памяти, мини-отдыхом от математики, над которой вы сейчас работаете.
-Имея действительно прочную основу в этих областях, вы найдете главы, которые следуют намного легче.
-<trn>
-ɪn ðɪs ˈʧæptə, aɪ gɪv juː ə rɪˈvjuː ɒv ˈbeɪsɪk mæθ, ænd aɪ duː miːn ˈbeɪsɪk.
-aɪ bɛt juː nəʊ ə lɒt ɒv ðɪs stʌf ɔːlˈrɛdi.
-səʊ kənˈsɪdə ðɪs ə trɪp daʊn ˈmɛməri leɪn, ə ˈmɪnɪ-vəˈkeɪʃən frɒm wɒtˈɛvə mæθ juː meɪ biː ˈwɜːkɪŋ ɒn raɪt naʊ.
-wɪð ə ˈrɪəli strɒŋ faʊnˈdeɪʃən ɪn ðiːz ˈeərɪəz,  juːl faɪnd ðə ˈʧæptəz ðæt ˈfɒləʊ ə lɒt ˈiːzɪə.
-
+TEXTS.push([`
 <eng>
 First, I discuss how the number system you’re familiar with — called the Hindu-Arabic number system (or decimal numbers) — uses digits and place value to express numbers.
 Next, I show you how to round numbers to the nearest ten, hundred, or thousand.
@@ -161,16 +127,38 @@ The first 0 is a leading zero, and the remaining 0s are placeholders.
 ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
 
 <eng>
+In This Chapter
+- Understanding how place_value turns digits into numbers
+- Rounding numbers to the nearest ten, hundred, or thousand
+- Calculating with the Big Four operations (adding, subtracting, multiplying, and dividing)
+- Getting_comfortable with long division
 <rus>
+В этой главе
+- Понимание_того, как поместное_значение превращает цифры в числа
+- округление чисел до ближайших десяти, ста, или тысяч
+- Расчет с_помощью операций большой четверки (сложение, вычитание, умножение и деление)
+- Освоиться с длинным делением
 <trn>
+ɪn ðɪs ˈʧæptə
+- ˌʌndəˈstændɪŋ haʊ pleɪs_ˈvæljuː tɜːnz ˈdɪʤɪts ˈɪntuː ˈnʌmbəz
+- ˈraʊndɪŋ ˈnʌmbəz tuː ðə ˈnɪərɪst tɛn, ˈhʌndrəd, ɔː ˈθaʊzənd
+- ˈkælkjʊleɪtɪŋ wɪð ðə bɪg fɔːr ˌɒpəˈreɪʃənz (ˈædɪŋ, səbˈtræktɪŋ, ˈmʌltɪplaɪɪŋ, ænd dɪˈvaɪdɪŋ)
+- ˈgɛtɪŋ_ˈkʌmf(ə)təbl wɪð lɒŋ dɪˈvɪʒən
 
 <eng>
+In this chapter, I give you a review_of basic math, and I do_mean basic.
+I bet you know a lot of this stuff already.
+So consider this a trip_down memory lane, a mini-vacation from whatever math you may be working on right now.
+With a really strong foundation in these areas, you'll find the chapters that follow a lot easier.
 <rus>
+В этой главе, я дам вам обзор базовой математики, и я имею_в_виду_именно базовую.
+Я готов_поспорить вы знаете много этого материала уже.
+Так_что считайте это путешествием по переулку памяти, мини-отдыхом от любой математики над которой вы сейчас возможно работаете.
+Имея действительно прочную основу в этих областях, вы найдете главы, которые следуют_дальше намного легче.
 <trn>
+ɪn ðɪs ˈʧæptə, aɪ gɪv juː ə rɪˈvjuː ɒv ˈbeɪsɪk mæθ, ænd aɪ duː miːn ˈbeɪsɪk.
+aɪ bɛt juː nəʊ ə lɒt ɒv ðɪs stʌf ɔːlˈrɛdi.
+səʊ kənˈsɪdə ðɪs ə trɪp daʊn ˈmɛməri leɪn, ə ˈmɪnɪ-vəˈkeɪʃən frɒm wɒtˈɛvə mæθ juː meɪ biː ˈwɜːkɪŋ ɒn raɪt naʊ.
+wɪð ə ˈrɪəli strɒŋ faʊnˈdeɪʃən ɪn ðiːz ˈeərɪəz,  juːl faɪnd ðə ˈʧæptəz ðæt ˈfɒləʊ ə lɒt ˈiːzɪə.
 
-28 6 988
-
-100:  9 = 9 * 100 = 900
-10:   8 = 8 *  10 =  80
-1:    8 = 1 *   1 =   8
-                    988
+`]);

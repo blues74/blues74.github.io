@@ -2,8 +2,12 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
+const TEXTS = [];
+
 let APP_DATA = getEmptyAppData();
 let STAT = {};
+
+
 
 try {
   if (Dom7) {
@@ -66,7 +70,7 @@ function getEmptyAppData() {
       showByOrder: false,
       showByTip: false,
     }
-  };  
+  };
 }
 
 function saveAppData() {

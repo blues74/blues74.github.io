@@ -205,7 +205,7 @@ ALL_DATA.push([
 
   `
   Daily words consonant_sounds count:4
-  i'mmediate --- ɪ'miːdiət --- ближайший, непосредственный --- i'mmediate
+  i'mmediate --- ɪ'miːdiət --- ближайший, непосредственный, немедленный --- i'mmediate
   de'pending u'pon --- dɪ'pɛndɪŋ ə'pɒn --- в зависитости от --- de'pending u'pon
   fa'miliar --- fə'mɪliər --- хорошо знакомый, близкий (друг и тп.) --- ФА'МИЛИя хорошо знакомого, близкого друга --- ФА'МИЛИя
   quite --- kwaɪt --- довольно, вполне --- quite
