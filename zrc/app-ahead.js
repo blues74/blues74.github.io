@@ -1,3 +1,4 @@
+let tmp;
 const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];

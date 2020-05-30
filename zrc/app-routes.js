@@ -10,6 +10,10 @@ var routes = [
     component: homePage,
   },
   {
+    path: '/calc/',
+    component: calcPage,
+  },
+  {
     path: '/game/',
     component: gamePage,
   },
