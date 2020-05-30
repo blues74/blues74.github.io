@@ -205,26 +205,38 @@ ALL_DATA.push([
 
   `
   Daily words consonant_sounds count:4
-  con'sider --- kən'sɪdə --- считать, полагать, рассматривать, обсуждать --- КОНь_СИДЕть считатай что ты собака --- КОНь_СИДЕть
-  whatever --- wɔt'evə --- любой, какой бы ни --- В_ОТтАВЕ любой канадец хоккеист --- В_ОТтАВЕ
-  place value --- place value --- разрядное, поместное значение, вес разряда --- place value
-  getting comfortable --- gɛtɪŋ kʌmf(ə)təbl --- освоиться, устроиться поудобнее --- getting comfortable
-  do/did/will mean --- do/did/will mean --- иметь в виду --- do/did/will mean
-  bet --- bet --- ставка, пари, держать пари, биться об заклад --- держу пари, что прыгну на БЕТон и не разобьюсь --- БЕТон
-  stuff --- stʌf --- материал, материя --- производство СТАФФордширского фарфора требует немалого терпения и материи --- СТАФФордширского
-  va'cation --- və'keɪʃn --- отпуск, каникулы, отдыхать --- va'cation
-  lane ---leɪn --- переулок, узкая улочка, полоса --- ЛЕНин любил гулять в переулках по встречной полосе --- ЛЕНин
-  really --- rɪəli --- действительно --- really
-  strong --- strɒŋ --- прочный --- strong
-  foundation --- faʊnˈdeɪʃən --- основа --- foundation
-  lot --- lot --- много, намного --- lot
-  easier --- iːzɪə --- легче --- easier
-  dis'cuss --- dɪsˈkʌs --- рассказывать --- dis'cuss
-  express --- ɪksˈprɛs --- выражать --- ex'press
-  make sense of --- meɪk sɛns ɒv --- понять смысл, осмыслить --- make sense of
-  calcu'lation --- 'kælkj'leɪʃn --- вычисление, расчёт --- calcu'lation
-  finish up --- fɪnɪʃ ʌp --- заканчивать начатое, доводить до конца --- finish up
+  i'mmediate --- ɪ'miːdiət --- ближайший, непосредственный --- i'mmediate
+  de'pending u'pon --- dɪ'pɛndɪŋ ə'pɒn --- в зависитости от --- de'pending u'pon
+  fa'miliar --- fə'mɪliər --- хорошо знакомый, близкий (друг и тп.) --- ФА'МИЛИя хорошо знакомого, близкого друга --- ФА'МИЛИя
+  quite --- kwaɪt --- довольно, вполне --- quite
+  through --- θruː --- через, сквозь, от до --- through
+  numerals --- nuːmərəlz --- цифры --- numerals
+  arabic --- ærəbɪk --- арабский --- arabic
+  hindu --- hɪnduː --- индус, индуистский --- hindu
+  through'out --- θruːˈaʊt --- по всему, повсюду --- throwgh'out
+  commonly --- kɑːmənli --- обычно, чаще всего --- commonly
+  in place of --- ɪn pleɪs ɒv --- вместо --- in place of
+  *indicate --- ɪndɪkeɪt --- обозначать --- indicate
   re'mainder --- rɪ'meɪndə --- остаток --- re'mainder
+  finish up --- fɪnɪʃ ʌp --- заканчивать начатое, доводить до конца --- finish up
+  calcu'lation --- 'kælkj'leɪʃn --- вычисление, расчёт --- calcu'lation
+  make sense of --- meɪk sɛns ɒv --- понять смысл, осмыслить --- make sense of
+  express --- ɪksˈprɛs --- выражать --- ex'press
+  dis'cuss --- dɪsˈkʌs --- рассказывать --- dis'cuss
+  easier --- iːzɪə --- легче --- easier
+  lot --- lot --- много, намного --- lot
+  foundation --- faʊnˈdeɪʃən --- основа --- foundation
+  strong --- strɒŋ --- прочный --- strong
+  really --- rɪəli --- действительно --- really
+  lane ---leɪn --- переулок, узкая улочка, полоса --- ЛЕНин любил гулять в переулках по встречной полосе --- ЛЕНин
+  va'cation --- və'keɪʃn --- отпуск, каникулы, отдыхать --- va'cation
+  stuff --- stʌf --- материал, материя --- производство СТАФФордширского фарфора требует немалого терпения и материи --- СТАФФордширского
+  bet --- bet --- ставка, пари, держать пари, биться об заклад --- держу пари, что прыгну на БЕТон и не разобьюсь --- БЕТон
+  do/did/will mean --- do/did/will mean --- иметь в виду --- do/did/will mean
+  getting comfortable --- gɛtɪŋ kʌmf(ə)təbl --- освоиться, устроиться поудобнее --- getting comfortable
+  place value --- place value --- разрядное, поместное значение, вес разряда --- place value
+  whatever --- wɔt'evə --- любой, какой бы ни --- В_ОТтАВЕ любой канадец хоккеист --- В_ОТтАВЕ
+  con'sider --- kən'sɪdə --- считать, полагать, рассматривать, обсуждать --- КОНь_СИДЕть считатай что ты собака --- КОНь_СИДЕть
   `,
 
   /* ‘ ˈ æ ʒ dʒ ʌ */ ]);
