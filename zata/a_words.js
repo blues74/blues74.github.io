@@ -205,11 +205,20 @@ ALL_DATA.push([
 
   `
   math-007 words consonant_sounds count:4
-  *unˈnecessary --- ʌnˈnɛsɪsəri --- ненужный, лишний, излишний --- ʌnˈnɛsɪsəri
+  zeros --- zɪərəʊz --- нули --- zɪərəʊz
+  hundred-thousands digit --- hʌndrəd-θaʊzəndz dɪʤɪt --- разряд сотен тысяч --- hʌndrəd-θaʊzəndz dɪʤɪt
+  ten-thousands --- tɛn-ˈθaʊzəndz dɪʤɪt --- разряд десятков тысяч --- tɛn-ˈθaʊzəndz dɪʤɪt
+  thousands digit --- θaʊzəndz dɪʤɪt --- разряд тысяч --- θaʊzəndz dɪʤɪt
+  hundreds digit --- hʌndrədz dɪʤɪt --- разряд сотен --- hʌndrədz dɪʤɪt
+  tens digit --- tɛnz dɪʤɪt --- разряд десятков --- tɛnz dɪʤɪt
+  ones digit --- wʌnz dɪʤɪt --- разряд единиц --- wʌnz dɪʤɪt
+  iˈdentify --- aɪˈdentɪfaɪ --- разпознавать, отпознавать, отождествлять --- aɪˈdentɪfaɪ
+  necessary --- nesəseri --- нужный, необходимый --- НЕ, есСЕ и СЭРЫ нужны --- НЕ есСЕ СЭРЫ
+  unˈnecessary --- ʌnˈnesəseri --- ненужный, лишний, излишний --- ʌnˈnesəseri
   leading --- liːdɪŋ --- ведущий, головной --- liːdɪŋ
   in contrast --- ɪn kɒntrɑːst --- напротив, в отличие от --- ɪn kɒntrɑːst
-  proper --- prɒpə --- должный, надлежащий, правильный --- ПРАПОрщик правильные вещи говорит --- ПРАПОрщик
-  at least --- æt liːst --- хотя бы, по крайней мере, во всяком случае --- æt liːst
+  proper --- prɒpə --- должный, надлежащий, правильный --- ПРАПОрщик правильную должность занимает --- ПРАПОрщик
+  at least --- æt liːst --- хотя бы, по крайней мере, во всяком случае --- АТЛИСТай хотя бы страницу назад --- АТЛИСТай
   ˈplaceˌholder --- ˈpleɪsˌhəʊldə --- заполнитель --- ˈpleɪsˌhəʊldə
   although --- ɔːlˈðəʊ --- хотя --- ɔːlˈðəʊ
   act as --- ækt æz --- действовать как, выступать в качестве --- ækt æz
@@ -248,4 +257,8 @@ ALL_DATA.push([
   con'sider --- kən'sɪdə --- считать, полагать, рассматривать, обсуждать --- КОНь_СИДЕть считатай что ты собака --- КОНь_СИДЕть
   `,
 
+  `
+  math-010 words consonant_sounds count:4
+
+  `,
   /* ‘ ˈ æ ʒ dʒ ʌ */ ]);

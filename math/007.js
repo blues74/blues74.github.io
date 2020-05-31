@@ -1,59 +1,5 @@
 TEXTS.push([`
 <eng>
-In the number 988, identify the ones digit, the tens digit, and the hundreds digit.
-<rus>
-В числе 988 укажите цифру единиц, цифру десятков и цифру сотен.
-<trn>
-ɪn ðə ˈnʌmbə 988, aɪˈdɛntɪfaɪ ðə wʌnz ˈdɪʤɪt, ðə tɛnz ˈdɪʤɪt, ænd ðə ˈhʌndrədz ˈdɪʤɪt.
-
-<eng>
-The ones digit is 8, the tens digit is 8, and the hundreds digit is 9.
-<rus>
-Цифра единиц - 4, десятки - 8, а цифры сотен - 2.
-<trn>
-ðə wʌnz ˈdɪʤɪt ɪz 8, ðə tɛnz ˈdɪʤɪt ɪz 8, ænd ðə ˈhʌndrədz ˈdɪʤɪt ɪz 9.
-
-<eng>
-Place the number 5,672 in a table that shows the value of each digit.
-Then use this table and an addition problem to show how this number breaks down digit by digit
-<rus>
-Поместите число 5672 в таблицу, которая показывает значение каждой цифры.
-Затем используйте эту таблицу и задачу сложения, чтобы показать, как это число разбивается цифра на цифру
-<trn>
-pleɪs ðə ˈnʌmbə 5,672 ɪn ə ˈteɪbl ðæt ʃəʊz ðə ˈvæljuː ɒv iːʧ ˈdɪʤɪt.
-ðɛn juːz ðɪs ˈteɪbl ænd ən əˈdɪʃ(ə)n ˈprɒbləm tuː ʃəʊ haʊ ðɪs ˈnʌmbə breɪks daʊn ˈdɪʤɪt baɪ ˈdɪʤɪt
-
-<eng>
-The numeral 5 is in the thousands place, 6 is in the hundreds place, 7 is in the tens place, and 2 is in the ones place, so here’s how the number breaks down:
-<rus>
-Цифра 5 - в тысячах, 6 - в сотнях, 7 - в десятках, а 2 - в одном месте, так вот, как это число разбивается:
-<trn>
-ðə ˈnjuːmərəl 5 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 6 ɪz ɪn ðə ˈhʌndrədz pleɪs, 7 ɪz ɪn ðə tɛnz pleɪs, ænd 2 ɪz ɪn ðə wʌnz pleɪs, səʊ hɪəz haʊ ðə ˈnʌmbə breɪks daʊn:
-
-<eng>
-Place the number 040,120 in a table that shows the value of each digit.
-Then use this table to show how this number breaks down digit by digit.
-Which 0s are placeholders, and which are leading zeros?
-<rus>
-Поместите число 040,120 в таблицу, которая показывает значение каждой цифры.
-Затем используйте эту таблицу, чтобы показать, как это число разбивается цифра за цифрой.
-Какие 0 являются заполнителями, а какие лидирующими нулями?
-<trn>
-pleɪs ðə ˈnʌmbə 040,120 ɪn ə ˈteɪbl ðæt ʃəʊz ðə ˈvæljuː ɒv iːʧ ˈdɪʤɪt.
-ðɛn juːz ðɪs ˈteɪbl tuː ʃəʊ haʊ ðɪs ˈnʌmbə breɪks daʊn ˈdɪʤɪt baɪ ˈdɪʤɪt.
-wɪʧ 0 ɑː ˈpleɪsˌhəʊldəz, ænd wɪʧ ɑː ˈliːdɪŋ ˈzɪərəʊz?
-
-<eng>
-The first 0 is in the hundred-thousands place, 4 is in the ten-thousands place, the next 0 is in the thousands place, 1 is in the hundreds place, 2 is in the tens place, and the last 0 is in the ones place, so
-The first 0 is a leading zero, and the remaining 0s are placeholders.
-<rus>
-Первый 0 - в сотне тысяч, 4 - в десятки тысяч, следующий 0 - в тысячах, 1 - в сотнях, 2 - в десятках, а последний 0 - в одно место, так
-Первый 0 - это ведущий ноль, а остальные 0 - это заполнители.
-<trn>
-ðə fɜːst 0 ɪz ɪn ðə ˈhʌndrəd-ˈθaʊzəndz pleɪs, 4 ɪz ɪn ðə tɛn-ˈθaʊzəndz pleɪs, ðə nɛkst 0 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 1 ɪz ɪn ðə ˈhʌndrədz pleɪs, 2 ɪz ɪn ðə tɛnz pleɪs, ænd ðə lɑːst 0 ɪz ɪn ðə wʌnz pleɪs, səʊ
-ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
-
-<eng>
 In This Chapter
 - Understanding how place_value turns digits into numbers
 - Rounding numbers to the nearest ten, hundred, or thousand
@@ -161,5 +107,58 @@ wɛn eɪ 0 əˈpɪəz tuː ðə raɪt ɒv æt liːst wʌn nɒn-ˈzɪərəʊ ˈd�
 ɪn ˈkɒntrɑːst, wɛn ə 0 ˈɪznt tuː ðə raɪt ɒv ˈɛni nonzero ˈdɪʤɪt, ɪts ə ˈliːdɪŋ ˈzɪərəʊ.
 ˈliːdɪŋ ˈzɪərəʊz ɑːr ʌnˈnɛsɪsəri ænd kæn biː rɪˈmuːvd frɒm ə ˈnʌmbə.
 
+<eng>
+In the number 988, identify the ones digit, the tens digit, and the hundreds digit.
+<rus>
+В числе 988 укажите цифру единиц, цифру десятков и цифру сотен.
+<trn>
+ɪn ðə ˈnʌmbə 988, aɪˈdɛntɪfaɪ ðə wʌnz ˈdɪʤɪt, ðə tɛnz ˈdɪʤɪt, ænd ðə ˈhʌndrədz ˈdɪʤɪt.
+
+<eng>
+The ones digit is 8, the tens digit is 8, and the hundreds digit is 9.
+<rus>
+Цифра единиц - 4, десятки - 8, а цифры сотен - 2.
+<trn>
+ðə wʌnz ˈdɪʤɪt ɪz 8, ðə tɛnz ˈdɪʤɪt ɪz 8, ænd ðə ˈhʌndrədz ˈdɪʤɪt ɪz 9.
+
+<eng>
+Place the number 5,672 in a table that shows the value of each digit.
+Then use this table and an addition problem to show how this number breaks down digit by digit
+<rus>
+Поместите число 5672 в таблицу, которая показывает значение каждой цифры.
+Затем используйте эту таблицу и задачу сложения, чтобы показать, как это число разбивается цифра на цифру
+<trn>
+pleɪs ðə ˈnʌmbə 5,672 ɪn ə ˈteɪbl ðæt ʃəʊz ðə ˈvæljuː ɒv iːʧ ˈdɪʤɪt.
+ðɛn juːz ðɪs ˈteɪbl ænd ən əˈdɪʃ(ə)n ˈprɒbləm tuː ʃəʊ haʊ ðɪs ˈnʌmbə breɪks daʊn ˈdɪʤɪt baɪ ˈdɪʤɪt
+
+<eng>
+The numeral 5 is in the thousands place, 6 is in the hundreds place, 7 is in the tens place, and 2 is in the ones place, so here’s how the number breaks down:
+<rus>
+Цифра 5 - в тысячах, 6 - в сотнях, 7 - в десятках, а 2 - в одном месте, так вот, как это число разбивается:
+<trn>
+ðə ˈnjuːmərəl 5 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 6 ɪz ɪn ðə ˈhʌndrədz pleɪs, 7 ɪz ɪn ðə tɛnz pleɪs, ænd 2 ɪz ɪn ðə wʌnz pleɪs, səʊ hɪəz haʊ ðə ˈnʌmbə breɪks daʊn:
+
+<eng>
+Place the number 040,120 in a table that shows the value of each digit.
+Then use this table to show how this number breaks down digit by digit.
+Which 0s are placeholders, and which are leading zeros?
+<rus>
+Поместите число 040,120 в таблицу, которая показывает значение каждой цифры.
+Затем используйте эту таблицу, чтобы показать, как это число разбивается цифра за цифрой.
+Какие 0 являются заполнителями, а какие лидирующими нулями?
+<trn>
+pleɪs ðə ˈnʌmbə 040,120 ɪn ə ˈteɪbl ðæt ʃəʊz ðə ˈvæljuː ɒv iːʧ ˈdɪʤɪt.
+ðɛn juːz ðɪs ˈteɪbl tuː ʃəʊ haʊ ðɪs ˈnʌmbə breɪks daʊn ˈdɪʤɪt baɪ ˈdɪʤɪt.
+wɪʧ 0 ɑː ˈpleɪsˌhəʊldəz, ænd wɪʧ ɑː ˈliːdɪŋ ˈzɪərəʊz?
+
+<eng>
+The first 0 is in the hundred-thousands place, 4 is in the ten-thousands place, the next 0 is in the thousands place, 1 is in the hundreds place, 2 is in the tens place, and the last 0 is in the ones place, so
+The first 0 is a leading zero, and the remaining 0s are placeholders.
+<rus>
+Первый 0 - в сотне тысяч, 4 - в десятки тысяч, следующий 0 - в тысячах, 1 - в сотнях, 2 - в десятках, а последний 0 - в одно место, так
+Первый 0 - это ведущий ноль, а остальные 0 - это заполнители.
+<trn>
+ðə fɜːst 0 ɪz ɪn ðə ˈhʌndrəd-ˈθaʊzəndz pleɪs, 4 ɪz ɪn ðə tɛn-ˈθaʊzəndz pleɪs, ðə nɛkst 0 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 1 ɪz ɪn ðə ˈhʌndrədz pleɪs, 2 ɪz ɪn ðə tɛnz pleɪs, ænd ðə lɑːst 0 ɪz ɪn ðə wʌnz pleɪs, səʊ
+ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
 
 `]);
