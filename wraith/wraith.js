@@ -289,19 +289,409 @@ I had to kill the beast, it was the only way to unburden my guilty conscience.
 Мой собеседник был чуть более охотно.
 Призрак забрал и его жену и дочь, но даже он не ступил бы на эти коварные склоны, если бы я не довел его до него.
 Я уговорил его, разыгрывая его мучения.
-Я должен был убить зверя, это был единственный способ освободить мою совесть.
+Я должен был убить зверя, это был единственный способ освободить мою страдающую от сознания вины совесть.
 <trn>
 
 <eng>
+Was the wraith that attacked us last night the same that cut down the villagers?
+It was impossible to say.
+They all looked identical, apparently.
+We didn’t know exactly how many were living in the mountains, but we did know was they were mindless killers and even if I slew the wrong one, I’d redeem myself by culling a true vision of evil.
+Wraiths were ancient creatures, powered only by a lust for death.
+I was always told that they didn’t consume the flesh of their prey, they took the very life from them and fed off that instead.
+I didn’t believe it, and I was still not sure.
+Except for the massive slashes across his torso where the wraith had cleaved him as he worked in the fields, my Father looked as he ever did when I found him.
+I expected the draining of life to look more dramatic, but maybe it wasn’t something you could see.
 <rus>
+Был ли тот призрак, который напал на нас прошлой ночью, тем же, что вырубил жителей деревни?
+Это было невозможно сказать.
+Все они выглядели одинаково, по-видимому.
+Мы не знали точно, сколько людей живет в горах, но мы знали, что они были бессмысленными убийцами, и даже если я убью не того, я искуплю себя, отбросив истинное видение зла.
+Призраки были древними существами, движимыми жаждой смерти.
+Мне всегда говорили, что они не потребляют мясо своей жертвы, они отобрали у них саму жизнь и вместо этого питались ею.
+Я не верил в это, и я все еще не был уверен.
+За исключением массивных ударов по его туловищу, где призрак расколол его, когда он работал в полях, мой отец выглядел так же, как когда-либо, когда я его нашел.
+Я ожидал, что истощение жизни будет выглядеть более драматично, но, возможно, это было не то, что вы могли видеть.
 <trn>
 
 <eng>
+I continued to struggle on through the wilderness, my feet sliding into inches of fresh snow with every step.
+My pace was slow and staggering.
+I had no direction in my mind, just eyes peeled for the sight of that luminous foggy trail.
+Bitter breezes sailed through the trees constantly, hitting me from all angles.
+Beneath my thick furs, I was covered in leather padding wrapped in yet more furs.
+Beneath that were tight linens tucked into my boots and gloves.
+I was used to the freezing temperatures and knew how to keep them out, but in the mountains,
+where winds gathered speed as they whipped through the deep valleys, even I was succumbing to the pain of the cold.
+The steel greatsword, heavy on my back, was not helping either.
 <rus>
+Я продолжал бороться через пустыню, мои ноги скользили в дюймах свежего снега с каждым шагом.
+Мой темп был медленным и ошеломляющим.
+У меня не было никакого направления в моем разуме, только глаза смотрели на этот светящийся туманный след.
+Горькие бризы постоянно плыли по деревьям, ударяя меня со всех сторон.
+Под моими густыми мехами я был обтянут кожаной обивкой, обмотанной еще большим количеством меха.
+Под этим было плотное белье, заправленное в мои ботинки и перчатки.
+Я привык к морозным температурам и знал, как их удержать, но в горах,
+где ветры набирали скорость, когда они пронеслись через глубокие долины, даже я поддавался боли холода.
+Стальной большой меч, тяжёлый на спине, тоже не помог.
 <trn>
 
 <eng>
+Nothing much changed all day, other than that I progressively shrank into myself, residing to the fact that I would simply wander these frozen wastes until I collapsed and died; dead wraith or not.
+I wasn’t even sure I’d be able to fight the monster alone when I was fit and healthy, not least now when I was ragged, tired, cold, weak and hungry.
+But what else could I do? I didn’t know my way out the mountains, even if I was coward enough to run.
+And yes, I’d thought about it.
+But then, things changed.
+It began with a bang.
+A horrible, low rumble that emanated from far away in the mountains, shaking the very ground around me and knocking snow from the branches overhead.
 <rus>
+Ничего особенного не изменилось весь день, кроме того, что я постепенно сжимался в себе, опираясь на тот факт, что я буду просто бродить по этим замороженным отходам, пока не упаду и не умру; мертвый призрак или нет.
+Я даже не был уверен, что смогу сражаться с монстром один, когда я был в хорошей форме и здоров, не в последнюю очередь сейчас, когда я был измотан, устал, холоден, слаб и голоден.
+Но что еще я мог сделать? Я не знал своего выхода из гор, даже если бы был достаточно трус, чтобы бежать.
+И да, я думал об этом.
+Но потом все изменилось.
+Это началось на ура.
+Ужасный низкий грохот, издаваемый издалека в горах, сотрясая всю землю вокруг меня и выбивая снег с веток над головой.
+<trn>
+
+<eng>
+It lasted only a second, but was like nothing I’d ever heard before.
+Then, on the far side of the ravine, through the wiry trees, I saw cracks emerge in the snow, like splits in an ice-bound lake struck with a pick-axe.
+With a groan, the snow started to slide, slowly at first, but quickly picking up pace.
+It was crashing towards the deepest part of the valley — exactly where I stood.
+Heaving my stiff legs through the dense snow, I ambled frantically towards the other side of the valley, fear driving my frozen body to move faster than it should.
+I went up higher and higher until I could go no further; blocked by steep rock walls.
+Looking back, I saw snow swarm where I once stood, burying the land deep enough to cover me several times over.
+The force of the drift had brought down trees and uncovered a great expanse of bare rock on the cliffs of the valley’s far side.
+<rus>
+Это продолжалось всего секунду, но ничего подобного я не слышал раньше.
+Затем, на дальней стороне ущелья, сквозь волнистые деревья, я увидел трещины на снегу, похожие на трещины в заледеневшем озере, пораженном киркой.
+Со стоном снег начал скользить, сначала медленно, но быстро набирая темп.
+Он врезался в самую глубокую часть долины - именно там, где я стоял.
+Подняв свои жесткие ноги сквозь густой снег, я лихорадочно блуждал по другую сторону долины, боясь заставить мое замерзшее тело двигаться быстрее, чем следовало.
+Я поднимался все выше и выше, пока не мог идти дальше; заблокирован крутыми каменными стенами.
+Оглядываясь назад, я увидел снежный рой там, где когда-то стоял, закапывая землю достаточно глубоко, чтобы покрыть меня несколько раз.
+Сила дрейфа свалила деревья и обнажила огромные просторы голой скалы на утесах дальней стороны долины.
+<trn>
+
+<eng>
+Whatever had just happened transformed the landscape.
+It was as if I was standing in a totally different place.
+But that was not what interested me most.
+Down in the pit of the valley, where the freshly moved snow now lay, I could see something moving.
+Ducking behind a tree, I peered around to watch.
+<rus>
+Все, что только что произошло, изменило пейзаж.
+Как будто я стою в совершенно другом месте.
+Но это было не то, что интересовало меня больше всего.
+Внизу в яме долины, где теперь лежал свежевыпавший снег, я мог видеть что-то движущееся.
+Спрятавшись за деревом, я посмотрел вокруг, чтобы посмотреть.
+<trn>
+
+<eng>
+A lone wraith was moving around frantically in the canyon below, similar to a fly trapped in a jar.
+It was slashing wildly, dashing from tree-to-tree, cutting through them with ease.
+It was hard to make out its features, so far away was it, but it was definitely a wraith.
+About the size of a man and floating a foot or so above the ground, it left glowing trails of frosty-blue dust in its wake.
+After a moment of what seemed to be sheer panic, it let out a shriek, a piercing almost metallic noise, before darting away, dragging its low slung claws through the dusty, unsettled snow.
+With haste, I followed, just fast enough to outrun the dispersal of its trail.
+Walking through the mist was like walking through the heart of winter itself.
+The air was so cold it dragged deep into my lungs and felt like every breath was scaring them.
+I could feel ice forming on the hairs above my lip.
+I took to a path beside the wraith’s trail, I wouldn’t last long within it, and I was already on my last legs as it was.
+<rus>
+Одинокий призрак бешено двигался в каньоне внизу, как муха, запертая в банке.
+Он дико падал, бросался с дерева на дерево, легко прорезал их.
+Трудно было разглядеть его особенности, так далеко это было, но это был определенно призрак.
+Около человека ростом примерно в пол фута над землёй он оставил светящиеся следы морозно-синей пыли.
+После минуты, казалось бы, явной паники, он издал пронзительный пронзительный, почти металлический шум, прежде чем отскочить, волоча свои низкие брошенные когти через пыльный, нерешительный снег.
+Я поспешно последовал за ним, достаточно быстро, чтобы обогнать разгон его следа.
+Ходить сквозь туман было все равно, что идти сквозь сердце самой зимы.
+Воздух был настолько холодным, что глубоко проникал в мои легкие, и мне казалось, что каждое дыхание пугает их.
+Я чувствовал ледяной покров на волосах над моей губой.
+Я вышел на тропу рядом с тропой призрака, я не продержусь там долго, и я уже был на последних ногах, как это было.
+<trn>
+
+<eng>
+Pushing forward took every scrap of energy I had, but I knew this would be my only chance.
+The wraith had moved far, its path leading me out of the sprawling valley and to the shores of a great frozen lake that stood between three looming mountain peaks.
+The frantic trail had slowly become calmer.
+The darting from side-to-side had stopped as the beast’s focus seemed to have narrowed.
+The trails were also thicker and more densely packed, spun with more and more floating specks of shimmering blue dust.
+I think it had slowed down.
+<rus>
+Для продвижения вперёд потребовался каждый клочок энергии, но я знал, что это будет мой единственный шанс.
+Призрак продвинулся далеко, его путь вывел меня из обширной долины к берегам огромного замерзшего озера, которое стояло между тремя надвигающимися горными вершинами.
+Безумный след медленно успокаивался.
+Бросок из стороны в сторону прекратился, поскольку внимание зверя, казалось, сузилось.
+Трассы были также более толстыми и плотно упакованными, вращались все больше и больше плавающих пятен мерцающей синей пыли.
+Я думаю, что это замедлилось.
+<trn>
+
+<eng>
+I found it, seemingly rummaging through a bush of succulent red berries on the edge of the expansive lake.
+If I was to fight it, I was to fight it now, before I lost a single ounce more of my strength.
+The fires of revenge lit in my heart again at the sight of the wraith, they would keep me moving — even if the cold was trying hard to turn my bones to ice.
+My desire to slay the beast was all my mind’s eye was fixated on; that, and getting to the juicy berries on the bush behind it.
+We farmed these berries all the time.
+They grew on the slopes of the mountains just outside the village in abundance, although most were unreachable up the side of great, snow-covered clefts.
+They were delicious and hearty.
+They’d keep me going a little longer.
+With my heart pounding and my palms sweating despite the bitter, bitter cold, I drew my sword with a clatter of steel.
+<rus>
+Я нашел это, по-видимому, роясь в кустах сочных красных ягод на краю обширного озера.
+Если бы я боролся с этим, я должен был бороться с ним сейчас, прежде чем я потерял еще одну унцию своей силы.
+Огонь мести снова вспыхнул в моем сердце при виде призрака, они заставили бы меня двигаться - даже если холод пытался превратить мои кости в лед.
+Мое желание убить зверя было сосредоточено на моем разуме; это, и добраться до сочных ягод на кусте позади него.
+Мы выращивали эти ягоды постоянно.
+Они росли на склонах гор в непосредственной близости от деревни в изобилии, хотя большинство из них были недоступны в стороне от огромных заснеженных расщелин.
+Они были вкусные и сытные.
+Они будут держать меня немного дольше.
+Мое сердце колотилось, и мои ладони вспотели, несмотря на сильный мороз, и я выхватил свой меч с грохотом стали.
+<trn>
+
+<eng>
+The wraith spun around in a smooth, gliding motion, its glowing blue eyes immediately found me.
+They were empty, soulless; without any humanity or emotion.
+They just glowed a hollow glow.
+Its eyes were set inside a narrow, elongated and pointed skull, grey and bare.
+A skull more like an ox’s than a man’s.
+From the skull grew a spine, of large bones as big as a fist that slowly trailed off into smaller pieces, until one, pointed bone hung about a foot from a ground.
+Just below its head, two arms sprang seemingly from nowhere.
+Attached not to shoulder blades nor its spine.
+To the arms were fixed giant claws, each longer than my forearms, thin, curved and sharp.
+There was no muscle, flesh or skin on the wraith.
+Nothing holding its bones together but a thick fog of glowing blue dust that clung to its form.
+Legend has it that a stroke of a sword through the spine would severe the magic that bound this ancient monster together, and the wraith would simply crumble.
+<rus>
+Призрак развернулся плавным скользящим движением, его светящиеся голубые глаза сразу же нашли меня.
+Они были пусты, бездушны; без человечности и эмоций.
+Они просто светились пустым свечением.
+Его глаза были расположены внутри узкого, вытянутого и заостренного черепа, серого и голого.
+Череп больше похож на вола, чем на человека.
+Из черепа вырос позвоночник, с большими костями размером с кулак, который медленно разлетался на более мелкие кусочки, пока одна остроконечная кость не свисала примерно в футе от земли.
+Прямо под его головой, казалось, возникли две руки из ниоткуда.
+Прикреплено не к лопаткам, ни к позвоночнику.
+К рукам были прикреплены гигантские когти, каждый длиннее моих предплечий, тонкий, изогнутый и острый.
+На призраке не было мышц, плоти или кожи.
+Ничто не скрепляло его кости, кроме густого тумана светящейся голубой пыли, которая цеплялась за его форму.
+Легенда гласит, что удар меча по позвоночнику может повредить магию, связывающую этого древнего монстра, и призрак просто рухнет.
+<trn>
+
+<eng>
+I was about to find out if that were true.
+
+As it approached, the beast’s gaze bore into me.
+It moved slowly, seemingly cautious.
+Stopping and starting, edging closer.
+I gripped my sword with both hands, raised it as steady as I could and prepared to swing.
+But about ten feet away, the wraith stopped.
+It let out a hollow snort.
+Again, the noise was metallic, an unusual sound for a living creature to make.
+To my surprise, it didn’t charge, leap or race towards me, slashing its talons.
+The wraith simply turned and started to glide away.
+Ignoring my presence, my stance, my willingness to fight.
+It was just leaving.
+I was frozen, not by the cold, but by disbelief.
+Where was it going?
+Why wasn’t it trying to tear me apart?
+My confusion turned to anger.
+Did it think it could just kill my father and get away with it?
+Did it think I would just let it float away?
+<rus>
+Я собирался выяснить, правда ли это.
+
+Когда он приблизился, взгляд зверя пронзил меня.
+Он двигался медленно, казалось бы, осторожно.
+Остановка и запуск, продвигаясь ближе.
+Я схватил меч обеими руками, поднял его как можно устойчивее и приготовился к удару.
+Но примерно в десяти футах призрак остановился.
+Он издал пустое фырканье.
+Опять же, шум был металлическим, необычный звук для живого существа.
+К моему удивлению, он не бросился, не прыгнул и не помчался ко мне, уронив когти.
+Призрак просто повернулся и начал скользить прочь.
+Игнорирование моего присутствия, моей позиции, моей готовности сражаться.
+Это просто уходило.
+Я был заморожен не холодом, а неверием.
+Куда это идет?
+Почему он не пытался разлучить меня?
+Мое замешательство превратилось в гнев.
+Он думал, что может просто убить моего отца и сойти с рук?
+Думал ли я, что я просто позволю этому уплыть?
+<trn>
+
+<eng>
+“No!’ I screamed, my voice echoing across expanse before me.
+
+It didn’t even turn around.
+It just kept moving towards another patch of berries nearby.
+I’d had enough.
+I started to run.
+The snow thinned by the lake’s edge, allowing swifter movement.
+I held my sword high.
+I was going to kill it.
+I was going to take my revenge.
+One slice, across its back.
+It was too easy.
+But I was going to do it.
+For my Father.
+For my companions.
+For th…
+<rus>
+«Нет!» - закричал я, и мой голос эхом разнесся передо мной.
+
+Он даже не обернулся.
+Он просто продолжал двигаться к другому участку ягод поблизости.
+Мне было достаточно.
+Я начал бегать.
+Снег утончается у края озера, что позволяет быстрее двигаться.
+Я высоко держал меч.
+Я собирался убить это.
+Я собирался отомстить.
+Один кусок, через его спину.
+Это было слишком легко.
+Но я собирался сделать это.
+Для моего отца.
+Для моих товарищей.
+Ибо…
+<trn>
+
+<eng>
+My foot caught the lip of a concealed rock beneath the snow and I tumbled forward, sword flung from my hands.
+I landed face down in the snow, and my strength evaporated in that moment.
+My body was so battered, so achy, so cold that it hurt.
+I couldn’t bring myself to rise.
+I could just lay here and die.
+I steeled what little resolve I had and rolled over to face the sky.
+Above me I saw blue, but I wasn’t the soft blue of a clear sky.
+It was darker, and shimmered in the sunlight.
+The wraith was above me, its long, gangly, claw-ridden arms either side of my head.
+It gazed down, arching its spine, peering at me.
+I prepared myself for the end.
+<rus>
+Моя нога схватилась за край скрытого камня под снегом, и я упал вперед, меч вырвался из моих рук.
+Я приземлился лицом вниз на снегу, и моя сила испарилась в этот момент.
+Мое тело было так разбито, так болело, так холодно, что было больно.
+Я не мог заставить себя подняться.
+Я мог бы просто лежать здесь и умереть.
+Я почувствовал, как мало у меня было решимости, и повернулся лицом к небу.
+Надо мной я видел синий, но я не был мягким синим ясного неба.
+Было темнее и переливалось на солнце.
+Призрак был выше меня, его длинные рваные когтистые руки по обе стороны от моей головы.
+Он смотрел вниз, изгибая позвоночник, вглядываясь в меня.
+Я подготовил себя к концу.
+<trn>
+
+<eng>
+Yet again, the wraith shocked me.
+
+After a moment of curiosity, it moved on, far more interested in the berries than me.
+Hauling myself to my feet, I grasped at my sword on the ground beside me, dug it into the ice and used it to prop myself up as I stood panting, watching the ancient being.
+I didn’t understand.
+The wraith leaned over the bush, using its claws to cut away thicker branches and dead foliage.
+Taking a long, jagged breath, it made a sound like howling wind blasting through a cave.
+How it breathed without lungs I’ll never know, but it seemed to do so all the same.
+The bush rustled as the wraith inhaled, and began to wither, the berries turning from a cherry-red to mouldy black.
+Their plump and juicy shape sagging and oozing.
+The wraith moved on to yet another bush.
+There were plenty in this exposed part of the mountains.
+<rus>
+И снова призрак шокировал меня.
+
+После минутного любопытства он перешел, гораздо больше заинтересовавшись ягодами, чем я.
+Поднявшись на ноги, я схватился за свой меч на земле рядом со мной, выкопал его в лед и использовал его, чтобы поддержать себя, когда я тяжело дышал, наблюдая за древним существом.
+Я не поняла
+Призрак наклонился над кустом, используя его когти, чтобы срезать более толстые ветви и мертвую листву.
+Сделав длинный, неровный вдох, он издал звук, похожий на вой ветра, дующий в пещере.
+Как оно дышало без легких, я никогда не узнаю, но, похоже, все равно.
+Куст шелестел, когда призрак вдыхал, и начинал увядать, ягоды превращались из вишнево-красного в заплесневелую черноту.
+Их пухлые и сочные формы провисают и сочатся.
+Призрак перешел к еще одному кусту.
+В этой открытой части гор было много всего.
+<trn>
+
+<eng>
+The scene unfolding before me was nothing like what I expected a wraith encounter to be like.
+It was… peaceful.
+The fires of my rage, my desire for revenge, were all but extinguished.
+Instead, I felt the cold creeping up inside my body, taking every inch of me.
+My breath was slow and shallow and I could no longer feel my heart beating in my neck.
+I wondered if it was beating at all.
+What drove me no longer did, but now I had no reason to go on.
+I could no longer feel my legs, my hands gripping my sword, or anything else for that matter.
+I just felt the ice.
+Ice in my veins, ice in my heart.
+I caught one final glimpse of the wraith, draining the life from another patch of berries, before my hand slipped from the hilt and I felt the snow envelop me.
+What followed was a haze.
+I could feel myself moving, snow rushing over my shoulders, down my back and into the crevices of my boots.
+I was being dragged.
+My eyelids were heavy and frozen shut, but I could see light flickering beyond them.
+Then, darkness.
+<rus>
+Сцена, разворачивающаяся передо мной, была совсем не похожа на то, на что я ожидал похожую встречу с призраком.
+Это было ... мирно.
+Огонь моей ярости, мое желание мести почти погасли.
+Вместо этого я почувствовал, как холод проникает в мое тело, поглощая каждый дюйм меня.
+Мое дыхание было медленным и поверхностным, и я больше не чувствовал биения своего сердца в шее.
+Я задавался вопросом, билось ли это вообще.
+То, что заставило меня больше не делать, но теперь у меня не было причин продолжать.
+Я больше не мог чувствовать свои ноги, мои руки, сжимающие мой меч, или что-нибудь еще в этом отношении.
+Я просто почувствовал лед.
+Лед в моих венах, лед в моем сердце.
+Я поймал последний проблеск призрака, истощая жизнь из другого куска ягод, прежде чем моя рука соскользнула с рукояти, и я почувствовал, как снег охватывает меня.
+То, что следовало, было дымкой.
+Я чувствовал, как я двигаюсь, снег обрушивается на мои плечи, спину и в щели моих ботинок.
+Меня тащили.
+Мои веки были тяжелыми и замерзшими, но я мог видеть свет, мерцающий за ними.
+Затем тьма.
+<trn>
+
+<eng>
+I was no longer being dragged through snow, I was on a much rougher surface.
+I tore my eyes open and cast a look around.
+I found myself in yet another cave, now propped up against the wall, just as my companion had been.
+The navigator crouch over me, grinning.
+He reached beneath his shredded fur cloak — it was slung over his shoulders haphazardly, its proper form destroyed by large gashes all across it — and pulled out a handful of berries.
+He pushed them towards me.
+I took them without a thought, without even a thank you.
+“I thought you were dead” I croaked, after scoffing down the sweet berries.
+“I thought you were dead” The navigator replied, nodding to the tracks that lay outside the cave; the marks of my body that he’d dragged through the glistening snow.
+“I slew the monster”.
+“What?”
+“The beast was just there, looking at a bush. It didn’t even notice me sneak up. I took your sword and cut it in half. The stories are true, you know? One swing was all it took.”
+<rus>
+Меня больше не тащили по снегу, я был на гораздо более грубой поверхности.
+Я открыл глаза и посмотрел вокруг.
+Я оказался в еще одной пещере, теперь прислоненной к стене, как и мой спутник.
+Навигатор наклонился ко мне, ухмыляясь.
+Он протянул руку под своим резаным меховым плащом - он случайно был перекинут через плечи, его правильная форма была разрушена большими порезами по всему телу - и вытащил горсть ягод.
+Он подтолкнул их ко мне.
+Я взял их без мысли, даже без благодарности.
+«Я думал, что ты мертв», прохрипела я, посмеиваясь над сладкими ягодами.
+«Я думал, что ты умер», - ответил навигатор, кивая на следы, которые лежали за пределами пещеры; следы моего тела, которые он протащил сквозь блестящий снег.
+«Я убил монстра».
+"Какая?"
+«Зверь был просто там, глядя на куст. Он даже не заметил, как я подкрался. Я взял твой меч и разрезал его пополам. Вы знаете, истории правдивы? Все, что нужно, - это один удар ».
+<trn>
+
+<eng>
+When would I stop feeling it?
+This all-consuming guilt.
+Sadness overcame me, the mourning feelings I should have had for my Father, instead of the unbridled anger.
+The anger that had cost too many too much.
+The navigator could see the look on my face, the look of regret, sorrow and devastation, not the joy and retribution he’d been seeking.
+I didn’t feel anything I thought I’d feel.
+I just felt more pain.
+Pain for another life lost for no reason.
+<rus>
+Когда я перестану чувствовать это?
+Это всепоглощающая вина.
+Печаль преодолела меня, скорбные чувства, которые я должен был испытать к своему Отцу, вместо необузданного гнева.
+Гнев, который стоил слишком много слишком много.
+Штурман мог видеть выражение моего лица, выражение сожаления, печали и опустошения, а не радость и возмездие, которые он искал.
+Я не чувствовал ничего, что я думал, что чувствовал бы.
+Я просто почувствовал больше боли.
+Боль за чужую жизнь пропала без причины.
 <trn>
 
 <eng>
