@@ -1,53 +1,5 @@
 TEXTS.push([`
 <eng>
-The number system used most commonly throughout the world is the Hindu-Arabic number system.
-This system contains ten digits (also called numerals), which are symbols like the letters A through Z.
-I’m sure you’re quite familiar with them:
-<rus>
-Система счисления, используемая чаще всего во всем мире, - индуистско-арабская система счисления.
-Эта система содержит десять цифр (также называемых цифрами), которые являются символами, такими как буквы от A до Z.
-Я уверен, что вы с ними довольно знакомы:
-<trn>
-ðə ˈnʌmbə ˈsɪstɪm juːzd məʊst ˈkɒmənli θru(ː)ˈaʊt ðə wɜːld ɪz ðə ˈhɪnˈduː-ˈærəbɪk ˈnʌmbə ˈsɪstɪm.
-ðɪs ˈsɪstɪm kənˈteɪnz tɛn ˈdɪʤɪts (ˈɔːlsəʊ kɔːld ˈnjuːmərəlz), wɪʧ ɑː ˈsɪmbəlz laɪk ðə ˈlɛtəz ə θruː zɛd.
-aɪm ʃʊə jʊə kwaɪt fəˈmɪliə wɪð ðɛm:
-
-<eng>
-Like letters of the alphabet, individual digits aren’t very useful.
-When used in combination, however, these ten symbols can build numbers as large as you like using place value.
-Place value assigns each digit a greater or lesser value depending upon where it appears in a number.
-Each place in a number is ten times greater than the place to its immediate right.
-<rus>
-Как и буквы алфавита, отдельные цифры не очень полезны.
-Однако при использовании в комбинации эти десять символов могут составлять числа, которые вам нравятся, используя значение места.
-Значение места назначает каждой цифре большее или меньшее значение в зависимости от того, где она появляется в числе.
-Каждое место в числе в десять раз больше, чем место с его прямым правом.
-<trn>
-laɪk ˈlɛtəz ɒv ði ˈælfəbɪt, ˌɪndɪˈvɪdjʊəl ˈdɪʤɪts ɑːnt ˈvɛri ˈjuːsfʊl.
-wɛn juːzd ɪn ˌkɒmbɪˈneɪʃən, haʊˈɛvə, ðiːz tɛn ˈsɪmbəlz kæn bɪld ˈnʌmbəz æz lɑːʤ æz juː laɪk ˈjuːzɪŋ pleɪs ˈvæljuː.
-pleɪs ˈvæljuː əˈsaɪnz iːʧ ˈdɪʤɪt ə ˈgreɪtər ɔː ˈlɛsə ˈvæljuː dɪˈpɛndɪŋ əˈpɒn weər ɪt əˈpɪəz ɪn ə ˈnʌmbə.
-iːʧ pleɪs ɪn ə ˈnʌmbər ɪz tɛn taɪmz ˈgreɪtə ðæn ðə pleɪs tuː ɪts ɪˈmiːdiət raɪt.
-
-<eng>
-Although the digit 0 adds no value to a number, it can act as a placeholder.
-When a 0 appears to the right of at least one non-zero digit, it’s a placeholder.
-Placeholders are important for giving digits their proper place value.
-In contrast, when a 0 isn’t to the right of any nonzero digit, it’s a leading zero.
-Leading zeros are unnecessary and can be removed from a number.
-<rus>
-Хотя цифра 0 не добавляет значения к числу, она может выступать в качестве заполнителя.
-Когда справа от хотя бы одной ненулевой цифры появляется 0, это заполнитель.
-Заполнители важны для предоставления цифрам их правильного значения места.
-Напротив, когда 0 не справа от любой ненулевой цифры, это ведущий ноль.
-Ведущие нули не нужны и могут быть удалены из числа.
-<trn>
-ɔːlˈðəʊ ðə ˈdɪʤɪt 0 ædz nəʊ ˈvæljuː tuː ə ˈnʌmbə, ɪt kæn ækt æz ə ˈpleɪsˌhəʊldə.
-wɛn eɪ 0 əˈpɪəz tuː ðə raɪt ɒv æt liːst wʌn nɒn-ˈzɪərəʊ ˈdɪʤɪt, ɪts ə ˈpleɪsˌhəʊldə.
-ˈpleɪsˌhəʊldəz ɑːr ɪmˈpɔːtənt fɔː ˈgɪvɪŋ ˈdɪʤɪts ðeə ˈprɒpə pleɪs ˈvæljuː.
-ɪn ˈkɒntrɑːst, wɛn ə 0 ˈɪznt tuː ðə raɪt ɒv ˈɛni nonzero ˈdɪʤɪt, ɪts ə ˈliːdɪŋ ˈzɪərəʊ.
-ˈliːdɪŋ ˈzɪərəʊz ɑːr ʌnˈnɛsɪsəri ænd kæn biː rɪˈmuːvd frɒm ə ˈnʌmbə.
-
-<eng>
 In the number 988, identify the ones digit, the tens digit, and the hundreds digit.
 <rus>
 В числе 988 укажите цифру единиц, цифру десятков и цифру сотен.
@@ -100,10 +52,6 @@ The first 0 is a leading zero, and the remaining 0s are placeholders.
 <trn>
 ðə fɜːst 0 ɪz ɪn ðə ˈhʌndrəd-ˈθaʊzəndz pleɪs, 4 ɪz ɪn ðə tɛn-ˈθaʊzəndz pleɪs, ðə nɛkst 0 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 1 ɪz ɪn ðə ˈhʌndrədz pleɪs, 2 ɪz ɪn ðə tɛnz pleɪs, ænd ðə lɑːst 0 ɪz ɪn ðə wʌnz pleɪs, səʊ
 ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
-
-
-
-
 
 <eng>
 In This Chapter
@@ -164,5 +112,54 @@ juː siː haʊ tuː juːz ðə ˈnʌmbə laɪn tuː meɪk sɛns ɒv ɔːl fɔːr
 ðɛn aɪ gɪv juː ˈpræktɪs ˈdu(ː)ɪŋ ˌkælkjʊˈleɪʃənz wɪð ˈlɑːʤə ˈnʌmbəz.
 tuː ˈfɪnɪʃ ʌp, aɪ meɪk ʃʊə juː nəʊ haʊ tuː duː lɒŋ dɪˈvɪʒən bəʊθ wɪð ænd wɪˈðaʊt ə rɪˈmeɪndə.
 ˈælʤɪbrə ˈɒf(ə)n ˈjuːzɪz ðə dɒt (.) ɪn pleɪs ɒv ðə taɪmz saɪn (ɛks) tuː ˈɪndɪkeɪt ˌmʌltɪplɪˈkeɪʃən, səʊ ðæts wɒt aɪ juːz ɪn ðɪs bʊk.
+
+<eng>
+The number system used most commonly throughout the world is the Hindu-Arabic number system.
+This system contains ten digits (also called numerals), which are symbols like the letters A through Z.
+I’m sure you’re quite familiar with them:
+<rus>
+Система счисления, используемая чаще всего во всем мире, - индуистско-арабская система счисления.
+Эта система содержит десять цифр (также называемых цифрами), которые являются символами, такими как буквы от A до Z.
+Я уверен, что вы с ними довольно знакомы:
+<trn>
+ðə ˈnʌmbə ˈsɪstɪm juːzd məʊst ˈkɒmənli θru(ː)ˈaʊt ðə wɜːld ɪz ðə ˈhɪnˈduː-ˈærəbɪk ˈnʌmbə ˈsɪstɪm.
+ðɪs ˈsɪstɪm kənˈteɪnz tɛn ˈdɪʤɪts (ˈɔːlsəʊ kɔːld ˈnjuːmərəlz), wɪʧ ɑː ˈsɪmbəlz laɪk ðə ˈlɛtəz ə θruː zɛd.
+aɪm ʃʊə jʊə kwaɪt fəˈmɪliə wɪð ðɛm:
+
+<eng>
+Like letters of the alphabet, individual digits aren’t very useful.
+When used in combination, however, these ten symbols can build numbers as large as you like using place value.
+Place value assigns each digit a greater or lesser value depending upon where it appears in a number.
+Each place in a number is ten times greater than the place to its immediate right.
+<rus>
+Как и буквы алфавита, отдельные цифры не очень полезны.
+Однако при использовании в комбинации эти десять символов могут составлять числа, которые вам нравятся, используя значение места.
+Значение места назначает каждой цифре большее или меньшее значение в зависимости от того, где она появляется в числе.
+Каждое место в числе в десять раз больше, чем место с его прямым правом.
+<trn>
+laɪk ˈlɛtəz ɒv ði ˈælfəbɪt, ˌɪndɪˈvɪdjʊəl ˈdɪʤɪts ɑːnt ˈvɛri ˈjuːsfʊl.
+wɛn juːzd ɪn ˌkɒmbɪˈneɪʃən, haʊˈɛvə, ðiːz tɛn ˈsɪmbəlz kæn bɪld ˈnʌmbəz æz lɑːʤ æz juː laɪk ˈjuːzɪŋ pleɪs ˈvæljuː.
+pleɪs ˈvæljuː əˈsaɪnz iːʧ ˈdɪʤɪt ə ˈgreɪtər ɔː ˈlɛsə ˈvæljuː dɪˈpɛndɪŋ əˈpɒn weər ɪt əˈpɪəz ɪn ə ˈnʌmbə.
+iːʧ pleɪs ɪn ə ˈnʌmbər ɪz tɛn taɪmz ˈgreɪtə ðæn ðə pleɪs tuː ɪts ɪˈmiːdiət raɪt.
+
+<eng>
+Although the digit 0 adds no value to a number, it can act as a placeholder.
+When a 0 appears to the right of at least one non-zero digit, it’s a placeholder.
+Placeholders are important for giving digits their proper place value.
+In contrast, when a 0 isn’t to the right of any nonzero digit, it’s a leading zero.
+Leading zeros are unnecessary and can be removed from a number.
+<rus>
+Хотя цифра 0 не добавляет значения к числу, она может выступать в качестве заполнителя.
+Когда справа от хотя бы одной ненулевой цифры появляется 0, это заполнитель.
+Заполнители важны для предоставления цифрам их правильного поместного значения.
+Напротив, когда 0 не справа от любой ненулевой цифры, это ведущий ноль.
+Ведущие нули не нужны и могут быть удалены из числа.
+<trn>
+ɔːlˈðəʊ ðə ˈdɪʤɪt 0 ædz nəʊ ˈvæljuː tuː ə ˈnʌmbə, ɪt kæn ækt æz ə ˈpleɪsˌhəʊldə.
+wɛn eɪ 0 əˈpɪəz tuː ðə raɪt ɒv æt liːst wʌn nɒn-ˈzɪərəʊ ˈdɪʤɪt, ɪts ə ˈpleɪsˌhəʊldə.
+ˈpleɪsˌhəʊldəz ɑːr ɪmˈpɔːtənt fɔː ˈgɪvɪŋ ˈdɪʤɪts ðeə ˈprɒpə pleɪs ˈvæljuː.
+ɪn ˈkɒntrɑːst, wɛn ə 0 ˈɪznt tuː ðə raɪt ɒv ˈɛni nonzero ˈdɪʤɪt, ɪts ə ˈliːdɪŋ ˈzɪərəʊ.
+ˈliːdɪŋ ˈzɪərəʊz ɑːr ʌnˈnɛsɪsəri ænd kæn biː rɪˈmuːvd frɒm ə ˈnʌmbə.
+
 
 `]);
