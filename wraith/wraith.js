@@ -3,20 +3,17 @@ TEXTS.push([`
 https://www.short-story.me/stories/fantasy-stories
 https://www.theazrianportal.com/the-wraith-fantasy-short-story
 
-wraith --- reɪθ --- призрак, видение --- reɪθ
-carefully --- kɛrfəli --- осторожно, аккуратно --- kɛrfəli
-grip --- grɪp --- схватить, крепко держать, подхватить--- grɪp
-shoulder --- ʃoʊldər --- плечо, лопатка, брать на себя, взвалить на плечи--- ʃoʊldər
-pull --- pʊl --- тянуть, тащить --- pʊl
-slip --- slɪp --- скользить, проскальзывать ---  slɪp
-slippery --- slɪpəri --- скользкий --- slɪpəri
-behind --- bɪˈhaɪnd --- за, позади, сзади, после, вслед, зад --- bɪˈhaɪnd
-stain --- steɪn --- пятно, пятнать, пачкать --- steɪn
-blood --- blʌd --- кровь --- blʌd
-cobalt --- koʊbɔːlt --- кобальт --- koʊbɔːlt
-strand --- strænd --- прядь, садиться на мель ---  strænd
-stick --- stɪk --- прилипать, липнуть, палка, посох --- stɪk
-rest --- rɛst --- rɛst
+flick --- flɪk --- слегка ударить, щёлкнуть, хлестнуть, стегнуть --- flɪk
+flickering --- flɪkərɪŋ --- мигающий, мерцающий, колеблющийся, мерцание, мигание --- flɪkərɪŋ
+firelight --- faɪərlaɪt --- свет от камина, свет от костра --- faɪərlaɪt
+horror --- hɔrər --- ужас, отвращение --- hɔrər
+what little --- wʌt lɪtəl --- то немногое --- wʌt lɪtəl
+gash --- ɡæʃ --- глубокая рана, разрез, наносить глубокую рану, мрачного вида --- ɡæʃ
+inch --- ɪntʃ --- дюйм --- ɪntʃ
+inches --- ɪnʧəz --- дюймы --- ɪnʧəz
+apart --- əˈpɑrt --- отдельно, обособленно --- əˈpɑrt
+scored --- skɔrd --- имеющий на поверхности какие-л. отметины --- skɔrd
+waist --- weɪst --- талия (пояс) --- weɪst
 
 <eng>
 “How does it look?”
