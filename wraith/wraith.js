@@ -3,12 +3,27 @@ TEXTS.push([`
 https://www.short-story.me/stories/fantasy-stories
 https://www.theazrianportal.com/the-wraith-fantasy-short-story
 
+wraith --- reɪθ --- призрак, видение --- reɪθ
+carefully --- kɛrfəli --- осторожно, аккуратно --- kɛrfəli
+grip --- grɪp --- схватить, крепко держать, подхватить--- grɪp
+shoulder --- ʃoʊldər --- плечо, лопатка, брать на себя, взвалить на плечи--- ʃoʊldər
+pull --- pʊl --- тянуть, тащить --- pʊl
+slip --- slɪp --- скользить, проскальзывать ---  slɪp
+slippery --- slɪpəri --- скользкий --- slɪpəri
+behind --- bɪˈhaɪnd --- за, позади, сзади, после, вслед, зад --- bɪˈhaɪnd
+stain --- steɪn --- пятно, пятнать, пачкать --- steɪn
+blood --- blʌd --- кровь --- blʌd
+cobalt --- koʊbɔːlt --- кобальт --- koʊbɔːlt
+strand --- strænd --- прядь, садиться на мель ---  strænd
+stick --- stɪk --- прилипать, липнуть, палка, посох --- stɪk
+rest --- rɛst --- rɛst
+
 <eng>
 “How does it look?”
 
-Carefully, I gripped my companion by the shoulder and pulled him away from the slippery stone wall.
-He left behind stains of blood on the cobalt rock; strands, thick and black, sticking to where he once rested.
-In the flickering firelight, what little I could see was pure horror.
+Carefully, I gripped my comˈpanion by the shoulder and pulled him aˈway from the slippery stone wall.
+He left beˈhind stains of blood on the ˈcoˌbalt rock; strands, thick and black, sticking to where he once rested.
+*In the flickering firelight, what little I could see was pure horror.
 Three deep gashes, each about three inches apart, were scored across his back from left waist to right shoulder.
 A mess of torn flesh, muscle and tendons, he had been ripped to the bone, right through his thick furs and leathers.
 In the freezing temperatures, the blood seemed to flow less willingly, but this made the injury no less grim.
@@ -29,7 +44,17 @@ I wiped my hands on the moisture, trying to remove some of the blood that coated
 Тепло от огня согревало скалу, которая нас окружала, образуя капли воды, которые либо капали с неровного потолка, либо скользили по изогнутой стене.
 Я вытер руки о влагу, пытаясь удалить кровь, покрывавшую их.
 <trn>
+haʊ dəz ɪt lʊk?
 
+kɛrfəli, aɪ grɪpt maɪ kəmˈpænjən baɪ ðə ʃoʊldər ənd pʊld hɪm əˈweɪ frəm ðə slɪpəri stoʊn wɔl.
+hi lɛft bɪˈhaɪnd steɪnz əv blʌd ɑn ðə ˈkoʊbɔːlt rɑk; strændz, θɪk ənd blæk, stɪkɪŋ tə wɛr hi wʌns rɛstəd.
+ɪn ðə flɪkərɪŋ faɪərlaɪt, wʌt lɪtəl aɪ kəd si wəz pjʊr hɔrər.
+θri dip ˈgæʃəz, iʧ əˈbaʊt θri ˈɪnʧəz əˈpɑrt, wər skɔrd əˈkrɔs ɪz bæk frəm lɛft weɪst tə raɪt ˈʃoʊldər.
+ə mɛs əv tɔrn flɛʃ, ˈmʌsəl ənd ˈtɛndənz, hi həd bɪn rɪpt tə ðə boʊn, raɪt θru ɪz θɪk fɜrz ənd ˈlɛðərz.
+ɪn ðə ˈfrizɪŋ ˈtɛmprəʧərz, ðə blʌd simd tə floʊ lɛs ˈwɪlɪŋli, bət ðɪs meɪd ði ˈɪnʤəri noʊ lɛs grɪm.
+ˈsloʊli, aɪ lɛt ɪm roʊl bæk tə ɪz ˈrɛstɪŋ pleɪs əˈgɛnst ðə wɔl əv ðə keɪv.
+ðə hit frəm ðə ˈfaɪər wɔrmd ðə rɑk ðət ɛnˈkeɪst ʌs, ˈfɔrmɪŋ ˈdrɑpləts əv ˈwɔtər ðət ˈiðər drɪpt frəm ðə ʤægd ˈsilɪŋ ɔr slɪd ðɛr weɪ daʊn ðə kɜrvd wɔl.
+aɪ waɪpt maɪ hændz ɑn ðə ˈmɔɪsʧər, ˈtraɪɪŋ tə riˈmuv səm əv ðə blʌd ðət ˈkoʊtəd ðɛm.
 
 <eng>
 “I’ve seen worse”.
