@@ -3,26 +3,14 @@ TEXTS.push([`
 https://www.short-story.me/stories/fantasy-stories
 https://www.theazrianportal.com/the-wraith-fantasy-short-story
 
-flick --- flɪk --- слегка ударить, щёлкнуть, хлестнуть, стегнуть --- flɪk
-flickering --- flɪkərɪŋ --- мигающий, мерцающий, колеблющийся, мерцание, мигание --- flɪkərɪŋ
-firelight --- faɪərlaɪt --- свет от камина, свет от костра --- faɪərlaɪt
-horror --- hɔrər --- ужас, отвращение --- hɔrər
-what little --- wʌt lɪtəl --- то немногое --- wʌt lɪtəl
-gash --- ɡæʃ --- глубокая рана, разрез, наносить глубокую рану, мрачного вида --- ɡæʃ
-inch --- ɪntʃ --- дюйм --- ɪntʃ
-inches --- ɪnʧəz --- дюймы --- ɪnʧəz
-apart --- əˈpɑrt --- отдельно, обособленно --- əˈpɑrt
-scored --- skɔrd --- имеющий на поверхности какие-л. отметины --- skɔrd
-waist --- weɪst --- талия (пояс) --- weɪst
-
 <eng>
 “How does it look?”
 
 Carefully, I gripped my comˈpanion by the shoulder and pulled him aˈway from the slippery stone wall.
 He left beˈhind stains of blood on the ˈcoˌbalt rock; strands, thick and black, sticking to where he once rested.
-*In the flickering firelight, what little I could see was pure horror.
+In the flickering firelight, what little I could see was pure horror.
 Three deep gashes, each about three inches apart, were scored across his back from left waist to right shoulder.
-A mess of torn flesh, muscle and tendons, he had been ripped to the bone, right through his thick furs and leathers.
+*A mess of torn flesh, muscle and tendons, he had been ripped to the bone, right through his thick furs and leathers.
 In the freezing temperatures, the blood seemed to flow less willingly, but this made the injury no less grim.
 Slowly, I let him roll back to his resting place against the wall of the cave.
 The heat from the fire warmed the rock that encased us, forming droplets of water that either dripped from the jagged ceiling or slid their way down the curved wall.
