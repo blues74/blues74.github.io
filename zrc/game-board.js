@@ -162,20 +162,7 @@ class GameBoard {
       margin-top: 0;
     `);
 
-    let html = `
-      <p style="${style}">${arr[0]}</p>
-      <p style="${style}">${arr[1]}</p>
-    `;
-
-    if (arr[2]) {
-      html += `<p style="${style}">${arr[2]}</p>`;
-    }
-
-    if (arr[3]) {
-      html += `<p style="${style}">${arr[3]}</p>`;
-    }
-
-    html += `
+    let btnHtml = `
       <p class="row">
         <button
           data-name="toTheEnd"
@@ -191,6 +178,23 @@ class GameBoard {
         >Удалить</button>
       </p>
     `;
+
+    let html = btnHtml;
+
+    html += `
+      <p style="${style}">${arr[0]}</p>
+      <p style="${style}">${arr[1]}</p>
+    `;
+
+    if (arr[2]) {
+      html += `<p style="${style}">${arr[2]}</p>`;
+    }
+
+    if (arr[3]) {
+      html += `<p style="${style}">${arr[3]}</p>`;
+    }
+
+    html += btnHtml;
 
     return html;
   }
@@ -244,7 +248,8 @@ class GameBoard {
         const meta = APP_DATA.currMeta.split(' ').map(item => item.trim()).filter(item => !!item);
         const key = meta[0];
         const group = meta[1];
-        if (group === 'words')
+
+        if (group === 'words') {
           if (!STAT[group]) {
             STAT[group] = {};
           }
@@ -256,6 +261,7 @@ class GameBoard {
             STAT[group][key].count = 1 + STAT[group][key].count;
             saveStat();
           }
+        }
         // dialogVc.close();
       });
 

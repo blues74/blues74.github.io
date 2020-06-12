@@ -1,6 +1,6 @@
 ALL_DATA.push([`
 
-math-007 basicMath consonant_sounds count:4
+007 basicMath consonant_sounds count:4
 zeros --- zɪərəʊz --- нули --- zɪərəʊz
 hundred-thousands digit --- hʌndrəd-θaʊzəndz dɪʤɪt --- разряд сотен тысяч --- hʌndrəd-θaʊzəndz dɪʤɪt
 ten-thousands --- tɛn-ˈθaʊzəndz dɪʤɪt --- разряд десятков тысяч --- tɛn-ˈθaʊzəndz dɪʤɪt
@@ -54,7 +54,7 @@ con'sider --- kən'sɪdə --- считать, полагать, рассматр
 
       `,`
 
-math-010 basicMath consonant_sounds count:4
+010 basicMath consonant_sounds count:4
 rounding --- raʊndɪŋ --- округление --- raʊndɪŋ
 numbers --- nʌmbərz --- числа --- nʌmbərz
 two-digit number --- tu-dɪʤət nʌmbər --- двузначное число --- tu-dɪʤət nʌmbər
@@ -67,15 +67,13 @@ turn --- tɜrn --- превращать, повернуть --- tɜrn
       `,`
 
 term basicMath consonant_sounds count:4
-a'ddition --- ə'dɪʃn --- --- сложение
-sub'traction --- səb'trækʃn --- --- вычитание
-'multipli'cation --- mʌltɪplɪ'keɪʃn --- --- умножение
-di'vision --- dɪ'vɪʒ(ə)n --- --- деление
-vector --- vektə(r) --- --- вектор
-vector math_term
-vector --- vektə(r) --- --- вектор
-colline'arity --- kəʊlini'æriti --- --- коллинеарность
-co'llinear --- kəu'lɪnɪə ---  лежащий на одной прямой --- коллиниарный
+a'ddition --- ə'dɪʃn --- сложение --- ə'dɪʃn
+sub'traction --- səb'trækʃn --- вычитание --- səb'trækʃn
+'multipli'cation --- mʌltɪplɪ'keɪʃn --- умножение --- mʌltɪplɪ'keɪʃn
+di'vision --- dɪ'vɪʒ(ə)n --- деление --- dɪ'vɪʒ(ə)n
+vector --- vektə(r) --- вектор --- vektə(r)
+colline'arity --- kəʊlini'æriti --- коллинеарность --- kəʊlini'æriti
+co'llinear --- kəu'lɪnɪə ---  лежащий на одной прямой, коллиниарный --- kəu'lɪnɪə
 
     `,`
 
