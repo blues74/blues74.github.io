@@ -1,5 +1,6 @@
-TEXTS.push([`
+TEXTS.wraith.push(`
 
+<skip>
 https://www.short-story.me/stories/fantasy-stories
 https://www.theazrianportal.com/the-wraith-fantasy-short-story
 
@@ -708,4 +709,4 @@ Pain for another life lost for no reason.
 <rus>
 <trn>
 
-`]);
+`);

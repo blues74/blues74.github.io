@@ -1,4 +1,4 @@
-TEXTS.push([`
+TEXTS.basicMath.push(`
 <eng>
 In This Chapter
 - Understanding how place_value turns digits into numbers
@@ -161,4 +161,4 @@ The first 0 is a leading zero, and the remaining 0s are placeholders.
 ðə fɜːst 0 ɪz ɪn ðə ˈhʌndrəd-ˈθaʊzəndz pleɪs, 4 ɪz ɪn ðə tɛn-ˈθaʊzəndz pleɪs, ðə nɛkst 0 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 1 ɪz ɪn ðə ˈhʌndrədz pleɪs, 2 ɪz ɪn ðə tɛnz pleɪs, ænd ðə lɑːst 0 ɪz ɪn ðə wʌnz pleɪs, səʊ
 ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
 
-`]);
+`);

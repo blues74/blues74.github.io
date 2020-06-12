@@ -3,12 +3,18 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
-const TEXTS = [];
 
 let APP_DATA = getEmptyAppData();
 let STAT = {};
 
-
+TEXTS = {
+  akita: [],
+  basicMath: [],
+  digits: [],
+  words: [],
+  wraith: [],
+  multiplication_table: [],
+}
 
 try {
   if (Dom7) {

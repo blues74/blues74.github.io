@@ -1,8 +1,18 @@
+// constuctor
+// init
+// initContentsList
+// getIconContent
+// loadWords
+// showSet
+
+// getItemCardContent - карточка слова
+
 class GameBoard {
 
   constructor($vc) {
     this.$el = null;
     this.$vc = $vc;
+    this.groupName = '';
   }
 
   init($el) {
@@ -45,6 +55,7 @@ class GameBoard {
     const $app = this.$vc.$app;
     const $route = this.$vc.$route;
     const groupName = $route.params.id || 'words';
+    this.groupName = groupName;
     const groupData = ALL_BY_GROUPS[groupName];
     let html = this.getIconContent();
 
@@ -171,6 +182,10 @@ class GameBoard {
           class="col button button-large button-raised button-fill color-red"
         >В конец</button>
         <button
+          data-name="showExample"
+          class="col button button-large button-raised button-fill color-gray"
+        >Пример</button>
+        <button
           data-name="remove"
           class="col button button-large button-raised button-fill color-green"
         >Удалить</button>
@@ -250,6 +265,16 @@ class GameBoard {
         APP_DATA.currSet.push(item[0]);
         this.showSet(APP_DATA.currSet);
         // dialogVc.close();
+      });
+
+    /* showExample action */
+      dyName('showExample', itemCard /*dialogVc.$el*/).on('click', (e) => {
+        console.log(item);
+        // console.log(TEXTS[this.groupName]);
+        // const item = APP_DATA.currSet.splice(nio, 1);
+        // APP_DATA.currSet.push(item[0]);
+        // this.showSet(APP_DATA.currSet);
+        // // dialogVc.close();
       });
     });
 
