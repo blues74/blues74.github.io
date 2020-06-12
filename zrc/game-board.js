@@ -4,7 +4,8 @@
 // getIconContent
 // loadWords
 // showSet
-
+// showPopupSetting
+// showExamplePopup
 // getItemCardContent - карточка слова
 
 class GameBoard {
@@ -109,6 +110,7 @@ class GameBoard {
   }
 
   loadWords (id) {
+    console.log('ID', id);
     let x = ALL_KEYS[id];
     let arr = ALL_DATA[x.i][x.j].trim().split('\n');
     let meta = arr[0].trim();
@@ -116,8 +118,6 @@ class GameBoard {
     arr = arr.slice(1);
     APP_DATA.currSet = APP_DATA.options.showByOrder ? arr : _.shuffle(arr);
     APP_DATA.currMeta = meta;
-
-    // console.log(/ consonant_sounds/.test(meta), meta);
 
     this.showSet(APP_DATA.currSet);
   }
@@ -143,14 +143,6 @@ class GameBoard {
 
   getItemCardContent(item) {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
-
-    // const word = arr[0];
-    // const trn = arr[1];
-    // const tip  = _.last(arr);
-    // // const tip  = arr[3].split(' ').shift();
-    // // const translate = _.toLower(arr[2]);
-    // const translate = arr[2];
-    // const phrase = arr[3];
 
     const style = formatStyle(`
       font-size: 2rem;
@@ -199,6 +191,170 @@ class GameBoard {
     return html;
   }
 
+  showPopupSetting() {
+    const dataName = 'settingsPopup'
+    const html = `
+      <div class="popup" data-name="${dataName}">
+        <div class="view">
+          <div class="page">
+            <div class="navbar">
+              <div class="navbar-bg"></div>
+              <div class="navbar-inner">
+                <div class="title">Настройки</div>
+                <div class="right">
+                  <a href="#" class="link popup-close">Закрыть</a>
+                </div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="block-title">Form Example</div>
+              <div class="list no-hairlines-md" data-name="${dataName}Content">
+                <ul>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">По порядку</div>
+                        <div class="item-after">
+                          <label class="toggle toggle-init" data-name="showByOrder">
+                            <input type="checkbox">
+                            <span class="toggle-icon"></span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">По подсказке</div>
+                        <div class="item-after">
+                          <label class="toggle toggle-init" data-name="showByTip">
+                            <input type="checkbox">
+                            <span class="toggle-icon"></span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="block">
+                <button
+                  data-name="saveSettings"
+                  class="button button-large button-raised button-fill color-green"
+                >Применить</button>
+              </div>
+            </div> <!-- /page-content -->
+          </div>
+        </div>
+      </div>
+    `;
+
+    let popup = this.$vc.$app.popup.create({
+      content: html,
+      on: {
+        opened: function () {
+          console.log('Popup opened')
+        }
+      }
+    });
+
+    popup.open();
+
+    let toggleByOrder = app.toggle.create({
+      el: dyName('showByOrder', popup.$el),
+      on: {
+        change: function (vc) {
+          const name = vc.$el.dataset().name;
+          APP_DATA.options[name] = vc.checked;
+          saveAppData();
+        }
+      }
+    });
+    toggleByOrder.checked = !!APP_DATA.options.showByOrder;
+
+
+    let toggleByTip = app.toggle.create({
+      el: dyName('showByTip', popup.$el),
+      on: {
+        change: function (vc) {
+          const name = vc.$el.dataset().name;
+          APP_DATA.options[name] = vc.checked;
+          saveAppData();
+        }
+      }
+    });
+    toggleByTip.checked = !!APP_DATA.options.showByTip;
+
+    dyName('saveSettings', popup.$el).on('click', (e) => {
+      this.showSet(APP_DATA.currSet);
+      popup.close();
+    });
+  }
+
+  showItemCard(targetEl) {
+    const nio = parseInt($(targetEl).data('nio'), 10);
+    const item = APP_DATA.currSet[nio];
+    let html = this.getItemCardContent(item);
+
+    dyName('itemCard', this.$el).remove();
+    let itemCard = $(document.createElement('div')).html(html);
+    itemCard.attr('data-name', 'itemCard');
+    $(itemCard).insertAfter(targetEl);
+
+  /* create/open dialog */
+    // var dialogVc = this.$vc.$app.dialog.create({
+    //   // text: 'Hello World',
+    //   cssClass: 'super',
+    //   content: html,
+    //   closeByBackdropClick: true,
+    //   on: {
+    //     opened: function () {
+    //       // console.log('Dialog opened');
+    //     }
+    //   }
+    // });
+    // dialogVc.open();
+
+  /* remove item action */
+    dyName('remove', itemCard /*dialogVc.$el*/).on('click', (e) => {
+      APP_DATA.currSet.splice(nio, 1);
+      this.showSet(APP_DATA.currSet);
+      const meta = APP_DATA.currMeta.split(' ').map(item => item.trim()).filter(item => !!item);
+      const key = meta[0];
+      const group = meta[1];
+
+      if (group === 'words') {
+        if (!STAT[group]) {
+          STAT[group] = {};
+        }
+        if (!STAT[group][key] || isNaN(STAT[group][key].count)) {
+          STAT[group][key] = {count: 0};
+        }
+        if (!APP_DATA.currSet.length) {
+          // console.log(STAT);
+          STAT[group][key].count = 1 + STAT[group][key].count;
+          saveStat();
+        }
+      }
+      // dialogVc.close();
+    });
+
+  /* toTheEnd action */
+    dyName('toTheEnd', itemCard /*dialogVc.$el*/).on('click', (e) => {
+      const item = APP_DATA.currSet.splice(nio, 1);
+      APP_DATA.currSet.push(item[0]);
+      this.showSet(APP_DATA.currSet);
+      // dialogVc.close();
+    });
+
+  /* showExample action */
+    dyName('showExample', itemCard /*dialogVc.$el*/).on('click', (e) => {
+      this.showExamplePopup(item);
+    });
+  }
+
+
   showSet(arrSet) {
     let html = this.getIconContent(true);
 
@@ -218,175 +374,54 @@ class GameBoard {
 
   /* item click action */
     dyName('item', this.$el).on('click', (e) => {
-      const nio = parseInt($(e.target).data('nio'), 10);
-      const item = APP_DATA.currSet[nio];
-      let html = this.getItemCardContent(item);
-
-      dyName('itemCard', this.$el).remove();
-      let itemCard = $(document.createElement('div')).html(html);
-      itemCard.attr('data-name', 'itemCard');
-      $(itemCard).insertAfter(e.target);
-
-    /* create/open dialog */
-      // var dialogVc = this.$vc.$app.dialog.create({
-      //   // text: 'Hello World',
-      //   cssClass: 'super',
-      //   content: html,
-      //   closeByBackdropClick: true,
-      //   on: {
-      //     opened: function () {
-      //       // console.log('Dialog opened');
-      //     }
-      //   }
-      // });
-      // dialogVc.open();
-
-    /* remove item action */
-      dyName('remove', itemCard /*dialogVc.$el*/).on('click', (e) => {
-        APP_DATA.currSet.splice(nio, 1);
-        this.showSet(APP_DATA.currSet);
-        const meta = APP_DATA.currMeta.split(' ').map(item => item.trim()).filter(item => !!item);
-        const key = meta[0];
-        const group = meta[1];
-
-        if (group === 'words') {
-          if (!STAT[group]) {
-            STAT[group] = {};
-          }
-          if (!STAT[group][key] || isNaN(STAT[group][key].count)) {
-            STAT[group][key] = {count: 0};
-          }
-          if (!APP_DATA.currSet.length) {
-            // console.log(STAT);
-            STAT[group][key].count = 1 + STAT[group][key].count;
-            saveStat();
-          }
-        }
-        // dialogVc.close();
-      });
-
-    /* toTheEnd action */
-      dyName('toTheEnd', itemCard /*dialogVc.$el*/).on('click', (e) => {
-        const item = APP_DATA.currSet.splice(nio, 1);
-        APP_DATA.currSet.push(item[0]);
-        this.showSet(APP_DATA.currSet);
-        // dialogVc.close();
-      });
-
-    /* showExample action */
-      dyName('showExample', itemCard /*dialogVc.$el*/).on('click', (e) => {
-        console.log(item);
-        // console.log(TEXTS[this.groupName]);
-        // const item = APP_DATA.currSet.splice(nio, 1);
-        // APP_DATA.currSet.push(item[0]);
-        // this.showSet(APP_DATA.currSet);
-        // // dialogVc.close();
-      });
+      this.showItemCard(e.target);
     });
 
-    /* settings action */
+  /* settings action */
     dyName('settings', this.$el).on('click', (e) => {
-      const dataName = 'settingsPopup'
-      const html = `
-        <div class="popup" data-name="${dataName}">
-          <div class="view">
-            <div class="page">
-              <div class="navbar">
-                <div class="navbar-bg"></div>
-                <div class="navbar-inner">
-                  <div class="title">Настройки</div>
-                  <div class="right">
-                    <a href="#" class="link popup-close">Закрыть</a>
-                  </div>
-                </div>
+      this.showPopupSetting();
+    });
+  } // showSet
+
+  showExamplePopup(item) {
+    const meta = getMetadata(APP_DATA.currMeta);
+    let word = item.split('---').map(item => item.trim())[0]; // .filter(item => !!item);
+    let sentences = (TEXTS[meta.page][meta.group] || '').split(/\n/).map(item => item.trim()).filter(item => !!item);
+    let out = '';
+
+    _.each(sentences, sentence => {
+      if (new RegExp(word).test(sentence)) {
+        out += sentence + '<br/>';
+      }
+    });
+
+    const dataName = 'examplePopup';
+    const html = `
+      <div class="popup" data-name="${dataName}">
+        <div class="view">
+          <div class="page">
+            <div class="page-content">
+              <div data-name="${dataName}Content" style="font-size: 2rem; padding: .5rem;">
               </div>
-              <div class="page-content">
-                <div class="block-title">Form Example</div>
-                <div class="list no-hairlines-md" data-name="${dataName}Content">
-                  <ul>
-                    <li>
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">По порядку</div>
-                          <div class="item-after">
-                            <label class="toggle toggle-init" data-name="showByOrder">
-                              <input type="checkbox">
-                              <span class="toggle-icon"></span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">По подсказке</div>
-                          <div class="item-after">
-                            <label class="toggle toggle-init" data-name="showByTip">
-                              <input type="checkbox">
-                              <span class="toggle-icon"></span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="block">
-                  <button
-                    data-name="saveSettings"
-                    class="button button-large button-raised button-fill color-green"
-                  >Применить</button>
-                </div>
-              </div> <!-- /page-content -->
             </div>
           </div>
         </div>
-      `;
+      </div>
+    `;
 
-      let popup = this.$vc.$app.popup.create({
-        content: html,
-        on: {
-          opened: function () {
-            console.log('Popup opened')
-          }
+    let popup = this.$vc.$app.popup.create({
+      content: html,
+      swipeToClose: true,
+      on: {
+        opened: function () {
+          console.log('Example popup opened')
         }
-      });
-
-      popup.open();
-
-      let toggleByOrder = app.toggle.create({
-        el: dyName('showByOrder', popup.$el),
-        on: {
-          change: function (vc) {
-            const name = vc.$el.dataset().name;
-            APP_DATA.options[name] = vc.checked;
-            saveAppData();
-          }
-        }
-      });
-      toggleByOrder.checked = !!APP_DATA.options.showByOrder;
-
-
-      let toggleByTip = app.toggle.create({
-        el: dyName('showByTip', popup.$el),
-        on: {
-          change: function (vc) {
-            const name = vc.$el.dataset().name;
-            APP_DATA.options[name] = vc.checked;
-            saveAppData();
-          }
-        }
-      });
-      toggleByTip.checked = !!APP_DATA.options.showByTip;
-
-      dyName('saveSettings', popup.$el).on('click', (e) => {
-        this.showSet(APP_DATA.currSet);
-        popup.close();
-      });
-
+      }
     });
 
+    popup.open();
+
+    dyName(`${dataName}Content`, popup.$el).html(out);
   }
 
 }

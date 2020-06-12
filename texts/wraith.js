@@ -1,4 +1,5 @@
-TEXTS.wraith.push(`
+TEXTS.wraith.push([`
+[wraith-1] [wraith]
 
 <skip>
 https://www.short-story.me/stories/fantasy-stories
@@ -709,4 +710,4 @@ Pain for another life lost for no reason.
 <rus>
 <trn>
 
-`);
+`]);

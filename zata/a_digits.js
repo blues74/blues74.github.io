@@ -1,7 +1,7 @@
 ALL_DATA.push([
 
 `
-0# digits alphanumeric_code
+[0#] [digits] [alphanumeric_code]
 0  --- Н М --- кольцо, перстень, обруч --- яМа
 1  --- Г Ж --- ёЖ
 2  --- Д Т --- йоД --- яД
@@ -16,7 +16,7 @@ ALL_DATA.push([
 `,
 
 `
-00# digits alphanumeric_code
+[00#] [digits] [alphanumeric_code]
 00  --- --- --- МиНа МН НМ
 01  --- --- --- НоЖ МГ МЖ НГ НЖ
 02  --- --- --- МёД МД МТ НД НТ
@@ -31,7 +31,7 @@ ALL_DATA.push([
 `,
 
 `
-11# digits alphanumeric_code
+[11#] [digits] [alphanumeric_code]
 10 --- --- --- оГоНь
 11 --- --- --- ГаГарин
 12 --- --- --- ГиТара
@@ -46,7 +46,7 @@ ALL_DATA.push([
 `,
 
 `
-61# digits alphanumeric_code
+[61#] [digits] [alphanumeric_code]
 60 --- --- --- ШиНа
 61 --- --- --- ЛыЖи
 62 --- --- --- ЛаДья
@@ -61,7 +61,7 @@ ALL_DATA.push([
 `,
 
 `
-AxB-hard# multiplication_table alphanumeric_code
+[AxB-hard#] [multiplication_table] [alphanumeric_code]
 яйЦо на крест  --- 36 --- --- КЛей
 яйЦо на перчатку --- 45 --- --- ЧиП
 яйЦо на юЛа  --- 54 --- --- ПеЧь
@@ -74,7 +74,7 @@ AxB-hard# multiplication_table alphanumeric_code
 `,
 
 `
-AxB-super-hard# multiplication_table alphanumeric_code
+[AxB-super-hard#] [multiplication_table] [alphanumeric_code]
 яйЦо да юЛа --- 54 --- --- ПеЧь
 осьминог да оСа  --- 56 --- --- ПиЛа
 юЛа да яйЦо --- 54 --- --- ПеЧь

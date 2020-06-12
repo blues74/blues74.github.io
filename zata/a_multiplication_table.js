@@ -1,7 +1,7 @@
 ALL_DATA.push([
 
 `
-AxA multiplication_table
+[AxA] [multiplication_table]
 0 на 0 --- --- --- 0
 1 на 1 --- --- --- 1
 2 на 2 --- --- --- 4
@@ -15,7 +15,7 @@ AxA multiplication_table
 `,
 
 `
-9xB multiplication_table
+[9xB] [multiplication_table]
 0 на 9 --- --- --- 0
 1 на 9 --- --- --- 9
 2 на 9 --- --- --- 18
@@ -39,7 +39,7 @@ AxA multiplication_table
 `,
 
 `
-8xB multiplication_table
+[8xB] [multiplication_table]
 0 на 8 --- --- --- 0
 1 на 8 --- --- --- 8
 2 на 8 --- --- --- 16
@@ -63,7 +63,7 @@ AxA multiplication_table
 `,
 
 `
-7xB multiplication_table
+[7xB] [multiplication_table]
 0 на 7 --- --- --- 0
 1 на 7 --- --- --- 7
 2 на 7 --- --- --- 14
@@ -87,7 +87,7 @@ AxA multiplication_table
 `,
 
 `
-6xB multiplication_table
+[6xB] [multiplication_table]
 0 на 6 --- --- --- 0
 1 на 6 --- --- --- 6
 2 на 6 --- --- --- 12
@@ -111,7 +111,7 @@ AxA multiplication_table
 `,
 
 `
-5xB multiplication_table
+[5xB] [multiplication_table]
 0 на 5 --- --- --- 0
 1 на 5 --- --- --- 5
 2 на 5 --- --- --- 10
@@ -135,7 +135,7 @@ AxA multiplication_table
 `,
 
 `
-4xB multiplication_table
+[4xB] [multiplication_table]
 0 на 4 --- --- --- 0
 1 на 4 --- --- --- 4
 2 на 4 --- --- --- 8
@@ -159,7 +159,7 @@ AxA multiplication_table
 `,
 
 `
-3xB multiplication_table
+[3xB] [multiplication_table]
 0 на 3 --- --- --- 0
 1 на 3 --- --- --- 3
 2 на 3 --- --- --- 6
@@ -183,7 +183,7 @@ AxA multiplication_table
 `,
 
 `
-2xB multiplication_table
+[2xB] [multiplication_table]
 0 на 2 --- яМа, кольцо, перстень, обруч --- --- 0
 1 на 2 --- йоД, яД --- --- 2
 2 на 2 --- Чай --- --- 4
@@ -207,7 +207,7 @@ AxA multiplication_table
 `,
 
 `
-1xB multiplication_table
+[1xB] [multiplication_table]
 0 на 1 --- яМа --- --- 0
 1 на 1 --- ёЖ --- --- 1
 2 на 1 --- яД, йоД --- --- 2
@@ -231,7 +231,7 @@ AxA multiplication_table
 `,
 
 `
-AxB-hard multiplication_table
+[AxB-hard] [multiplication_table]
 9 на 4 --- --- --- 36
 9 на 5 --- --- --- 45
 9 на 6 --- --- --- 54
