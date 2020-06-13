@@ -254,7 +254,8 @@ How big is the abyss between what you think you are and what you actually are?
 At that time Bosnia was standing on the edge of an abyss.
 В то время Босния стояла на краю пропасти.
 
-Looking down at the dark ocean from the ship's rail, the cruise passenger felt as though he was staring into an abyss.
+Looking down at the dark ocean from the ship's rail, the cruise passenger felt as_though he was staring into an abyss. (stare)
+Глядя вниз в тёмный океан из-за поручней корабля, круизный пассажир чувствовал как будто он всматривается(уставился) в бездну.
 Глядя вниз в тёмные глубины океана с борта круизного лайнера, пассажир чувствовал, будто смотрел в бездну.
 
 ---

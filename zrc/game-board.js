@@ -422,7 +422,7 @@ class GameBoard {
         <div class="view">
           <div class="page">
             <div class="page-content">
-              <div data-name="${dataName}Content" style="font-size: 2rem; padding: .5rem;">
+              <div data-name="${dataName}Content" style="font-size: 2.25rem; padding: .5rem; word-break: break-word;">
               </div>
             </div>
           </div>
