@@ -1,11 +1,16 @@
 _.each(ALL_DATA, (arrPage, i) => {
   _.each(arrPage, (txtGroup, j) => {
-    let arr = txtGroup.trim().split('\n');
-    let meta = arr[0].trim();
-    if (!meta) return false;
+    // пропускаем пустые значения
+    txtGroup = txtGroup.trim();
+    if (!txtGroup) return;
 
+    // метаданные группы
+    let arr = txtGroup.split('\n');
+    let meta = arr[0].trim();
+    if (!meta) return;
     meta = getMetadata(meta);
 
+    // создаём группу если её ещё нет
     if (!ALL_BY_GROUPS[meta.page]) {
       ALL_BY_GROUPS[meta.page] = {
         $keys: []

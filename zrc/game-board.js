@@ -392,18 +392,29 @@ class GameBoard {
       .map(item => item.trim())
       .filter(item => !!item);
 
-    let out = '';
+    let outArr = [];
+    let outArr2 = [];
+    let sentence;
+    let out;
 
-    _.each(sentences, sentenceSrc => {
-      let sentence = sentenceSrc.replace(/'/g, '');
+    _.each(sentences, (sentenceSrc, i) => {
+      sentence = sentenceSrc.replace(/'/g, '');
+      sentence = sentenceSrc.replace(/_/g, ' ');
+
       word = word.replace(/'/g, '');
       word = word.replace(/\*/g, '');
+      word = word.replace(/_/g, ' ');
 
       if (new RegExp(word, 'i').test(sentence)) {
         // sentenceSrc = sentenceSrc.replace(RegExp(word, 'ig'), `<strong>${word}</strong>`);
-        out += sentenceSrc + '<br/>';
+        outArr.push(sentenceSrc);
+        outArr2.push(sentences[i+1]);
       }
     });
+
+    outArr = _.shuffle(outArr);
+    out = outArr.join('<br/>');
+    out += '<br/><br/>' + outArr2.join('<br/>');
 
     const dataName = 'examplePopup';
     const html = `

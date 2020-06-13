@@ -11,6 +11,7 @@ const TEXTS = {
   akita: [],
   basicMath: [],
   digits: [],
+  rus: [],
   words: [],
   wraith: [],
   multiplication_table: [],
