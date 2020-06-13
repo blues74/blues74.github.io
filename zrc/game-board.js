@@ -100,7 +100,7 @@ class GameBoard {
     panelContent.html(html);
     dyName('item', panelContent).on('click', (e) => {
       const id = e.target.innerText;
-      this.loadWords(id);
+      this.loadWords(groupName, id);
       dyName('item', panelContent).removeClass('text-color-orange');
       $(e.target).addClass('text-color-orange');
       panelVc.close();
@@ -109,9 +109,10 @@ class GameBoard {
 
   }
 
-  loadWords (id) {
-    console.log('ID', id);
-    let x = ALL_KEYS[id];
+  loadWords (page, group) {
+    let x = ALL_KEYS[`${page}.${group}`];
+    if(!x) return;
+
     let arr = ALL_DATA[x.i][x.j].trim().split('\n');
     let meta = arr[0].trim();
 
@@ -386,12 +387,21 @@ class GameBoard {
   showExamplePopup(item) {
     const meta = getMetadata(APP_DATA.currMeta);
     let word = item.split('---').map(item => item.trim())[0]; // .filter(item => !!item);
-    let sentences = (TEXTS[meta.page][meta.group] || '').split(/\n/).map(item => item.trim()).filter(item => !!item);
+    let sentences = (TEXTS[meta.page][meta.group] || '')
+      .split(/\n/)
+      .map(item => item.trim())
+      .filter(item => !!item);
+
     let out = '';
 
-    _.each(sentences, sentence => {
-      if (new RegExp(word).test(sentence)) {
-        out += sentence + '<br/>';
+    _.each(sentences, sentenceSrc => {
+      let sentence = sentenceSrc.replace(/'/g, '');
+      word = word.replace(/'/g, '');
+      word = word.replace(/\*/g, '');
+
+      if (new RegExp(word, 'i').test(sentence)) {
+        // sentenceSrc = sentenceSrc.replace(RegExp(word, 'ig'), `<strong>${word}</strong>`);
+        out += sentenceSrc + '<br/>';
       }
     });
 

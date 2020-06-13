@@ -4,7 +4,7 @@ _.each(ALL_DATA, (arrPage, i) => {
     let meta = arr[0].trim();
     if (!meta) return false;
 
-    meta = getMetadata(arr[0]);
+    meta = getMetadata(meta);
 
     if (!ALL_BY_GROUPS[meta.page]) {
       ALL_BY_GROUPS[meta.page] = {
@@ -15,11 +15,9 @@ _.each(ALL_DATA, (arrPage, i) => {
     ALL_BY_GROUPS[meta.page][meta.group] = {i, j};
     ALL_BY_GROUPS[meta.page].$keys.push(meta.group);
 
-    ALL_KEYS[meta.group] = {i, j};
+    ALL_KEYS[`${meta.page}.${meta.group}`] = {i, j};
   });
 });
-
-console.log('ALL_BY_GROUPS', ALL_BY_GROUPS);
 
 ALL_BY_GROUPS['words'].$keys = _.reverse(ALL_BY_GROUPS['words'].$keys);
 
@@ -35,4 +33,6 @@ _.each(TEXTS, (item, page) => {
   TEXTS[page] = pageMap;
 });
 
+console.log('ALL_BY_GROUPS', ALL_BY_GROUPS);
+console.log('ALL_KEYS', ALL_KEYS);
 console.log('TEXTS', TEXTS);
