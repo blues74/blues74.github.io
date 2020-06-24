@@ -39,7 +39,7 @@ class GameBoard {
           style="
             display: inline-flex;
             align-items: center;
-            font-size: 2rem;
+            font-size: 2.5rem;
             line-height: 1.25;
             padding: 0 .5rem 0 .5rem;
             margin: 0;
@@ -69,7 +69,7 @@ class GameBoard {
             display: inline-block;
             margin: 0 .25rem .5rem 0;
             padding: .25rem;
-            font-size: 2rem;
+            font-size: 2.5rem;
             line-height: 1.25;
             background-color: #222;
             color: white;
@@ -131,7 +131,7 @@ class GameBoard {
         display: inline-block;
         margin: 0 .25rem .5rem 0;
         padding: .25rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 1.25;
         background-color: #ddd;
         min-width: 2.5rem;
@@ -146,7 +146,7 @@ class GameBoard {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
 
     const style = formatStyle(`
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #333;
       line-height: 1.2;
       padding: .125rem;
@@ -442,7 +442,7 @@ class GameBoard {
         <div class="view">
           <div class="page">
             <div class="page-content">
-              <div data-name="${dataName}Content" style="font-size: 2.25rem; padding: .5rem; word-break: break-word;">
+              <div data-name="${dataName}Content" style="font-size: 2.5rem; padding: .5rem; word-break: break-word;">
               </div>
             </div>
           </div>
