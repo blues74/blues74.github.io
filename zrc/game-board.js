@@ -39,7 +39,7 @@ class GameBoard {
           style="
             display: inline-flex;
             align-items: center;
-            font-size: 2rem;
+            font-size: 2.5rem;
             line-height: 1.25;
             padding: 0 .5rem 0 .5rem;
             margin: 0;
@@ -69,7 +69,7 @@ class GameBoard {
             display: inline-block;
             margin: 0 .25rem .5rem 0;
             padding: .25rem;
-            font-size: 2rem;
+            font-size: 2.5rem;
             line-height: 1.25;
             background-color: #222;
             color: white;
@@ -131,7 +131,7 @@ class GameBoard {
         display: inline-block;
         margin: 0 .25rem .5rem 0;
         padding: .25rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 1.25;
         background-color: #ddd;
         min-width: 2.5rem;
@@ -146,7 +146,7 @@ class GameBoard {
     let arr = item.split('---').map(item => item.trim()); // .filter(item => !!item);
 
     const style = formatStyle(`
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #333;
       line-height: 1.2;
       padding: .125rem;
@@ -392,10 +392,29 @@ class GameBoard {
       .map(item => item.trim())
       .filter(item => !!item);
 
+    function getTemplate(eng, rus) {
+      return `
+        <div data-name="container">
+          <div class="row">
+            <button
+              data-name="btnEng"
+              class="col button button-large button-raised button-fill color-gray"
+            >eng</button>
+            <button
+              data-name="btnRus"
+              class="col button button-large button-raised button-fill color-gray"
+            >rus</button>
+          </div>
+          <div data-name="outEng">${eng}</div>
+          <div data-name="outRus" style="display: none;">${rus}</div>
+        </div>
+      `;
+    }
+
     let outArr = [];
     let outArr2 = [];
     let sentence;
-    let out;
+    let out = '';
 
     _.each(sentences, (sentenceSrc, i) => {
       sentence = sentenceSrc.replace(/'/g, '');
@@ -406,15 +425,16 @@ class GameBoard {
       word = word.replace(/_/g, ' ');
 
       if (new RegExp(word, 'i').test(sentence)) {
-        // sentenceSrc = sentenceSrc.replace(RegExp(word, 'ig'), `<strong>${word}</strong>`);
-        outArr.push(sentenceSrc);
-        outArr2.push(sentences[i+1]);
+        let rus = '';
+        if (/[а-яеЕА-Я]/.test(sentences[i+1] || '')) {
+          rus = sentences[i+1];
+        }
+        outArr.push(getTemplate(sentenceSrc, rus));
       }
     });
 
     outArr = _.shuffle(outArr);
-    out = outArr.join('<br/>');
-    out += '<br/><br/>' + outArr2.join('<br/>');
+    out += outArr.join('');
 
     const dataName = 'examplePopup';
     const html = `
@@ -422,7 +442,7 @@ class GameBoard {
         <div class="view">
           <div class="page">
             <div class="page-content">
-              <div data-name="${dataName}Content" style="font-size: 2.25rem; padding: .5rem; word-break: break-word;">
+              <div data-name="${dataName}Content" style="font-size: 2.5rem; padding: .5rem; word-break: break-word;">
               </div>
             </div>
           </div>
@@ -443,6 +463,18 @@ class GameBoard {
     popup.open();
 
     dyName(`${dataName}Content`, popup.$el).html(out);
+
+    dyName('btnEng', popup.$el).on('click', e => {
+      let $container = $(e.target).parents('[data-name="container"]');
+      dyName('outRus', $container).css('display', 'none');
+      dyName('outEng', $container).css('display', 'block');
+    });
+
+    dyName('btnRus', popup.$el).on('click', e => {
+      let $container = $(e.target).parents('[data-name="container"]');
+      dyName('outEng', $container).css('display', 'none');
+      dyName('outRus', $container).css('display', 'block');
+    });
   }
 
 }
