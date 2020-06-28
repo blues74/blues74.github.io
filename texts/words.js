@@ -2,6 +2,167 @@
 TEXTS.words.push([`
 
     `,`
+[AG] [words]
+
+---
+
+
+
+---
+
+Agreed!
+Решено! / По рукам! / Согласен!
+
+I agree with you.
+Я с вами согласен.
+
+All agree.
+Все согласны.
+
+He agreed to my plan.
+Он согласился с моим планом.
+
+We agree on this.
+В этом мы согласны.
+
+Here we agree.
+С этим мы согласны.
+
+I was stupid to agree.
+Я по глупости согласился.
+
+I totally agree.
+Я полностью согласен.
+
+I can't agree with you!
+Не могу с вами согласиться!
+
+I agree with your plan.
+Я согласен с вашим планом.
+
+Wine doesn't agree with me.
+Мне нельзя пить вина.
+
+I agree with you up to a point.
+До определённой степени я с тобой согласен.
+
+I agree with you there.
+Вот тут я с вами согласен.
+
+She was an idiot to agree!
+Какая же она идиотка, что согласилась!
+
+He agreed to leave her alone.
+Он согласился оставить её в покое.
+
+We shall never agree.
+Мы никогда не поладим.
+
+He agreed with neither side.
+Он не согласился ни с одной из сторон.
+
+I agree with you a hundred percent.
+Я согласен с вами на все сто процентов.
+
+I do not wholly agree.
+Я не совсем согласен.
+
+In the main they agree with us.
+В основном они с нами согласны.
+
+His calculations agree with ours.
+Его расчеты совпадают с нашими.
+
+Yeah, I agree with you.
+Да, я с вами согласен.
+
+The two statements don't agree.
+Эти два утверждения не согласуются.
+
+She agreed to all my conditions.
+Она согласилась на все мои условия.
+
+All the figures sufficiently agree.
+Все цифры в основном сходятся.
+
+I am inclined to agree.
+Я склонен согласиться.
+
+It would be wise to agree.
+Разумнее было бы согласиться.
+
+His statement agrees with facts.
+Его заявление соответствует фактам.
+
+Do you reckon he'll agree to see us?
+Ты думаешь, что он согласится с нами встретиться?
+
+White wine doesn't agree with me.
+Белое вино мне не по душе.
+
+---
+
+I didn't speak any French, but a nice man came to my aid.
+Я совсем не говорю по-французски, но один добрый человек пришёл мне на помощь.
+
+She aided him in his work.
+Она оказывала ему помощь в работе.
+
+The poorer countries depend on aid from richer nations.
+Более бедные страны зависят от помощи более богатых стран.
+
+He jumped into the water to aid the drowning child.
+Он прыгнул в воду, чтобы помочь тонущему ребенку.
+
+They gave money in order to aid the cause.
+Они давали деньги, чтобы оказать помощь делу.
+
+She applied for financial aid in order to go to college.
+Она обратилась за финансовой помощью для того, чтобы поступить в колледж.
+
+Congress passes debt relief measure to aid poor countries.
+Конгресс пошел на облегчение долгового бремени, чтобы помочь бедным странам.
+
+She aided the government in the attempt to fight illiteracy.
+Она содействовала правительству в попытке побороть неграмотность.
+
+A video is a useful aid in the classroom.
+Видео является полезным помощником на уроках.
+
+The work was done with the aid of a computer.
+Работа была выполнена с помощью компьютера.
+
+Rescue party went to their aid.
+Команда спасателей отправилась им на помощь.
+
+The project was completed with the aid of several students.
+Проект был окончен с помощью нескольких студентов.
+
+Welfare spending aids economic development in three ways.
+Расходы на соцобеспечение способствуют экономическому развитию тремя способами.
+
+Mrs Coxen was aided in looking after the children by her niece.
+Племянница миссис Хоксен помогала ей присматривать за детьми.
+
+The government has given millions of dollars in economic aid to these nations.
+Правительство предоставило этим странам миллионы долларов в качестве экономической помощи.
+
+He teaches art with visual aids.
+Он преподаёт искусство с помощью наглядных пособий.
+
+The computer is an aid to keeping costs down.
+Данный компьютер способствует снижению затрат.
+
+Father Poole walked painfully, with the aid of a stick.
+Отец Пул передвигался с большим трудом, с помощью палки.
+
+He has been granted legal aid (=free legal services).
+Ему была предоставлена юридическая помощь (т.е. бесплатные юридические услуги).
+
+Foreign aid from many countries poured into the famine area.
+В голодающие районы потекла иностранная помощь из многих государств.
+
+    `,`
 
 [AB] [words]
 
