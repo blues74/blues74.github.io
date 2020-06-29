@@ -1,12 +1,480 @@
-// ☰
 TEXTS.words.push([`
 
     `,`
+
+[AL] [words]
+
+---
+
+My girlfriend was also called Helen.
+Мою девушку тоже звали Элен.
+
+She's a talented singer and also a fine actress.
+Она талантливая певица, да ещё и хорошая актриса.
+
+I don't think we should go out. Not only is it late, but it's also snowing.
+Не думаю, что нам следует выходить на улицу. Не только потому что уже поздно, но и из-за того что идёт снег.
+
+My neighbors were also at the show that night.
+Мои соседи в тот вечер тоже были на этом шоу /спектакле, концерте/.
+
+Information is also available on women's health care.
+Также доступна информация, касающаяся охраны здоровья женщин.
+
+She sings beautifully and also plays the flute and piano.
+Она прекрасно поёт, а также играет на флейте и на фортепиано.
+
+The system was not only complicated but also ineffective.
+Этот метод был не только сложным, но и неэффективным.
+
+Thomas Edison is best known for inventing the lightbulb, but he also invented the phonograph.
+Больше всего Томас Эдисон известен изобретением лампочки, но также он изобрёл фонограф.
+
+---
+
+He's a good ally in fight.
+Он хороший союзник в борьбе.
+
+We were betrayed by a perfidious ally.
+Мы были преданы коварным союзником.
+
+The allied forces attacked the invading enemy.
+Союзные вооруженные силы атаковали захватчика.
+
+The cats saw I had an ally, and melted.
+Парни увидели, что я с приятелем, и испарились.
+
+He has allied himself to the left wing of the party.
+Он присоединился к левому крылу партии.
+
+She knew she had found an ally in Ted.
+Она понимала, что нашла в лице Теда союзника.
+
+French is allied to Spanish and other Latin languages.
+Французский имеет много общего с испанским и другими романскими языками.
+
+We allied ourselves with our friends against the common enemy.
+Мы объединились с друзьями против общего врага.
+
+I received support from an unlikely ally.
+Я получил поддержку от неожиданного союзника.
+
+As the invasion seemed likely the president called on his allies for help.
+При возникновении угрозы вторжения, президент призвал на помощь своих союзников.
+
+The committee has been run by the mayor and his allies in the Workers' Party.
+Комитет находился под контролем мэра и его союзников в партии рабочих.
+
+Exercise is an important ally in your campaign to lose weight.
+Физические упражнения являются важным союзником в борьбе за то, чтобы похудеть.
+
+They've allied with their former enemies.
+Они объединились со своими бывшими врагами.
+
+She's allied herself with the moderates on this issue.
+По этому вопросу она вступила в союз с "умеренными".
+
+They were toughing it out with the help of the greatest ally a macho young cop ever had, booze.
+Они выдерживали это с помощью самого лучшего и верного союзника мужественных молодых полицейских — выпивки.
+
+Ally groped steadily towards the door.
+Элли постепенно ощупью пробиралась к двери.
+
+Ridley was one of the Queen's closest allies.
+Ридли был одним из ближайших союзников королевы.
+
+Who's that guy Ally's been engrossed in conversation with all night?
+Кто этот парень, с которым Элли так увлечённо беседует весь вечер?
+
+---
+
+He walked all night the alleys of his park.
+Он бродил всю ночь по аллеям своего парка.
+
+It is up your alley.
+Это по вашей части.
+
+I wouldn't care to meet him in a dark alley!
+Не хотел бы я встретиться с ним в тёмном переулке!
+
+The alley led to the railway bridge.
+Улочка вела к железнодорожному мосту.
+
+The thief ditched the purse in an alley.
+Украденный кошелёк вор выбросил в каком-то переулке.
+
+The policeman chased the mugger down the alley
+Полицейский погнался за грабителем по переулку.
+
+She found the side alley where the stage door was located.
+Она нашла закоулок, где находился служебный вход в театр.
+
+“What a beautiful view,” he said, his voice dripping with irony, as he looked out the window at the alley.
+— Какой прекрасный вид, — сказал он, выглянув из окна на переулок, и его голос был полон иронии.
+
+---
+
+All agree.
+Все согласны.
+
+We all know him.
+Мы все его знаем.
+
+All of them must come.
+Они все должны прийти.
+
+The pie is all.
+Весь пирог съеден.
+
+He sat up all night.
+Он не ложился спать всю ночь.
+
+They sat all alone.
+Они сидели совершенно одни.
+
+He was all ears.
+Он весь обратился в слух.
+
+We drank all the coffee.
+Мы выпили весь кофе.
+
+She works all year round.
+Она работает круглый год.
+
+He spoke in all seriousness.
+Он говорил со всей серьёзностью.
+
+Someone took all the candy.
+Кто-то взял все конфеты.
+
+I forgot all about paying the bill.
+Я совсем забыла оплатить счёт.
+
+They needed all the courage they had.
+Им потребовалась вся храбрость, которая у них была.
+
+I've been waiting all week to see her.
+Я всю неделю ждала, чтобы её увидеть.
+
+The score was one all.
+Счёт был "один — один".
+
+This shirt is all worn out.
+Рубашка совсем износилась.
+
+All this is distasteful to me.
+Всё это мне противно.
+
+They had watched all his motions.
+Они следили за всеми его движениями.
+
+Whatever it was, it was their all.
+Как бы то ни было, это было всё, что они имели.
+
+He spent his income all on pleasure.
+Он тратил деньги только на развлечения.
+
+He took down the names of all of us.
+Он записал все наши фамилии.
+
+This money will be all yours when I die.
+Когда я умру, все эти деньги будут ваши.
+
+He gave his all for the cause.
+Он для дела отдал всё.
+
+Did you eat all of the peanuts?
+Ты что, съел весь арахис?
+
+He had to walk all the way home.
+Ему пришлось всю дорогу домой идти пешком.
+
+She has traveled all around the world.
+Она путешествовала по всему миру.
+
+She's all excited about going to the party.
+Она вся в возбуждении от предстоящей вечеринки.
+
+All children must be asleep before Santa Claus comes.
+Все дети должны уже спать, когда придёт Санта-Клаус.
+
+He'll need all the help he can get.
+Ему понадобится вся возможная помощь.
+
+The kids got all excited when they saw Santa Claus.
+Дети пришли в восторг, когда увидели Санта-Клауса.
+
+---
+
+    `,`
+
 [AG] [words]
 
 ---
 
+Can you say that again? I didn't hear.
+Вы не могли бы повторить ещё раз? Я не расслышал.
 
+Please, come see us again.
+Пожалуйста, приходите к нам снова.
+
+It's great to have you home again.
+Как здорово, что ты снова вернулся домой.
+
+She wants to prove that she can do it again.
+Она хочет доказать, что способна сделать это снова.
+
+I'll never go there again.
+Я туда больше никогда не пойду.
+
+Things are back to normal again.
+Всё снова вернулось в нормальное русло.
+
+A house in the city costs twice as much again as a house in the countryside.
+Дом в городе стоит в два раза больше, чем дом в деревне.
+
+And Robin never was himself again.
+Но Робину уже не суждено было поправиться.
+
+Mr Khan's busy. Can you try again later?
+Мистер Хан занят. Вы не могли бы перезвонить /зайти/ попозже?
+
+It'll just be the same thing all over again.
+Опять раз за разом будет повторяться ровно одно и то же.
+
+It was nice to see my friends again.
+Было приятно снова увидеть моих друзей.
+
+In 1997, the family moved house yet again.
+В 1997 году эта семья переехала ещё раз.
+
+Once again, Drew was under arrest.
+В очередной раз Дрю арестовали.
+
+She stayed and nursed him back to health again.
+Она осталась и вновь поставила его на ноги.
+
+She demonstrated yet again her remarkable artistic talents.
+Она в очередной раз продемонстрировала свои недюжинные артистические таланты.
+
+And again, these workshops will benefit the community widely.
+И опять же, эти тренинги принесут пользу всему обществу.
+
+When he stood up, he got so dizzy that he had to sit down again.
+Когда он встал, у него так закружилась голова, что пришлось сесть снова.
+
+---
+
+I met him against the pond.
+Я встретил его у пруда.
+
+He advised me against travelling.
+Он отговорил меня от поездки.
+
+Lean against my shoulder.
+Прислонись к моему плечу.
+
+Your lack of experience could count against you.
+Недостаток опыта может обернуться против вас.
+
+He pressed his hands against his forehead.
+Он прижал ладони ко лбу.
+
+It's against my principles to borrow money (=I do not believe it is right).
+Брать деньги в долг — против моих принципов (т.е. я не считаю, что это правильно).
+
+There ought to be a law against it.
+Это нужно запретить законом.
+
+Fight against them that fight against me.
+Сражайтесь с теми, кто сражается против меня.
+
+She voted against the proposal.
+Она проголосовала против этого предложения.
+
+The gate has been shut against her.
+Ворота захлопнулись прямо перед ней.
+
+There's a law against doing that.
+Заниматься этим нельзя — запрещено законом. / Так поступать незаконно. / Это же противозаконно.
+
+I am proof against their enmity.
+Я защищена от их недружелюбия.
+
+They got married against her parents' wishes (=although they knew her parents did not want them to).
+Они поженились против желания её родителей (т.е. несмотря на то, что они знали, что её родители этого не хотят).
+
+The picture stands out better against the dark wall.
+На фоне тёмной стены эта картина смотрится лучше.
+
+Till I break my ship against rocks.
+Пока мой корабль не разобьётся о скалы.
+
+two runners racing against each other
+двое бегунов, соревнующихся друг с другом
+
+There was a ladder propped up against the wall.
+На стену опиралась лестница. / К стене была приставлена лестница.
+
+Hope is against the holy ghost.
+Надежда пребывает в духе святом.
+
+The pound has fallen 10% against the dollar.
+Фунт упал на 10% по отношению к доллару.
+
+Passengers are cautioned against crossing the line.
+Пассажиров предупреждают, что переходить через железнодорожные пути опасно.
+
+He ran furiously up against a hill.
+Как бешеный, он взбежал на холм.
+
+Three of their ships lay against the walls.
+Три их корабля встали под стенами города.
+
+The Law against Witches does not prove there be any.
+Наличие закона против ведьм не доказывает их существования.
+
+The whole gentry were against him.
+Всё местное дворянство выступало против него.
+
+The evidence against you is overwhelming.
+Доказательства /улики/ против тебя — неопровержимые.
+
+Every council member voted against the proposal.
+Все члены совета проголосовали против этого предложения.
+
+The use of certain drugs is against the law (=illegal).
+Применение некоторых препаратов запрещено законом (т.е. незаконно).
+
+She actually went with them, though much against her heart.
+Она всё же пошла с ними, хотя и против собственного желания.
+
+He spoke against appeasing the enemy.
+Он выступил против умиротворения противника.
+
+I always felt as if I was riding a race against time.
+Я всегда чувствовал, будто бегу наперегонки со временем.
+
+---
+
+Francis is the same age as me.
+Френсис такого же возраста, что и я.
+
+Cheddar cheese ages well.
+Сыр чеддер с возрастом становится лучше.
+
+Dad retired at the age of 56.
+Папа вышел на пенсию в возрасте пятидесяти шести лет.
+
+She aged gracefully.
+Она старела с достоинством.
+
+The experience had aged him in advance of his years.
+Пережитое преждевременно состарило его.
+
+Age of Enlightenment
+Эпоха просвещения
+
+We haven't seen you both for ages.
+Мы вас обоих не видели целую вечность.
+
+We are living in the age of technology.
+Мы живём в век техники.
+
+His troubles have aged him.
+Беды состарили его.
+
+The buildings are ageing, and some are unsafe.
+Здания стареют, а некоторые находятся в аварийном состоянии.
+
+We've known each other for ages.
+Мы знаем друг друга много лет /очень давно, лет сто/.
+
+The program is for people over age 50.
+Данная программа предназначена для людей старше пятидесяти лет.
+
+She was now of school age.
+Она была уже школьного возраста.
+
+Too much sun ages the skin.
+Злоупотребление солнечными ваннами старит кожу.
+
+She's tall for her age, isn't she?
+Она высокая для своих лет, не так ли?
+
+He was worried to see how much she'd aged.
+Он боялся увидеть, насколько она постарела.
+
+Old age is not for sissies.
+Старость — это не для слабаков.
+
+The wine ages in oak barrels.
+Это вино выдерживается в дубовых бочках.
+
+She died tragically at a young age.
+Она трагически погибла в молодом возрасте.
+
+High blood pressure increases with age.
+Высокое кровяное давление с возрастом повышается.
+
+a group of children ranging in age from 8 to 11
+группа детей в возрасте от восьми до одиннадцати лет
+
+The wine is aged in oak barrels.
+Вино выдерживается в дубовых бочках.
+
+She was just over 16 years of age.
+Она была чуть старше шестнадцати лет.
+
+Age hasn't slowed him down at all.
+С возрастом он нисколько не стал медленнее.
+
+In Britain, schooling starts at age 5.
+В Великобритании обучение в школе начинается с пяти лет.
+
+Exposure to the sun has aged her skin.
+Солнечные лучи состарили её кожу.
+
+Some people are reluctant to reveal their ages.
+Некоторые люди неохотно раскрывают свой возраст.
+
+We live in a litigious age.
+Мы живём в век сутяжничества.
+
+It was replaced because of its age.
+Эту вещь заменили из-за её возраста.
+
+She died at the ripe old age of 90.
+Она умерла в преклонном возрасте девяноста лет.
+
+---
+
+Her husband died 14 years ago.
+Её муж умер четырнадцать лет назад.
+
+It was five years ago that we met.
+Мы познакомились пять лет назад.
+
+They moved to a new house some time ago (=a fairly long time ago).
+Они переехали в новый дом некоторое время назад (т.е. достаточно давно).
+
+The little girl you saw a moment ago was my niece.
+Девочка, которую вы только что видели — моя племянница.
+
+He should have finished at university long ago, but he kept taking extra courses.
+Он давно уже должен был закончить университет, но не переставал брать дополнительные курсы.
+
+'Agone' is an archaic word for 'ago'.
+Слово "agone" является архаичной формой слова "ago" (тому назад).
+
+Sixty years ago my grandfather came to the U.S.
+Шестьдесят лет назад мой дед приехал в США.
+
+We had our bicentenary celebrations not that long ago.
+Совсем недавно мы отпраздновали двухсотлетний юбилей.
+
+Tom got a letter from him just a little while ago.
+Совсем недавно Том получил от него письмо.
 
 ---
 
@@ -164,6 +632,399 @@ Foreign aid from many countries poured into the famine area.
 
     `,`
 
+[AC] [words]
+
+--- [across] ---
+
+There is a forest across the river.
+За рекой есть лес. ☰
+
+A tree lay across the road.
+Поперёк дороги лежало дерево. ☰
+
+The river is 2 km across.
+Ширина реки составляет два километра. ☰
+
+He pulled up a chair and sat down across from Michael.
+Он подвинул стул и сел напротив Майкла. ☰
+
+Richard stood up and walked across to the window.
+Ричард встал и подошёл к окну. ☰
+
+For a moment a shadow seemed to pass across Roy's face.
+На мгновенье показалось, что по лицу Роя пробежала тень. ☰
+
+My best friend lives across the road.
+Мой лучший друг живёт через дорогу. ☰
+
+His technique is to start at 1 across and then go to 1 down.
+Его метод состоит в том, чтобы начать с 1 по горизонтали, а затем перейти к 1 по вертикали. (о решении кроссворда) ☰
+
+We saw them walking across the street.
+Мы видели, как они переходят через улицу. ☰
+
+We'll have to swim across.
+Нам придётся переплыть на тот берег. ☰
+
+We took a ferry across the river.
+Мы переплыли реку на пароме. ☰
+
+Airplanes flew across the sky above us.
+Над нами пролетели самолёты. ☰
+
+A smile spread across her face.
+Её лицо расплылось в широкой улыбке. ☰
+
+He was seated across the table from me.
+Его посадили за стол напротив меня. ☰
+
+The streams are small enough to jump across.
+Эти речушки настолько малы, что через них можно перепрыгнуть. ☰
+
+He walked across to where I was sitting.
+Он подошёл к тому месту, где сидел я. ☰
+
+Looking out across the ocean, he saw land.
+Глядя через океан, он увидел землю. ☰
+
+She reached across the table to shake his hand.
+Она потянулась через стол, чтобы пожать ему руку. ☰
+
+They walked across to the other side of the street.
+Они перешли на другую сторону улицы. ☰
+
+The sun's light spread across the mountains.
+Солнечный свет распространяется по горам. ☰
+
+They ran straight across the road (=without stopping).
+Они побежали прямо через дорогу (без остановки). ☰
+
+We gazed across the valley.
+Мы смотрели на долину. ☰
+
+The marble slabs were cut across.
+Мраморные плиты были разрезаны поперёк. ☰
+
+The football field was 300 feet across.
+Футбольное поле было триста футов в поперечнике. ☰
+
+They reached across and shook each other's hand.
+Они протянули руки и обменялись рукопожатием. ☰
+
+There's Brendan. Why don't you go across and say hello?
+Там Брендан. Почему бы тебе не подойти к нему поздороваться? ☰
+
+Someone's parked right across the entrance to the driveway.
+Кто-то припарковался прямо напротив въезда в подворотню. ☰
+
+They traveled back and forth across the border.
+Они разъезжали туда-сюда через границу. ☰
+
+He knew that just across the border lay freedom.
+Он понимал, что совсем рядом, за границей, свобода. ☰
+
+The accident happened just across the state line.
+Это произошло совсем недалеко от границы нашего штата. ☰
+
+--- [acquit] ---
+
+She was acquitted of all charges.
+С неё сняли все обвинения. ☰
+
+All the defendants were acquitted.
+Все обвиняемые были оправданы. ☰
+
+Mr Hope was initially convicted but then was acquitted on appeal.
+Мистер Хоуп был первоначально признан виновным, но затем оправдан в апелляционной инстанции. ☰
+
+--- [accursed] ---
+
+The video store is charging another accursed late fee.
+Видеопрокат требует очередную дурацкую пеню за просрочку. ☰
+
+--- [accrue] ---
+
+The interest accrued to our account.
+На нашем счету наросли проценты. ☰
+
+The interest accrues.
+Проценты по вкладу накапливаются. ☰
+
+I have accrued 15 days of sick leave.
+У меня осталось 15 неиспользованных дней отпуска по болезни. ☰
+
+The house accrued to the oldest son.
+Дом отошёл (по наследству) старшему сыну. ☰
+
+Interest will accrue until payment is made.
+Проценты будут начисляться, пока не сделан платёж. ☰
+
+I'll get back all the money I invested, plus any interest and dividends that have accrued.
+Я верну себе все вложенные мной деньги, а также любые накопившиеся проценты и дивиденды. ☰
+
+The series B preferred stock will not accrue dividends.
+По привилегированным акциям серии B дивиденды не начисляются. ☰
+
+advantages accruing from the introduction of new technology
+преимущества, возникающие в результате внедрения новых технологий ☰
+
+investments that have accrued interest and dividends
+инвестиции, по которым накопились проценты и дивиденды ☰
+
+--- [accost] ---
+
+She was so famous that people would accost her on the street and ask for an autograph.
+Она была знаменита настолько, что люди приставали к ней на улице и просили дать автограф. ☰
+
+He was accosted by three gang members on the subway.
+В метро к нему пристали три бандита. ☰
+
+He was accosted by four youths and forced to give them all his money.
+К нему подошли четыре молодых незнакомца, и ему пришлось отдать им все свои деньги. ☰
+
+--- [accord] ---
+
+It doesn't accord with what you said yesterday.
+Это не соответствует тому, что вы говорили вчера. ☰
+
+We are in accord with your proposal.
+Мы согласны с вашим предложением. ☰
+
+He decided to go of his own accord.
+Он решил идти по своему усмотрению. ☰
+
+Our information does not accord with his report.
+Наша информация не совпадает с его отчётом. ☰
+
+They came to an accord that profits would be shared equally.
+Они договорились разделить доходы поровну. ☰
+
+We accorded him a hero's welcome.
+Мы встретили его как героя. ☰
+
+In many cases the disease will clear up of its own accord.
+Во многих случаях болезнь проходит сама по себе. ☰
+
+The two sides were able to reach an accord.
+Стороны смогли достичь соглашения. ☰
+
+Interestingly, the results presented were not in accord with the calculations.
+Интересно, что представленные результаты не соответствовали вычислениям. ☰
+
+The door seemed to move of its own accord.
+Дверь, казалось, двигалась сама собой. ☰
+
+He was accorded certain favors because of his age.
+В связи с возрастом ему были сделаны некоторые послабления. ☰
+
+The well stopped of its own accord, probably sanding up.
+Родник перестал течь сам собой, возможно, из-за того, что забился песком. ☰
+
+We reached an accord with the neighbouring country about our common border.
+Мы достигли соглашения с сопредельным государством по вопросу общей границы. ☰
+
+Every school accords high priority to the quality of teaching.
+Каждая школа уделяет первоочередное внимание качеству преподавания. ☰
+
+You will not be accorded any special treatment.
+Вам не будет предоставлено особого отношения. ☰
+
+These results are in accord with earlier research.
+Эти результаты согласуются с более ранними исследованиями. ☰
+
+They hoped to bring about a peace accord between the warring nations.
+Они надеялись добиться мирного соглашения между воюющими государствами. ☰
+
+It is important to the success of any firm that its partners should be in complete accord.
+Для успеха любой фирмы важно, чтобы её партнеры были в полном согласии. ☰
+
+--- [access] ---
+
+Do you have access to the Internet?
+У вас есть доступ в интернет? ☰
+
+You'll need a password to access the database.
+Для доступа к базе данных вам понадобится пароль. ☰
+
+He always has access to the Prime Minister.
+У него всегда есть доступ к премьер-министру. ☰
+
+I had unrestricted access.
+У меня был неограниченный доступ. ☰
+
+We have Internet access at the library.
+В нашей библиотеке есть доступ к Интернету. ☰
+
+The word “access” is spelled with two cs.
+Слово "access" (доступ) пишется с двумя буквами "с". ☰
+
+That access of fear loosened his joints.
+Приступ страха ослабил его мускулы. ☰
+
+She still had access to the Emperor whenever she desired.
+Она по-прежнему могла входить к императору в любое время, когда ей этого хотелось. ☰
+
+He gained access to the building.
+Он получил доступ к зданию. ☰
+
+My ex-wife deliberately sabotages my access to the children.
+Моя бывшая жена умышленно срывает мои свидания с детьми. ☰
+
+The system enables students to access class materials online.
+Данная система позволяет студентам получить доступ к материалам занятий в Интернете. ☰
+
+You can access our homepage via the Internet.
+К нашей домашней странице можно подключиться через интернет. ☰
+
+This report can be accessed via the Internet at www...
+Доступ к этому отчёту можно получить через интернет по адресу www… ☰
+
+The agreement was needed for use of the access routes to the city.
+Данное соглашение требовалось для использования подъездных путей к городу. ☰
+
+They paid a premium for access to water.
+За доступ к воде они заплатили дополнительно. ☰
+
+My ex-husband has access to the children once a week.
+Мой бывший муж имеет право видеться с детьми один раз в неделю. ☰
+
+Users can access their voice mail remotely.
+Пользователи могут получать доступ к своей голосовой почте удалённо. ☰
+
+Hackers had illegally accessed information on more than 310,000 consumers.
+Хакеры получили незаконный доступ к информации о более чем 310000 потребителях. ☰
+
+We cannot provide you with Internet access unless you agree to these terms.
+Мы не можем предоставить вам доступ в интернет, если вы не согласитесь с данными условиями. ☰
+
+She had privileged access to the files.
+У неё был особый доступ к этим материалам. ☰
+
+an urban underclass, who have limited access to health care
+городская беднота, которая имеет ограниченный доступ к медицинской помощи ☰
+
+They have access to up-to-date information through a computer database.
+У них есть доступ к новейшей информации через компьютерную базу данных. ☰
+
+Access to the site is closely controlled.
+Доступ к сайту тщательно контролируется. ☰
+
+Only employees have access to bank records.
+Доступ к банковской документации есть только у сотрудников. ☰
+
+How does one access the attic in this house?
+Как попасть на чердак в этом доме? ☰
+
+The theatre has good access for the disabled.
+В театре имеется удобный доступ для инвалидов. ☰
+
+We're trying to improve access for disabled visitors.
+Мы пытаемся улучшить доступ для посетителей с ограниченными физическими возможностями. ☰
+
+Nesting places on the cliffs are difficult of access.
+Гнездовья на скалах труднодоступны. ☰
+
+This card allows you to access your money at the touch of a button.
+Эта карта позволяет вам одним нажатием кнопки получить доступ к своим деньгам. ☰
+
+In May 1949, Stalin conceded defeat and reopened land access to Berlin.
+В мае 1949 года Сталин признал поражение, и вновь открыл наземный доступ к Берлину. ☰
+
+---
+
+I spent my academic career at one school.
+Я провёл всю свою научную карьеру в одном учебном заведении. ☰
+
+He's not very academic.
+Он не очень хорошо успевает. ☰
+
+The university press publishes academic titles.
+Университетская пресса публикует научные издания. ☰
+
+This was not an academic exercise — soldiers' lives were at risk.
+Это упражнение не было чисто теоретическим: на кону стояла жизнь солдат. ☰
+
+The system is failing most disastrously among less academic children.
+Эта система абсолютно не годится для детей, не склонных к учёбе. ☰
+
+Neither is it an academic preachment on how worry might be conquered.
+Не является это и чисто теоретической проповедью о том, как можно победить беспокойство. ☰
+
+He's not very academic, but he's good with his hands.
+С учёбой у него не очень, зато руки золотые. ☰
+
+He found his niche in the academic world.
+Он нашёл свою нишу в научном мире. ☰
+
+All that academic rigmarole was a waste of time.
+Вся эта академическая волокита оказалась пустой тратой времени. ☰
+
+She received awards for her academic achievements.
+Она удостоилась наград за свои научные достижения. ☰
+
+All this discussion, Sirs, is academic. The war has begun already.
+Все эти ваши речи, господа, — отвлечённая болтовня. Война уже началась. ☰
+
+Her work is well thought of in academic circles.
+В академических кругах о её работе хорошего мнения. ☰
+
+He only cares about sports. He has no interest in academics.
+Его волнует только спорт, а в учёбе он не заинтересован. ☰
+
+The parents praised their children for their academic performance.
+Родители похвалили своих детей за успеваемость /успехи в учёбе/. ☰
+
+The university's academic calendar runs from September to May.
+В этом университете учебный год длится с сентября по май. ☰
+
+We need to have equal academic standards for male and female students.
+Нам нужны равные образовательные стандарты для студентов и студенток. ☰
+
+an academic essay filled with jargon
+научная работа, полная специальных терминов ☰
+
+He is no longer in the race for academic awards.
+Он больше не участвует в гонке за академические звания. ☰
+
+The school has an above-average academic rating.
+Академический рейтинг данной школы — выше среднего. ☰
+
+Her academic interests span a wide variety of topics.
+Её научные интересы охватывают широкий спектр тем. ☰
+
+The board set tough academic standards for graduation.
+Министерство образования установило жёсткие академические требования к выпускникам. ☰
+
+unequal academic standards for male and female students
+неравные образовательные стандарты для студентов и студенток ☰
+
+The book appeals to academics and to the general public.
+Данная книга обращается к преподавателям и к широкой общественности. ☰
+
+The book is not intended for a purely academic audience.
+Данная книга не предназначена для сугубо научной аудитории. ☰
+
+Her family is proud of all her academic accomplishments.
+Родные гордятся всеми её научными достижениями. ☰
+
+The market for specialist academic books is pretty small.
+Рынок специализированной научной литературы довольно мал. ☰
+
+One of the qualifications for admission is an academic degree.
+Одним из требований при приёме является учёная степень. ☰
+
+It's becoming increasingly difficult to acquire academic tenure.
+Получить академическую должность становится всё труднее. ☰
+
+Academic staff are appointed on the recommendation of a committee.
+Академический персонал назначается по рекомендации комитета. ☰
+
+the mores of academic life as opposed to those of the business world
+нравы, принятые в научных кругах, в отличие от нравов делового мира ☰
+
+---
+
+    `,`
 [AB] [words]
 
 ---
@@ -546,16 +1407,10 @@ You will have to run fast to remain abreast of our best runner.
 
 [Декарт 2] [words]
 
-The_wine is_chilling right_now.
-Вино охлаждается прямо_сейчас.
+---
 
-There_was a_chill in the_autumn_air.
-В осеннем воздухе уже веяло холодом.
 
-Chill the_dessert in the_fridge for_about two_hours.
-Охлаждайте десерт в холодильнике примерно два_часа
-
-    `,`
+---
 
     `,`
 
