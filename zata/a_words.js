@@ -260,16 +260,39 @@ also --- ɔlsoʊ --- также, тоже --- ОЛивки в СОУсе тож�
 
     `,`
 
-[hard] [words] [consonant_sounds]
-admire --- əd'maɪər --- любоваться, восхищаться --- ЕДу в 'МАЕ лобоваться природой --- ЕДу в 'МАЕ
-stare --- ster --- уставиться, пялиться, глазеть, пристальный взгляд, изумленный взгляд --- СТаРец уставился в бездну --- СТаРец
-
+[animals] [words] [consonant_sounds]
+ant --- ænt --- муравей яблоко ˈæp(ə)l --- --- apple
+bat --- bæt --- летучая мышь банан bəˈnɑːnə --- --- banana
+cat --- kæt --- кошка огурец ˈkjuːkʌmbə --- --- cucumber
+duck --- dʌk --- утка дайкон --- --- daikon
+elephant --- ˈelɪfənt --- слон баклажан ˈeɡplɑːnt --- --- eggplant
+frog --- frɒɡ --- лягушка фига fɪɡ --- --- fig
+giraffe --- dʒɪˈrɑːf --- жираф виноград ɡreɪp --- --- grape
+horse --- hɔːs --- лошадь фундук ˈheɪz(ə)lnʌt --- --- hazelnut
+iguana --- ɪˈɡwɑːnə --- игуана мороженное --- --- ice cream
+jackal --- ˈdʒækl --- шакал джэм dʒæm --- --- jam
+kangaroo --- ˌkæŋɡəˈruː --- кенгуру киви ˈkiːwiː --- --- kiwi
+lion --- ˈlaɪən --- лев лимон ˈlemən --- --- lemon
+mouse --- maʊs --- мышь дыня ˈmelən --- --- melon
+newt --- njuːt --- тритон мускатный орех ˈnʌtmeɡ --- --- nutmeg
+octopus --- ˈɒktəpəs --- осьминог лук ˈʌnjən --- --- onion
+penguin  --- ˈpeŋɡwɪn --- пингвин перец ˈpepə --- --- pepper
+quail --- kweɪl --- перепел айва kwɪns --- --- quince
+rabbit --- ˈræbɪt --- кролик редис ˈrædɪʃ --- --- radish
+snake --- sneɪkc --- змея шпинат ˈspɪnɪtʃ --- --- spinach
+tortoise --- ˈtɔːtəs --- черепаха помидор təˈmɑːtəʊ--- --- tomato
+uakari --- wəˈkɑːrɪ --- уакари --- --- уакари
+vulture --- ˈvʌltʃə --- гриф калина vaɪˈbɜːnəm --- --- viburnum
+walrus --- ˈwɔːlrəs --- морж арбуз ˈwɔːtəmelən --- --- watermelon
+xingu --- shingu --- скат --- xingu river ray --- скат
+yak --- jæk --- як йогурт ˈjɒɡət --- --- yogurt
+zebra --- ˈzebrə --- зебра цукини (мелкий кабачок) zʊˈkiːnɪ --- --- zucchini
     `,`
 
 `]);
 // ‘ ˈ æ ʒ dʒ ʌ
 
-
+// слово --- произношение --- перевод --- мнемотекст --- подсказка
 
 
 /*
