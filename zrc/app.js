@@ -15,7 +15,8 @@ var app = new Framework7({
         itemsSrc: null,
         items: null,
         info: '',
-        showByOrder: false,
+        showWordsByOrder: false,
+        showExamplesByOrder: true,
         showByTip: false,
       },
     };

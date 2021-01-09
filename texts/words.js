@@ -1405,12 +1405,393 @@ You will have to run fast to remain abreast of our best runner.
 
     `,`
 
-[Декарт 2] [words]
+[operation-dto] [words]
 
 ---
 
+I began to be ashamed of sitting idle.
+Я начал стыдиться того, что сидел без дела. 
+
+He abhors being idle.
+Он презирает безделье. 
+
+the car engine was running at idle
+двигатель автомобиля работал на холостом ходу 
+
+Sometimes he went for a walk; sometimes he just idled.
+Иногда он ходил гулять, а иногда просто бездельничал. 
+
+The machinery stood idle for a month.
+Оборудование простаивало целый месяц. 
+
+This is just idle supposition.
+Это просто праздное /досужее, пустое/ предположение. 
+
+The world divided into the idle rich and the labouring poor.
+Мир разделился на праздных богачей и трудящихся бедняков. 
+
+She had no time for idle gossip.
+У неё не было времени для праздных сплетен. 
+
+Go and wake up that idle brother of yours.
+Иди разбуди своего ленивого братца. 
+
+The cars idled in traffic.
+Автомобили простаивали в пробке. 
+
+It was idle curiosity that made me ask.
+Я спросил исключительно из праздного любопытства. 
+
+The rumor had its origin in idle gossip.
+Слух этот зародился в праздной болтовне. 
+
+A group of boys idled in the doorway.
+В подъезде бездельничала группа мальчишек. 
+
+I cannot afford to leave the land lying idle.
+Я не могу позволить себе, чтобы земля простаивала. 
+
+I reckon that no one could accuse me of idle talking.
+Я полагаю, что никто не смог бы обвинить меня в пустословии. 
+
+He continued to live in idle dalliance.
+Он продолжал жить праздной жизнью. 
+
+They were growing impatient at lying idle so long.
+Чем дольше они находились в бездействии, тем сильнее росло их нетерпение. 
+
+He lived intensely in his own imaginings, wise or idle, beautiful or extravagant.
+Он жил напряженной жизнью в своих фантазиях, мудрых или пустых, прекрасных или странных. 
+
+She was not a woman to make idle threats.
+Это была не та женщина, чтобы угрожать попусту. 
+
+The whole team stood idle, waiting for the mechanic.
+Вся команда простаивала в ожидании механика. 
+
+Thousands of workers have been idled by the bad economy.
+Плохое состояние экономики оставило без работы тысячи работников. 
+
+The book is just a lot of idle speculation about the future.
+Данная книга представляет собой всего лишь многочисленные досужие размышления о будущем. 
+
+It would be idle to deny that progress was made.
+Не стоит отрицать наличие определённого прогресса. 
+
+The factory closed, idling several hundred workers.
+Завод закрылся, из-за чего несколько сотен работников оказались без дела. 
+
+There has been a lot of idle speculation about what might happen, but no one really knows.
+О том, что может случиться, было много досужих размышлений, но толком никто ничего не знает. 
+
+The machinery sat idle during the strike.
+Во время забастовки оборудование простаивало без работы. 
+
+He finally sickened of the endless round of parties and idle conversation.
+В конце концов, ему до смерти надоел этот бесконечный круговорот приёмов и праздной болтовни. 
+
+All the random mingling and idle talk made him hate literary parties.
+Из-за всех этих случайных знакомств и празднословия он и ненавидел литературные вечера. 
+
+When he says he's the richest man in town, he's not just making an idle boast.
+Когда он говорит, что является самым богатым человеком в городе, это не просто праздное хвастовство. 
+
+an extremely serious scientist who is not much given to dalliance or idle chitchat
+чрезвычайно серьёзный учёный, не особо склонный к праздности или пустой болтовне 
 
 ---
+
+He stuffed the docket for the second case into his back pocket.
+Он засунул накладную на второй контейнер в задний карман.
+
+---
+
+He can descry that she is not afraid.
+Он может обнаружить, что она не боится. 
+
+We couldn't descry the reasons for his sudden departure.
+Мы не смогли разузнать причин его внезапного отъезда. 
+
+I could just descry the ship coming over the horizon.
+Я едва мог разглядеть корабль, появившийся из-за горизонта. 
+
+---
+
+Believe it or not, scientific research shows that chewing gum can boost your test performance - at least, as long as you do it at the right time!
+Хотите верьте, хотите нет, но научные исследования показывают, что жевательная резинка может улучшить результаты ваших тестов - по крайней мере, если вы делаете это в нужное время.
+
+Chew your food well before you swallow.
+Хорошо пережевывайте пищу, прежде чем проглотить. 
+
+The dog was chewing on a bone.
+Собака грызла кость. 
+
+He chews with his mouth open.
+Он жуёт с открытым ртом. / Он, когда жуёт, не закрывает рот. 
+
+This candy is so hard no one can chew it.
+Конфета такая твёрдая, что никто её не разжуёт. 
+
+Don't chew with your mouth open.
+Не жуй с открытым ртом. / Когда жуёшь, закрывай рот. 
+
+Why don't you just chew on it for a while before making your decision?
+Почему бы тебе не подумать над этим немного, прежде чем принимать решение? 
+
+Chew your food well so you don't choke.
+Хорошо пережевывайте пищу, чтобы не подавиться. 
+
+You're not allowed to chew gum in class.
+Жевать резинку в классе не разрешается. 
+
+This meat's so tough I can hardly chew it!
+Это мясо такое жесткое, что я едва могу жевать! 
+
+Let me chew it over for a few days, and then I'll let you have my answer.
+Дай мне несколько дней, чтобы всё обдумать, и я сообщу тебе ответ. 
+
+We were taught to chew our food thoroughly before swallowing.
+Нас учили тщательно пережёвывать пищу, прежде чем проглотить. 
+
+Savour the flavour of each mouthful, and chew you food well.
+Тщательно пережёвывайте пищу и смакуйте каждый кусочек. 
+
+Be careful if you use that video recorder. It tends to chew tapes up.
+Будьте осторожны, если захотите воспользоваться этим видеомагнитофоном: он обычно зажёвывает ленту. 
+
+Jim likes to have some difficult matter to chew on.
+Джим любит, когда у него есть трудная задача, над которой он может всласть подумать. 
+
+You've been chewing away all afternoon, you can't still be hungry. [chew]
+Ты сегодня весь день что-то жевал, не может быть, чтобы ты был голоден. 
+
+I rather fancy potassium cyanide. You just chew a piece, and quick curtain.
+Я предпочитаю цианистый калий. Вы проглатываете кусочек, и конец. 
+
+The committee wants time to chew over the question of the new appointments.
+Комитету необходимо время, чтобы рассмотреть вопрос о новых назначениях. 
+
+The meat was tough and hard to chew.
+Мясо оказалось жёстким, и жевать его было трудно
+
+---
+
+docile and intelligent pupils
+способные и сообразительные ученики
+
+docile wife
+покорная жена
+
+docile cypress
+легко поддающийся обработке кипарис
+
+docile appearance
+послушный вид; смирный вид
+
+docile handling qualities
+хорошие характеристики управляемости
+
+His students were docile and eager to learn.
+Его ученики были понятливы и стремились получать знания. 
+
+a docile young pony that went wherever it was led
+послушный маленький пони, который шёл туда, куда его вели 
+
+a gentle old horse, docile and obedient
+смирный старый конь, послушный и покорный
+
+---
+
+Man, 24, in critical state after stabbing in south-east London.
+Мужчина, 24 года, в критическом состоянии после ранения на юго-востоке Лондона.
+
+You just stabbed me through the heart when you kissed him.
+Ты просто вонзила мне нож в сердце, поцеловав его. 
+
+He stabbed him in the stomach.
+Он пырнул его ножом в живот. 
+
+I stabbed at the menu with my forefinger.
+Я ткнул в меню указательным пальцем. 
+
+He was stabbed to death in a fight.
+Его зарезали насмерть в какой-то драке. 
+
+He stabbed her with a dagger.
+Он ударил её кинжалом. 
+
+He killed him with a stab to the heart.
+Он убил его ножом в сердце. 
+
+He drew his knife, and made a stab at me.
+Он вытащил нож и ткнул в меня. 
+
+Sharp talons stabbed into his body.
+В его тело впились острые когти. 
+
+One strong stab to the heart killed him.
+Один сильный удар в сердце убил его. 
+
+The government is now set to have a fresh stab at changing that law.
+Теперь правительство полно решимости ещё раз попытаться изменить этот закон. 
+
+She felt a stab of excitement.
+Внезапно она почувствовала острое волнение. 
+
+The injection left a small stab on her upper arm.
+От укола у него на плече остался небольшой след. 
+
+Jack stabbed the intercom on his desk.
+Джек ткнул пальцем в кнопку интеркома у себя на столе. 
+
+Baxter was rushed to the hospital with multiple stab wounds.
+Бакстер был спешно доставлен в больницу с многочисленными колотыми ранениями. 
+
+---
+
+A master coup, which decides the game.
+Мастерский ход, решивший исход игры. 
+
+After the coup the President was compeled to leave the country.
+После государственного переворота президента вынудили покинуть страну. 
+
+Winning that big contract was a real coup.
+Выигрыш того большого контракта был большой удачей.
+
+The regime became too autocratic and was overthrown by a military coup.
+Режим стал слишком деспотическим, и был свергнут путем военного переворота.
+
+She lost her position in a boardroom coup.
+Она лишилась должности в результате внезапной смены власти в совете директоров. 
+
+They seized power in a military coup.
+Они захватили власть в результате военного переворота. 
+
+The army played a leading role in organizing the attempted coup.
+Армия сыграла ведущую роль в организации попытки государственного переворота. 
+
+He assumed power in a bloody coup in 1990.
+Он пришел к власти в 1990 году, в результате кровавого переворота. 
+
+Beating Arsenal was a major coup for the club.
+Победа над "Арсеналом" стала крупной удачей для этого клуба. 
+
+They took control of the government in a bloodless coup.
+Они взяли власть под контроль в результате бескровного переворота. 
+
+Haiti's first elected president was deposed in a violent military coup.
+Первый в истории избранный президент Гаити был свергнут в результате насильственного военного переворота. 
+
+The army thwarted the attempt at a coup.
+Армия предотвратила попытку государственного переворота. 
+
+It was a major coup when they got the Vice President to appear on their show for an interview.
+Они добились крупного успеха, когда им удалось добиться появления вице-президента для интервью у них на передаче. 
+
+He evaded capture after the failed coup.
+Он избежал поимки после неудачного путча. 
+
+Everything was unstable following the coup.
+После переворота все было нестабильно. 
+
+The failed coup caused a loss of morale within the army.
+Неудавшийся путч вызвал в армии потерю морального духа. 
+
+A correspondent in the Middle East bureau just filed a new report on the coup.
+Один из корреспондент ближневосточного бюро только что прислал новый отчёт об этом перевороте. 
+
+Rumors persisted that CIA assets were behind the coup d'état.
+Ходили упорные слухи, что за государственным переворотом стояли агенты ЦРУ.
+
+---
+
+unfortunate typo
+досадная опечатка
+
+How could I miss that typo?
+Как я мог пропустить эту опечатку? 
+
+I spotted three typos on the menu.
+В меню я заметил три опечатки.
+
+---
+
+How dare you accuse me of lying!
+Как вы смеете обвинять меня во лжи! 
+
+He was accused of murder.
+Его обвинили в убийстве. 
+
+Smith accused her of lying.
+Смит обвинил ее во лжи. 
+
+It was unjust of him to accuse you without proof.
+Он поступил несправедливо, бездоказательно обвинив вас. 
+
+I reckon that no one could accuse me of idle talking.
+Я полагаю, что никто не смог бы обвинить меня в пустословии. 
+
+Her assistant was accused of theft and fraud by the police.
+Полиция обвинила её помощника в воровстве и мошенничестве. 
+
+The professor stands accused of (=has been accused of) stealing his student's ideas and publishing them.
+Профессор был обвинён в краже студенческих идей и их публикации. 
+
+They accuse him of mistreating his wife.
+Его обвиняют в плохом обращении с женой. 
+
+She was accused of lying on the employment application.
+Её обвинили в том, что она солгала в заявлении о приёме на работу. 
+
+The neighbors accused the man of spousal abuse.
+Соседи обвинили мужчину в жестокости по отношению к супруге. 
+
+If I don't go tonight, everyone will accuse me of being antisocial.
+Если я сегодня вечером не пойду, все будут обвинять меня в том, что я антисоциален. 
+
+It would be premature to accuse anyone until the investigation is complete.
+Было бы преждевременным обвинять кого-либо до окончания расследования. 
+
+You may accuse me of being and old fuddy-duddy trying to stop young people having fun.
+Вы можете обвинить меня в том, что я старый ворчун, который пытается мешать молодым людям веселиться. 
+
+The using of racks and thumbscrews for the purpose of forcing prisoners to accuse themselves.
+Использование дыбы и тисков для того, чтобы заставить узников признать свою вину. 
+
+---
+
+note to payee category
+тип целевого назначения
+
+The payee must endorse the back of the check.
+Получатель должен поставить свою подпись на обратной стороне чека.
+
+first-ranking loss payee
+выгодоприобретатель страхового возмещения с первоочерёдным правом требования
+
+loss payee
+лицо, имеющее право на получение страховых выплат; компенсация за убытки
+
+name of payee
+имя получателя платежа
+
+note to payee
+целевое назначение
+
+payee of a bill
+получатель денег по векселю; векселедержатель
+
+payee of bill
+получатель денег по векселю; получатель денег на векселю; векселедержатель
+
+payee of check
+получатель денег по чеку
+
+payee of letter of credit
+получатель денег по аккредитиву
+
+payee of money order
+получатель по денежному переводу; получатель денежного перевода
 
     `,`
 

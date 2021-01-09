@@ -213,7 +213,7 @@ a'brasion --- ə'breɪʒən --- ссадина, износ, шлифовка ---
 a'broad --- ə'brɔd --- за границеф --- Этот_'БРОД ведёт за границу --- Этот_'БРОД
 a'bstain --- əb'steɪn --- воздерживаться, не употреблять --- ОБ_'СТЕНу воздержись биться --- ОБ_'СТЕНу
 a'buse --- ə'bjus --- оскорблять, оскорбление, брань, злоупотреблять, неправильное употребление --- О'БУЗой быть оскорбительно --- О'БУЗой
-*rather --- ræðər --- слегка --- ræðər
+rather --- ræðər --- слегка --- ræðər
 as though --- əz ðoʊ --- (как) если бы, (как) будто бы, словно, как бы --- əz ðoʊ
 stare --- ster --- уставиться, пялиться, глазеть, пристальный взгляд, изумленный взгляд --- СТаРец уставился в бездну --- СТаРец
 rail --- reɪl --- ограда, изгородь, поручень, перила, рельс --- reɪl
@@ -264,7 +264,7 @@ also --- ɔlsoʊ --- также, тоже --- ОЛивки в СОУсе тож�
 ant --- ænt --- муравей яблоко ˈæp(ə)l --- --- apple
 bear --- beə --- медведь банан bəˈnɑːnə --- --- banana
 cat --- kæt --- кошка огурец ˈkjuːkʌmbə --- --- cucumber
-duck --- dʌk --- утка дайкон --- --- daikon
+duck --- dʌk --- утка финик deɪt --- --- date
 elephant --- ˈelɪfənt --- слон баклажан ˈeɡplɑːnt --- --- eggplant
 frog --- frɒɡ --- лягушка фига fɪɡ --- --- fig
 giraffe --- dʒɪˈrɑːf --- жираф виноград ɡreɪp --- --- grape
@@ -287,11 +287,45 @@ walrus --- ˈwɔːlrəs --- морж арбуз ˈwɔːtəmelən --- --- waterme
 xingu --- shingu --- скат --- xingu river ray --- скат
 yak --- jæk --- як йогурт ˈjɒɡət --- --- yogurt
 zebra --- ˈzebrə --- зебра цукини (мелкий кабачок) zʊˈkiːnɪ --- --- zucchini
+
+    `,`
+
+[operation-dto] [words] [consonant_sounds]
+id --- IdType ---  ˈaɪdəl бездельничать, простаивать --- idle
+documentDate --- string --- ˈdɒkɪt ярлык, список, маркировать этикетки --- docket D
+description --- string --- dɪˈskraɪ --- замечать, разспознать --- descry
+amount --- number --- əˈmɒk озверевший, в ярости, бешенный --- amok
+account --- AccountDto (счёт в банке или касса) --- əˈkruː накапливаться, нарастать --- accrue
+docNumber --- string ??? --- ˈdɑːsl ˈdəʊsaɪl послушный, покорный, понятливый --- docile N
+checked --- boolean ??? --- tʃuː жевать, пережевывать, обдумывать, пожевать, жевание, жвачка --- chew
+state --- OperationStateType --- stæb удар ножом, попытка, удар кинжалом, ранить, закалывать, нападать, вонзать --- stab
+counterParty --- { name: string } --- kuː удачный ход, удача в делах, перевернуть --- coup P
+type --- OperationType: INCOMING | OUTGOING --- ˈtaɪpəʊ опечатка, типографская ошибка, печатник --- typo
+accountCategories --- OperationAccountCategoryDto[] --- əˈkjuːz обвинять, винить, предъявлять обвинение --- accuse C
+paymentCategories --- OperationPaymentCategoryDto[] --- peɪˈiː получатель денег, предъявитель чека, предъявитель векселя --- payee C
+expanded --- expanded: boolean; --- expanded
+taxFee --- taxFee: TaxFee; --- taxFee
+taxFeeCategory --- taxFeeCategory: TaxFee; --- taxFeeCategory
+taxFeePeriod --- taxFeePeriod: TaxFeePeriod; --- taxFeePeriod
+paymentMethod --- paymentMethod: string; --- paymentMethod
+sourceType --- sourceType: SourceTypes; --- sourceType
+sourceSubtype --- sourceSubtype: string; --- sourceSubtype
+kbk --- kbk: string; --- kbk
+relation --- relation: string; --- relation
+currency --- currency: Currency; --- currency
+AccountDto --- {number: string; name: string; bic: string; bankName?: string; isThirdParty?: boolean;} --- AccountDto
+OperationStateType --- CHECKED | NOT_CHECKED | ERROR --- OperationStateType
+OperationType --- INCOMING | OUTGOING ---  OperationType
+OperationAccountCategoryDto --- {accountCategoryCode: string; amount: number; acceptableType: string; approved: boolean; allowEdit: boolean; amountSign: AcceptableAmountSign; currencyCalculation?: CurrencyCalculation; patentNumber?: string; } --- OperationAccountCategoryDto
+CurrencyCalculation --- { rateDate: string; cbCurrency: CurrencyInfo; bankCurrency: CurrencyInfo; exchangeDifference: number; } --- CurrencyCalculation
+CurrencyInfo --- {amount: number; currencyAmount: number; currencyRate: number; currencyRateUnit: number; digitalCode: string; isoCode: string; } --- CurrencyInfo
+
     `,`
 
 `]);
 // ‘ ˈ æ ʒ dʒ ʌ
 
+// https://www.thefreedictionary.com/
 // слово --- произношение --- перевод --- мнемотекст --- подсказка
 
 

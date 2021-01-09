@@ -75,7 +75,8 @@ function getEmptyAppData() {
     currSet: null,
     currMeta: null,
     options: {
-      showByOrder: false,
+      showWordsByOrder: false,
+      showExamplesByOrder: true,
       showByTip: false,
     }
   };

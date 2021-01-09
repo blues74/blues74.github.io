@@ -8,6 +8,55 @@
 // showExamplePopup
 // getItemCardContent - карточка слова
 
+function textIncludeWords(text, words) {
+  text = text || '';
+  text = text.replace(/'/g, '');
+  text = text.replace(/_/g, ' ');
+  text = text.trim();
+
+  if (!text) return false;
+
+  words = Array.isArray(words) ? words : [words];
+  words = words
+  .map(word => {
+    word = word || '';
+    word = word.replace(/'/g, '');
+    word = word.replace(/\*/g, '');
+    word = word.replace(/_/g, ' ');
+
+    return (word || '').trim();
+  })
+  .filter(word => !!word);
+
+  words = words.map(word => word.split(' '));
+  words = _.flatten(words);
+  words = words.map(word => (word || '').trim()).filter(word => !!word);
+
+  if (!words.length) return;
+
+  const excludeArr = [
+    'a', 'the',
+    'i', 'he', 'she', 'it', 'me', 'mine', 'this', 'those', 'that',
+    'has', 'had', 'have',
+    'do', 'did', 'done',
+    'be', 'is', 'was', 'were', 'been', 'will',
+    'all', 'to', 'as',
+    'no', 'not', 'yes',
+  ];
+
+  for (word of words) {
+    if (
+      word.length > 2 &&
+      !excludeArr.includes(word.toLowerCase()) &&
+      new RegExp(word, 'i').test(text)
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 class GameBoard {
 
   constructor($vc) {
@@ -117,7 +166,7 @@ class GameBoard {
     let meta = arr[0].trim();
 
     arr = arr.slice(1);
-    APP_DATA.currSet = APP_DATA.options.showByOrder ? arr : _.shuffle(arr);
+    APP_DATA.currSet = APP_DATA.options.showWordsByOrder ? arr : _.shuffle(arr);
     APP_DATA.currMeta = meta;
 
     this.showSet(APP_DATA.currSet);
@@ -216,7 +265,7 @@ class GameBoard {
                       <div class="item-inner">
                         <div class="item-title">По порядку</div>
                         <div class="item-after">
-                          <label class="toggle toggle-init" data-name="showByOrder">
+                          <label class="toggle toggle-init" data-name="showWordsByOrder">
                             <input type="checkbox">
                             <span class="toggle-icon"></span>
                           </label>
@@ -262,18 +311,17 @@ class GameBoard {
 
     popup.open();
 
-    let toggleByOrder = app.toggle.create({
-      el: dyName('showByOrder', popup.$el),
+    let toggleWordsByOrder = app.toggle.create({
+      el: dyName('showWordsByOrder', popup.$el),
       on: {
         change: function (vc) {
           const name = vc.$el.dataset().name;
-          APP_DATA.options[name] = vc.checked;
+          APP_DATA.options[name] = vc.checked; // showWordsByOrder
           saveAppData();
         }
       }
     });
-    toggleByOrder.checked = !!APP_DATA.options.showByOrder;
-
+    toggleWordsByOrder.checked = !!APP_DATA.options.showWordsByOrder;
 
     let toggleByTip = app.toggle.create({
       el: dyName('showByTip', popup.$el),
@@ -384,9 +432,14 @@ class GameBoard {
     });
   } // showSet
 
-  showExamplePopup(item) {
-    const meta = getMetadata(APP_DATA.currMeta);
-    let word = item.split('---').map(item => item.trim())[0]; // .filter(item => !!item);
+  showExamplePopup(item) { // item: string вида "string --- string --- string --- string"
+    const meta = getMetadata(APP_DATA.currMeta); // {group: string, page: string}
+    const itemArr = item.split('---').map(item => item.trim());
+    let firstWord = _.first(itemArr) || '';
+    let lastWord = _.last(itemArr) || firstWord;
+
+    if (!firstWord) return;
+
     let sentences = (TEXTS[meta.page][meta.group] || '')
       .split(/\n/)
       .map(item => item.trim())
@@ -420,11 +473,7 @@ class GameBoard {
       sentence = sentenceSrc.replace(/'/g, '');
       sentence = sentenceSrc.replace(/_/g, ' ');
 
-      word = word.replace(/'/g, '');
-      word = word.replace(/\*/g, '');
-      word = word.replace(/_/g, ' ');
-
-      if (new RegExp(word, 'i').test(sentence)) {
+      if (textIncludeWords(sentenceSrc, [firstWord, lastWord])) {
         let rus = '';
         if (/[а-яеЕА-Я]/.test(sentences[i+1] || '')) {
           rus = sentences[i+1];
@@ -433,7 +482,10 @@ class GameBoard {
       }
     });
 
-    outArr = _.shuffle(outArr);
+    // if (!APP_DATA.options.showExamplesByOrder) {
+    //   outArr = _.shuffle(outArr);
+    // }
+
     out += outArr.join('');
 
     const dataName = 'examplePopup';
