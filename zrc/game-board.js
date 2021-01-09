@@ -24,7 +24,7 @@ function textIncludeWords(text, words) {
     word = word.replace(/\*/g, '');
     word = word.replace(/_/g, ' ');
 
-    return (word || '').trim();
+    return word.trim();
   })
   .filter(word => !!word);
 
@@ -32,7 +32,7 @@ function textIncludeWords(text, words) {
   words = _.flatten(words);
   words = words.map(word => (word || '').trim()).filter(word => !!word);
 
-  if (!words.length) return;
+  if (!words.length) return false;
 
   const excludeArr = [
     'a', 'the',
@@ -465,7 +465,6 @@ class GameBoard {
     }
 
     let outArr = [];
-    let outArr2 = [];
     let sentence;
     let out = '';
 
@@ -473,14 +472,19 @@ class GameBoard {
       sentence = sentenceSrc.replace(/'/g, '');
       sentence = sentenceSrc.replace(/_/g, ' ');
 
-      if (textIncludeWords(sentenceSrc, [firstWord, lastWord])) {
+      if (
+        !/[а-яёЁА-Я]/.test(sentence) &&
+        textIncludeWords(sentence, [firstWord, lastWord])
+      ) {
         let rus = '';
-        if (/[а-яеЕА-Я]/.test(sentences[i+1] || '')) {
+        if (/[а-яёЁА-Я]/.test(sentences[i+1] || '')) {
           rus = sentences[i+1];
         }
         outArr.push(getTemplate(sentenceSrc, rus));
       }
     });
+
+    if (!outArr.length) return;
 
     // if (!APP_DATA.options.showExamplesByOrder) {
     //   outArr = _.shuffle(outArr);
