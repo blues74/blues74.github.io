@@ -279,7 +279,7 @@ octopus --- ˈɒktəpəs --- осьминог лук ˈʌnjən --- --- onion
 penguin  --- ˈpeŋɡwɪn --- пингвин перец ˈpepə --- --- pepper
 quail --- kweɪl --- перепел айва kwɪns --- --- quince
 rabbit --- ˈræbɪt --- кролик редис ˈrædɪʃ --- --- radish
-snake --- sneɪkc --- змея шпинат ˈspɪnɪtʃ --- --- spinach
+snake --- sneɪk --- змея шпинат ˈspɪnɪtʃ --- --- spinach
 tortoise --- ˈtɔːtəs --- черепаха помидор təˈmɑːtəʊ--- --- tomato
 uakari --- wəˈkɑːrɪ --- уакари --- краснолицея обезьяна --- уакари
 vulture --- ˈvʌltʃə --- гриф калина vaɪˈbɜːnəm --- --- viburnum
