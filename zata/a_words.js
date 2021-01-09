@@ -221,7 +221,7 @@ rail --- reɪl --- ограда, изгородь, поручень, перил�
     `,`
 
 [AC] [words] [consonant_sounds]
-aca'demic --- ækəˈdɛmɪk --- учёный --- АКА'ДЕМИК учёный --- АКА'ДЕМИК
+aca'demic --- ækə'dɛmɪk --- учёный --- АКА'ДЕМИК учёный --- АКА'ДЕМИК
 access --- æksɛs --- доступ, доступность --- ЭКономная СЕСтра недоступна --- ЭКономная СЕСтра
 ac'cord --- ə'kɔrd --- согласие, соглашение, соответствовать --- Этот 'КОД соответствует --- Этот 'КОД
 ac'cost --- ə'kɔst --- приветствие, обращение --- Эта 'КОСТь как приветствия --- Эта 'КОСТь
@@ -261,75 +261,71 @@ also --- ɔlsoʊ --- также, тоже --- ОЛивки в СОУсе тож�
     `,`
 
 [animal-foot-26] [words] [consonant_sounds]
-ant --- ænt --- муравей яблоко ˈæp(ə)l --- --- apple
-bear --- beə --- медведь банан bəˈnɑːnə --- --- banana
-cat --- kæt --- кошка огурец ˈkjuːkʌmbə --- --- cucumber
+ant --- ænt --- муравей яблоко 'æp(ə)l --- --- apple
+bear --- beə --- медведь банан bə'nɑːnə --- --- banana
+cat --- kæt --- кошка огурец 'kjuːkʌmbə --- --- cucumber
 duck --- dʌk --- утка финик deɪt --- --- date
-elephant --- ˈelɪfənt --- слон баклажан ˈeɡplɑːnt --- --- eggplant
+elephant --- 'elɪfənt --- слон баклажан 'eɡplɑːnt --- --- eggplant
 frog --- frɒɡ --- лягушка фига fɪɡ --- --- fig
-giraffe --- dʒɪˈrɑːf --- жираф виноград ɡreɪp --- --- grape
-horse --- hɔːs --- лошадь фундук ˈheɪz(ə)lnʌt --- --- hazelnut
-iguana --- ɪˈɡwɑːnə --- игуана мороженное --- --- ice cream
-jackal --- ˈdʒækl --- шакал джэм dʒæm --- --- jam
-kangaroo --- ˌkæŋɡəˈruː --- кенгуру киви ˈkiːwiː --- --- kiwi
-lion --- ˈlaɪən --- лев лимон ˈlemən --- --- lemon
-mouse --- maʊs --- мышь дыня ˈmelən --- --- melon
-newt --- njuːt --- тритон мускатный орех ˈnʌtmeɡ --- --- nutmeg
-octopus --- ˈɒktəpəs --- осьминог лук ˈʌnjən --- --- onion
-penguin  --- ˈpeŋɡwɪn --- пингвин перец ˈpepə --- --- pepper
+giraffe --- dʒɪ'rɑːf --- жираф виноград ɡreɪp --- --- grape
+horse --- hɔːs --- лошадь фундук 'heɪz(ə)lnʌt --- --- hazelnut
+iguana --- ɪ'ɡwɑːnə --- игуана мороженное --- --- ice cream
+jackal --- 'dʒækl --- шакал джэм dʒæm --- --- jam
+kangaroo --- ˌkæŋɡə'ruː --- кенгуру киви 'kiːwiː --- --- kiwi
+lion --- 'laɪən --- лев лимон 'lemən --- --- lemon
+mouse --- maʊs --- мышь дыня 'melən --- --- melon
+newt --- njuːt --- тритон мускатный орех 'nʌtmeɡ --- --- nutmeg
+octopus --- 'ɒktəpəs --- осьминог лук 'ʌnjən --- --- onion
+penguin  --- 'peŋɡwɪn --- пингвин перец 'pepə --- --- pepper
 quail --- kweɪl --- перепел айва kwɪns --- --- quince
-rabbit --- ˈræbɪt --- кролик редис ˈrædɪʃ --- --- radish
-snake --- sneɪk --- змея шпинат ˈspɪnɪtʃ --- --- spinach
-tortoise --- ˈtɔːtəs --- черепаха помидор təˈmɑːtəʊ--- --- tomato
-uakari --- wəˈkɑːrɪ --- уакари --- краснолицея обезьяна --- уакари
-vulture --- ˈvʌltʃə --- гриф калина vaɪˈbɜːnəm --- --- viburnum
-walrus --- ˈwɔːlrəs --- морж арбуз ˈwɔːtəmelən --- --- watermelon
+rabbit --- 'ræbɪt --- кролик редис 'rædɪʃ --- --- radish
+snake --- sneɪk --- змея шпинат 'spɪnɪtʃ --- --- spinach
+tortoise --- 'tɔːtəs --- черепаха помидор tə'mɑːtəʊ--- --- tomato
+uakari --- wə'kɑːrɪ --- уакари --- краснолицея обезьяна --- уакари
+vulture --- 'vʌltʃə --- гриф калина vaɪ'bɜːnəm --- --- viburnum
+walrus --- 'wɔːlrəs --- морж арбуз 'wɔːtəmelən --- --- watermelon
 xingu --- shingu --- скат --- xingu river ray --- скат
-yak --- jæk --- як йогурт ˈjɒɡət --- --- yogurt
-zebra --- ˈzebrə --- зебра цукини (мелкий кабачок) zʊˈkiːnɪ --- --- zucchini
+yak --- jæk --- як йогурт 'jɒɡət --- --- yogurt
+zebra --- 'zebrə --- зебра цукини (мелкий кабачок) zʊ'kiːnɪ --- --- zucchini
 
     `,`
 
 [operation-dto] [words] [consonant_sounds]
-id --- IdType ---  ˈaɪdəl бездельничать, простаивать --- idle
-documentDate --- string --- ˈdɒkɪt ярлык, список, маркировать этикетки --- docket D
-description --- string --- dɪˈskraɪ --- замечать, разспознать --- descry
-amount --- number --- əˈmɒk озверевший, в ярости, бешенный --- amok
-account --- AccountDto (счёт в банке или касса) --- əˈkruː накапливаться, нарастать --- accrue
-docNumber --- string ??? --- ˈdɑːsl ˈdəʊsaɪl послушный, покорный, понятливый --- docile N
+id --- IdType ---  'aɪdəl бездельничать, простаивать --- idle
+documentDate --- string --- 'dɒkɪt ярлык, список, маркировать этикетки --- docket D
+description --- string --- dɪ'skraɪ --- замечать, разспознать --- descry
+amount --- number --- ə'mɒk озверевший, в ярости, бешенный --- amok
+account --- AccountDto (счёт в банке или касса) --- ə'kruː накапливаться, нарастать --- accrue
+docNumber --- string ??? --- 'dɑːsl 'dəʊsaɪl послушный, покорный, понятливый --- docile N
 checked --- boolean ??? --- tʃuː жевать, пережевывать, обдумывать, пожевать, жевание, жвачка --- chew
 state --- OperationStateType --- stæb удар ножом, попытка, удар кинжалом, ранить, закалывать, нападать, вонзать --- stab
 counterParty --- { name: string } --- kuː удачный ход, удача в делах, перевернуть --- coup P
-type --- OperationType: INCOMING | OUTGOING --- ˈtaɪpəʊ опечатка, типографская ошибка, печатник --- typo
-accountCategories --- OperationAccountCategoryDto[] --- əˈkjuːz обвинять, винить, предъявлять обвинение --- accuse C
-paymentCategories --- OperationPaymentCategoryDto[] --- peɪˈiː получатель денег, предъявитель чека, предъявитель векселя --- payee C
-expanded --- expanded: boolean; --- expanded
-taxFee --- taxFee: TaxFee; --- taxFee
-taxFeeCategory --- taxFeeCategory: TaxFee; --- taxFeeCategory
-taxFeePeriod --- taxFeePeriod: TaxFeePeriod; --- taxFeePeriod
-paymentMethod --- paymentMethod: string; --- paymentMethod
-sourceType --- sourceType: SourceTypes; --- sourceType
-sourceSubtype --- sourceSubtype: string; --- sourceSubtype
-kbk --- kbk: string; --- kbk
-relation --- relation: string; --- relation
-currency --- currency: Currency; --- currency
-AccountDto --- {number: string; name: string; bic: string; bankName?: string; isThirdParty?: boolean;} --- AccountDto
+type --- OperationType: INCOMING | OUTGOING --- 'taɪpəʊ опечатка, типографская ошибка, печатник --- typo
+accountCategories --- OperationAccountCategoryDto[] --- ə'kjuːz обвинять, винить, предъявлять обвинение --- accuse C
+paymentCategories --- OperationPaymentCategoryDto[] --- peɪ'iː получатель денег, предъявитель чека, предъявитель векселя --- payee C
+*expanded --- boolean --- expanded
+taxFee --- TaxFee --- taxFee
+taxFeeCategory --- TaxFee --- taxFeeCategory
+taxFeePeriod --- TaxFeePeriod --- taxFeePeriod
+paymentMethod --- string --- paymentMethod
+sourceType --- SourceTypes --- sourceType
+sourceSubtype --- string --- sourceSubtype
+kbk --- string --- kbk
+relation --- string --- relation
+currency --- Currency --- currency
+AccountDto --- { number: string; name: string; bic: string; bankName?: string; isThirdParty?: boolean; } --- AccountDto
 OperationStateType --- CHECKED | NOT_CHECKED | ERROR --- OperationStateType
 OperationType --- INCOMING | OUTGOING ---  OperationType
-OperationAccountCategoryDto --- {accountCategoryCode: string; amount: number; acceptableType: string; approved: boolean; allowEdit: boolean; amountSign: AcceptableAmountSign; currencyCalculation?: CurrencyCalculation; patentNumber?: string; } --- OperationAccountCategoryDto
+OperationAccountCategoryDto --- { accountCategoryCode: string; amount: number; acceptableType: string; approved: boolean; allowEdit: boolean; amountSign: AcceptableAmountSign; currencyCalculation?: CurrencyCalculation; patentNumber?: string; } --- OperationAccountCategoryDto
 CurrencyCalculation --- { rateDate: string; cbCurrency: CurrencyInfo; bankCurrency: CurrencyInfo; exchangeDifference: number; } --- CurrencyCalculation
-CurrencyInfo --- {amount: number; currencyAmount: number; currencyRate: number; currencyRateUnit: number; digitalCode: string; isoCode: string; } --- CurrencyInfo
+CurrencyInfo --- { amount: number; currencyAmount: number; currencyRate: number; currencyRateUnit: number; digitalCode: string; isoCode: string; } --- CurrencyInfo
 
     `,`
 
 `]);
+
 // ‘ ˈ æ ʒ dʒ ʌ
 
 // https://www.thefreedictionary.com/
+
 // слово --- произношение --- перевод --- мнемотекст --- подсказка
-
-
-/*
-acock
-accursed
-*/
