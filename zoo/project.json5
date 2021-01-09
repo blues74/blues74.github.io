@@ -1,0 +1,19 @@
+{
+    schemas: [
+        'app ~:~ app.pug',
+    ],
+    name: "Blues74",
+    prefix: "Blues74",
+    title: "@Blues74",
+    aliases: {
+        "@root": "",
+        "@zoo": "zoo",
+    },
+    searchIgnore: [
+        '**/node_modules/**', '**/bundle-analyzer/**', '**/zoo/**', '**/package-lock.json', '**/dist/**'
+    ],
+    folders: [
+        {name: "root",           xpath: "@root"},
+        {name: "zoo",            xpath: "@zoo"},
+    ]
+}
