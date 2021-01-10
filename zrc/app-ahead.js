@@ -3,6 +3,7 @@ const ALL_DATA = [];
 const ALL_KEYS = {};
 const QUICK_LINKS = [];
 const ALL_BY_GROUPS = {};
+const TEXTS_BY_WORD = {};
 
 let APP_DATA = getEmptyAppData();
 let STAT = {};
@@ -114,15 +115,18 @@ console.log('APP_DATA', APP_DATA);
 console.log('STAT', STAT);
 
 function getMetadata(meta) {
-  meta = meta.trim()
+  meta = meta
+    .trim()
     .split(']')
+    .map(item => item.replace(/\[/, ''))
     .map(item => item.trim())
-    .map(item => item.replace(/^\[/, ''));
+    .filter(item => !!item);
 
-    return {
-      page: meta[1],
-      group: meta[0]
-    }
+  return {
+    page: meta[1],
+    group: meta[0],
+    item: meta[2] || '',
+  }
 }
 
 // https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802/

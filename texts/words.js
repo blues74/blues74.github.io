@@ -2,9 +2,7 @@ TEXTS.words.push([`
 
     `,`
 
-[AL] [words]
-
----
+[AL] [words] [also]
 
 My girlfriend was also called Helen.
 Мою девушку тоже звали Элен.
@@ -30,7 +28,9 @@ The system was not only complicated but also ineffective.
 Thomas Edison is best known for inventing the lightbulb, but he also invented the phonograph.
 Больше всего Томас Эдисон известен изобретением лампочки, но также он изобрёл фонограф.
 
----
+    `,`
+
+[AL] [words] [ally]
 
 He's a good ally in fight.
 Он хороший союзник в борьбе.
@@ -86,7 +86,9 @@ Ridley was one of the Queen's closest allies.
 Who's that guy Ally's been engrossed in conversation with all night?
 Кто этот парень, с которым Элли так увлечённо беседует весь вечер?
 
----
+    `,`
+
+[AL] [words] [alley]
 
 He walked all night the alleys of his park.
 Он бродил всю ночь по аллеям своего парка.
@@ -112,7 +114,9 @@ She found the side alley where the stage door was located.
 “What a beautiful view,” he said, his voice dripping with irony, as he looked out the window at the alley.
 — Какой прекрасный вид, — сказал он, выглянув из окна на переулок, и его голос был полон иронии.
 
----
+    `,`
+
+[AL] [words] [all]
 
 All agree.
 Все согласны.
@@ -204,13 +208,9 @@ He'll need all the help he can get.
 The kids got all excited when they saw Santa Claus.
 Дети пришли в восторг, когда увидели Санта-Клауса.
 
----
-
     `,`
 
-[AG] [words]
-
----
+[AG] [words] [again]
 
 Can you say that again? I didn't hear.
 Вы не могли бы повторить ещё раз? Я не расслышал.
@@ -263,7 +263,9 @@ And again, these workshops will benefit the community widely.
 When he stood up, he got so dizzy that he had to sit down again.
 Когда он встал, у него так закружилась голова, что пришлось сесть снова.
 
----
+    `,`
+
+[AG] [words] [against]
 
 I met him against the pond.
 Я встретил его у пруда.
@@ -355,7 +357,9 @@ He spoke against appeasing the enemy.
 I always felt as if I was riding a race against time.
 Я всегда чувствовал, будто бегу наперегонки со временем.
 
----
+    `,`
+
+[AG] [words] [age]
 
 Francis is the same age as me.
 Френсис такого же возраста, что и я.
@@ -447,7 +451,9 @@ It was replaced because of its age.
 She died at the ripe old age of 90.
 Она умерла в преклонном возрасте девяноста лет.
 
----
+    `,`
+
+[AG] [words] [ago]
 
 Her husband died 14 years ago.
 Её муж умер четырнадцать лет назад.
@@ -476,7 +482,9 @@ We had our bicentenary celebrations not that long ago.
 Tom got a letter from him just a little while ago.
 Совсем недавно Том получил от него письмо.
 
----
+    `,`
+
+[AG] [words] [agree]
 
 Agreed!
 Решено! / По рукам! / Согласен!
@@ -568,7 +576,9 @@ Do you reckon he'll agree to see us?
 White wine doesn't agree with me.
 Белое вино мне не по душе.
 
----
+    `,`
+
+[AG] [words] [aid]
 
 I didn't speak any French, but a nice man came to my aid.
 Я совсем не говорю по-французски, но один добрый человек пришёл мне на помощь.
@@ -632,402 +642,411 @@ Foreign aid from many countries poured into the famine area.
 
     `,`
 
-[AC] [words]
-
---- [across] ---
+[AC] [words] [across]
 
 There is a forest across the river.
-За рекой есть лес. ☰
+За рекой есть лес.
 
 A tree lay across the road.
-Поперёк дороги лежало дерево. ☰
+Поперёк дороги лежало дерево.
 
 The river is 2 km across.
-Ширина реки составляет два километра. ☰
+Ширина реки составляет два километра.
 
 He pulled up a chair and sat down across from Michael.
-Он подвинул стул и сел напротив Майкла. ☰
+Он подвинул стул и сел напротив Майкла.
 
 Richard stood up and walked across to the window.
-Ричард встал и подошёл к окну. ☰
+Ричард встал и подошёл к окну.
 
 For a moment a shadow seemed to pass across Roy's face.
-На мгновенье показалось, что по лицу Роя пробежала тень. ☰
+На мгновенье показалось, что по лицу Роя пробежала тень.
 
 My best friend lives across the road.
-Мой лучший друг живёт через дорогу. ☰
+Мой лучший друг живёт через дорогу.
 
 His technique is to start at 1 across and then go to 1 down.
-Его метод состоит в том, чтобы начать с 1 по горизонтали, а затем перейти к 1 по вертикали. (о решении кроссворда) ☰
+Его метод состоит в том, чтобы начать с 1 по горизонтали, а затем перейти к 1 по вертикали. (о решении кроссворда)
 
 We saw them walking across the street.
-Мы видели, как они переходят через улицу. ☰
+Мы видели, как они переходят через улицу.
 
 We'll have to swim across.
-Нам придётся переплыть на тот берег. ☰
+Нам придётся переплыть на тот берег.
 
 We took a ferry across the river.
-Мы переплыли реку на пароме. ☰
+Мы переплыли реку на пароме.
 
 Airplanes flew across the sky above us.
-Над нами пролетели самолёты. ☰
+Над нами пролетели самолёты.
 
 A smile spread across her face.
-Её лицо расплылось в широкой улыбке. ☰
+Её лицо расплылось в широкой улыбке.
 
 He was seated across the table from me.
-Его посадили за стол напротив меня. ☰
+Его посадили за стол напротив меня.
 
 The streams are small enough to jump across.
-Эти речушки настолько малы, что через них можно перепрыгнуть. ☰
+Эти речушки настолько малы, что через них можно перепрыгнуть.
 
 He walked across to where I was sitting.
-Он подошёл к тому месту, где сидел я. ☰
+Он подошёл к тому месту, где сидел я.
 
 Looking out across the ocean, he saw land.
-Глядя через океан, он увидел землю. ☰
+Глядя через океан, он увидел землю.
 
 She reached across the table to shake his hand.
-Она потянулась через стол, чтобы пожать ему руку. ☰
+Она потянулась через стол, чтобы пожать ему руку.
 
 They walked across to the other side of the street.
-Они перешли на другую сторону улицы. ☰
+Они перешли на другую сторону улицы.
 
 The sun's light spread across the mountains.
-Солнечный свет распространяется по горам. ☰
+Солнечный свет распространяется по горам.
 
 They ran straight across the road (=without stopping).
-Они побежали прямо через дорогу (без остановки). ☰
+Они побежали прямо через дорогу (без остановки).
 
 We gazed across the valley.
-Мы смотрели на долину. ☰
+Мы смотрели на долину.
 
 The marble slabs were cut across.
-Мраморные плиты были разрезаны поперёк. ☰
+Мраморные плиты были разрезаны поперёк.
 
 The football field was 300 feet across.
-Футбольное поле было триста футов в поперечнике. ☰
+Футбольное поле было триста футов в поперечнике.
 
 They reached across and shook each other's hand.
-Они протянули руки и обменялись рукопожатием. ☰
+Они протянули руки и обменялись рукопожатием.
 
 There's Brendan. Why don't you go across and say hello?
-Там Брендан. Почему бы тебе не подойти к нему поздороваться? ☰
+Там Брендан. Почему бы тебе не подойти к нему поздороваться?
 
 Someone's parked right across the entrance to the driveway.
-Кто-то припарковался прямо напротив въезда в подворотню. ☰
+Кто-то припарковался прямо напротив въезда в подворотню.
 
 They traveled back and forth across the border.
-Они разъезжали туда-сюда через границу. ☰
+Они разъезжали туда-сюда через границу.
 
 He knew that just across the border lay freedom.
-Он понимал, что совсем рядом, за границей, свобода. ☰
+Он понимал, что совсем рядом, за границей, свобода.
 
 The accident happened just across the state line.
-Это произошло совсем недалеко от границы нашего штата. ☰
-
---- [acquit] ---
-
-She was acquitted of all charges.
-С неё сняли все обвинения. ☰
-
-All the defendants were acquitted.
-Все обвиняемые были оправданы. ☰
-
-Mr Hope was initially convicted but then was acquitted on appeal.
-Мистер Хоуп был первоначально признан виновным, но затем оправдан в апелляционной инстанции. ☰
-
---- [accursed] ---
-
-The video store is charging another accursed late fee.
-Видеопрокат требует очередную дурацкую пеню за просрочку. ☰
-
---- [accrue] ---
-
-The interest accrued to our account.
-На нашем счету наросли проценты. ☰
-
-The interest accrues.
-Проценты по вкладу накапливаются. ☰
-
-I have accrued 15 days of sick leave.
-У меня осталось 15 неиспользованных дней отпуска по болезни. ☰
-
-The house accrued to the oldest son.
-Дом отошёл (по наследству) старшему сыну. ☰
-
-Interest will accrue until payment is made.
-Проценты будут начисляться, пока не сделан платёж. ☰
-
-I'll get back all the money I invested, plus any interest and dividends that have accrued.
-Я верну себе все вложенные мной деньги, а также любые накопившиеся проценты и дивиденды. ☰
-
-The series B preferred stock will not accrue dividends.
-По привилегированным акциям серии B дивиденды не начисляются. ☰
-
-advantages accruing from the introduction of new technology
-преимущества, возникающие в результате внедрения новых технологий ☰
-
-investments that have accrued interest and dividends
-инвестиции, по которым накопились проценты и дивиденды ☰
-
---- [accost] ---
-
-She was so famous that people would accost her on the street and ask for an autograph.
-Она была знаменита настолько, что люди приставали к ней на улице и просили дать автограф. ☰
-
-He was accosted by three gang members on the subway.
-В метро к нему пристали три бандита. ☰
-
-He was accosted by four youths and forced to give them all his money.
-К нему подошли четыре молодых незнакомца, и ему пришлось отдать им все свои деньги. ☰
-
---- [accord] ---
-
-It doesn't accord with what you said yesterday.
-Это не соответствует тому, что вы говорили вчера. ☰
-
-We are in accord with your proposal.
-Мы согласны с вашим предложением. ☰
-
-He decided to go of his own accord.
-Он решил идти по своему усмотрению. ☰
-
-Our information does not accord with his report.
-Наша информация не совпадает с его отчётом. ☰
-
-They came to an accord that profits would be shared equally.
-Они договорились разделить доходы поровну. ☰
-
-We accorded him a hero's welcome.
-Мы встретили его как героя. ☰
-
-In many cases the disease will clear up of its own accord.
-Во многих случаях болезнь проходит сама по себе. ☰
-
-The two sides were able to reach an accord.
-Стороны смогли достичь соглашения. ☰
-
-Interestingly, the results presented were not in accord with the calculations.
-Интересно, что представленные результаты не соответствовали вычислениям. ☰
-
-The door seemed to move of its own accord.
-Дверь, казалось, двигалась сама собой. ☰
-
-He was accorded certain favors because of his age.
-В связи с возрастом ему были сделаны некоторые послабления. ☰
-
-The well stopped of its own accord, probably sanding up.
-Родник перестал течь сам собой, возможно, из-за того, что забился песком. ☰
-
-We reached an accord with the neighbouring country about our common border.
-Мы достигли соглашения с сопредельным государством по вопросу общей границы. ☰
-
-Every school accords high priority to the quality of teaching.
-Каждая школа уделяет первоочередное внимание качеству преподавания. ☰
-
-You will not be accorded any special treatment.
-Вам не будет предоставлено особого отношения. ☰
-
-These results are in accord with earlier research.
-Эти результаты согласуются с более ранними исследованиями. ☰
-
-They hoped to bring about a peace accord between the warring nations.
-Они надеялись добиться мирного соглашения между воюющими государствами. ☰
-
-It is important to the success of any firm that its partners should be in complete accord.
-Для успеха любой фирмы важно, чтобы её партнеры были в полном согласии. ☰
-
---- [access] ---
-
-Do you have access to the Internet?
-У вас есть доступ в интернет? ☰
-
-You'll need a password to access the database.
-Для доступа к базе данных вам понадобится пароль. ☰
-
-He always has access to the Prime Minister.
-У него всегда есть доступ к премьер-министру. ☰
-
-I had unrestricted access.
-У меня был неограниченный доступ. ☰
-
-We have Internet access at the library.
-В нашей библиотеке есть доступ к Интернету. ☰
-
-The word “access” is spelled with two cs.
-Слово "access" (доступ) пишется с двумя буквами "с". ☰
-
-That access of fear loosened his joints.
-Приступ страха ослабил его мускулы. ☰
-
-She still had access to the Emperor whenever she desired.
-Она по-прежнему могла входить к императору в любое время, когда ей этого хотелось. ☰
-
-He gained access to the building.
-Он получил доступ к зданию. ☰
-
-My ex-wife deliberately sabotages my access to the children.
-Моя бывшая жена умышленно срывает мои свидания с детьми. ☰
-
-The system enables students to access class materials online.
-Данная система позволяет студентам получить доступ к материалам занятий в Интернете. ☰
-
-You can access our homepage via the Internet.
-К нашей домашней странице можно подключиться через интернет. ☰
-
-This report can be accessed via the Internet at www...
-Доступ к этому отчёту можно получить через интернет по адресу www… ☰
-
-The agreement was needed for use of the access routes to the city.
-Данное соглашение требовалось для использования подъездных путей к городу. ☰
-
-They paid a premium for access to water.
-За доступ к воде они заплатили дополнительно. ☰
-
-My ex-husband has access to the children once a week.
-Мой бывший муж имеет право видеться с детьми один раз в неделю. ☰
-
-Users can access their voice mail remotely.
-Пользователи могут получать доступ к своей голосовой почте удалённо. ☰
-
-Hackers had illegally accessed information on more than 310,000 consumers.
-Хакеры получили незаконный доступ к информации о более чем 310000 потребителях. ☰
-
-We cannot provide you with Internet access unless you agree to these terms.
-Мы не можем предоставить вам доступ в интернет, если вы не согласитесь с данными условиями. ☰
-
-She had privileged access to the files.
-У неё был особый доступ к этим материалам. ☰
-
-an urban underclass, who have limited access to health care
-городская беднота, которая имеет ограниченный доступ к медицинской помощи ☰
-
-They have access to up-to-date information through a computer database.
-У них есть доступ к новейшей информации через компьютерную базу данных. ☰
-
-Access to the site is closely controlled.
-Доступ к сайту тщательно контролируется. ☰
-
-Only employees have access to bank records.
-Доступ к банковской документации есть только у сотрудников. ☰
-
-How does one access the attic in this house?
-Как попасть на чердак в этом доме? ☰
-
-The theatre has good access for the disabled.
-В театре имеется удобный доступ для инвалидов. ☰
-
-We're trying to improve access for disabled visitors.
-Мы пытаемся улучшить доступ для посетителей с ограниченными физическими возможностями. ☰
-
-Nesting places on the cliffs are difficult of access.
-Гнездовья на скалах труднодоступны. ☰
-
-This card allows you to access your money at the touch of a button.
-Эта карта позволяет вам одним нажатием кнопки получить доступ к своим деньгам. ☰
-
-In May 1949, Stalin conceded defeat and reopened land access to Berlin.
-В мае 1949 года Сталин признал поражение, и вновь открыл наземный доступ к Берлину. ☰
-
----
-
-I spent my academic career at one school.
-Я провёл всю свою научную карьеру в одном учебном заведении. ☰
-
-He's not very academic.
-Он не очень хорошо успевает. ☰
-
-The university press publishes academic titles.
-Университетская пресса публикует научные издания. ☰
-
-This was not an academic exercise — soldiers' lives were at risk.
-Это упражнение не было чисто теоретическим: на кону стояла жизнь солдат. ☰
-
-The system is failing most disastrously among less academic children.
-Эта система абсолютно не годится для детей, не склонных к учёбе. ☰
-
-Neither is it an academic preachment on how worry might be conquered.
-Не является это и чисто теоретической проповедью о том, как можно победить беспокойство. ☰
-
-He's not very academic, but he's good with his hands.
-С учёбой у него не очень, зато руки золотые. ☰
-
-He found his niche in the academic world.
-Он нашёл свою нишу в научном мире. ☰
-
-All that academic rigmarole was a waste of time.
-Вся эта академическая волокита оказалась пустой тратой времени. ☰
-
-She received awards for her academic achievements.
-Она удостоилась наград за свои научные достижения. ☰
-
-All this discussion, Sirs, is academic. The war has begun already.
-Все эти ваши речи, господа, — отвлечённая болтовня. Война уже началась. ☰
-
-Her work is well thought of in academic circles.
-В академических кругах о её работе хорошего мнения. ☰
-
-He only cares about sports. He has no interest in academics.
-Его волнует только спорт, а в учёбе он не заинтересован. ☰
-
-The parents praised their children for their academic performance.
-Родители похвалили своих детей за успеваемость /успехи в учёбе/. ☰
-
-The university's academic calendar runs from September to May.
-В этом университете учебный год длится с сентября по май. ☰
-
-We need to have equal academic standards for male and female students.
-Нам нужны равные образовательные стандарты для студентов и студенток. ☰
-
-an academic essay filled with jargon
-научная работа, полная специальных терминов ☰
-
-He is no longer in the race for academic awards.
-Он больше не участвует в гонке за академические звания. ☰
-
-The school has an above-average academic rating.
-Академический рейтинг данной школы — выше среднего. ☰
-
-Her academic interests span a wide variety of topics.
-Её научные интересы охватывают широкий спектр тем. ☰
-
-The board set tough academic standards for graduation.
-Министерство образования установило жёсткие академические требования к выпускникам. ☰
-
-unequal academic standards for male and female students
-неравные образовательные стандарты для студентов и студенток ☰
-
-The book appeals to academics and to the general public.
-Данная книга обращается к преподавателям и к широкой общественности. ☰
-
-The book is not intended for a purely academic audience.
-Данная книга не предназначена для сугубо научной аудитории. ☰
-
-Her family is proud of all her academic accomplishments.
-Родные гордятся всеми её научными достижениями. ☰
-
-The market for specialist academic books is pretty small.
-Рынок специализированной научной литературы довольно мал. ☰
-
-One of the qualifications for admission is an academic degree.
-Одним из требований при приёме является учёная степень. ☰
-
-It's becoming increasingly difficult to acquire academic tenure.
-Получить академическую должность становится всё труднее. ☰
-
-Academic staff are appointed on the recommendation of a committee.
-Академический персонал назначается по рекомендации комитета. ☰
-
-the mores of academic life as opposed to those of the business world
-нравы, принятые в научных кругах, в отличие от нравов делового мира ☰
-
----
+Это произошло совсем недалеко от границы нашего штата.
 
     `,`
-[AB] [words]
 
----
+[AC] [words] [acquit]
+
+She was acquitted of all charges.
+С неё сняли все обвинения.
+
+All the defendants were acquitted.
+Все обвиняемые были оправданы.
+
+Mr Hope was initially convicted but then was acquitted on appeal.
+Мистер Хоуп был первоначально признан виновным, но затем оправдан в апелляционной инстанции.
+
+    `,`
+
+[AC] [words] [accursed]
+
+The video store is charging another accursed late fee.
+Видеопрокат требует очередную дурацкую пеню за просрочку.
+
+    `,`
+
+[AC] [words] [accrue]
+
+The interest accrued to our account.
+На нашем счету наросли проценты.
+
+The interest accrues.
+Проценты по вкладу накапливаются.
+
+I have accrued 15 days of sick leave.
+У меня осталось 15 неиспользованных дней отпуска по болезни.
+
+The house accrued to the oldest son.
+Дом отошёл (по наследству) старшему сыну.
+
+Interest will accrue until payment is made.
+Проценты будут начисляться, пока не сделан платёж.
+
+I'll get back all the money I invested, plus any interest and dividends that have accrued.
+Я верну себе все вложенные мной деньги, а также любые накопившиеся проценты и дивиденды.
+
+The series B preferred stock will not accrue dividends.
+По привилегированным акциям серии B дивиденды не начисляются.
+
+advantages accruing from the introduction of new technology
+преимущества, возникающие в результате внедрения новых технологий
+
+investments that have accrued interest and dividends
+инвестиции, по которым накопились проценты и дивиденды
+
+    `,`
+
+[AC] [words] [accost]
+
+She was so famous that people would accost her on the street and ask for an autograph.
+Она была знаменита настолько, что люди приставали к ней на улице и просили дать автограф.
+
+He was accosted by three gang members on the subway.
+В метро к нему пристали три бандита.
+
+He was accosted by four youths and forced to give them all his money.
+К нему подошли четыре молодых незнакомца, и ему пришлось отдать им все свои деньги.
+
+    `,`
+
+[AC] [words] [accord]
+
+It doesn't accord with what you said yesterday.
+Это не соответствует тому, что вы говорили вчера.
+
+We are in accord with your proposal.
+Мы согласны с вашим предложением.
+
+He decided to go of his own accord.
+Он решил идти по своему усмотрению.
+
+Our information does not accord with his report.
+Наша информация не совпадает с его отчётом.
+
+They came to an accord that profits would be shared equally.
+Они договорились разделить доходы поровну.
+
+We accorded him a hero's welcome.
+Мы встретили его как героя.
+
+In many cases the disease will clear up of its own accord.
+Во многих случаях болезнь проходит сама по себе.
+
+The two sides were able to reach an accord.
+Стороны смогли достичь соглашения.
+
+Interestingly, the results presented were not in accord with the calculations.
+Интересно, что представленные результаты не соответствовали вычислениям.
+
+The door seemed to move of its own accord.
+Дверь, казалось, двигалась сама собой.
+
+He was accorded certain favors because of his age.
+В связи с возрастом ему были сделаны некоторые послабления.
+
+The well stopped of its own accord, probably sanding up.
+Родник перестал течь сам собой, возможно, из-за того, что забился песком.
+
+We reached an accord with the neighbouring country about our common border.
+Мы достигли соглашения с сопредельным государством по вопросу общей границы.
+
+Every school accords high priority to the quality of teaching.
+Каждая школа уделяет первоочередное внимание качеству преподавания.
+
+You will not be accorded any special treatment.
+Вам не будет предоставлено особого отношения.
+
+These results are in accord with earlier research.
+Эти результаты согласуются с более ранними исследованиями.
+
+They hoped to bring about a peace accord between the warring nations.
+Они надеялись добиться мирного соглашения между воюющими государствами.
+
+It is important to the success of any firm that its partners should be in complete accord.
+Для успеха любой фирмы важно, чтобы её партнеры были в полном согласии.
+
+    `,`
+
+[AC] [words] [access]
+
+Do you have access to the Internet?
+У вас есть доступ в интернет?
+
+You'll need a password to access the database.
+Для доступа к базе данных вам понадобится пароль.
+
+He always has access to the Prime Minister.
+У него всегда есть доступ к премьер-министру.
+
+I had unrestricted access.
+У меня был неограниченный доступ.
+
+We have Internet access at the library.
+В нашей библиотеке есть доступ к Интернету.
+
+The word “access” is spelled with two cs.
+Слово "access" (доступ) пишется с двумя буквами "с".
+
+That access of fear loosened his joints.
+Приступ страха ослабил его мускулы.
+
+She still had access to the Emperor whenever she desired.
+Она по-прежнему могла входить к императору в любое время, когда ей этого хотелось.
+
+He gained access to the building.
+Он получил доступ к зданию.
+
+My ex-wife deliberately sabotages my access to the children.
+Моя бывшая жена умышленно срывает мои свидания с детьми.
+
+The system enables students to access class materials online.
+Данная система позволяет студентам получить доступ к материалам занятий в Интернете.
+
+You can access our homepage via the Internet.
+К нашей домашней странице можно подключиться через интернет.
+
+This report can be accessed via the Internet at www...
+Доступ к этому отчёту можно получить через интернет по адресу www…
+
+The agreement was needed for use of the access routes to the city.
+Данное соглашение требовалось для использования подъездных путей к городу.
+
+They paid a premium for access to water.
+За доступ к воде они заплатили дополнительно.
+
+My ex-husband has access to the children once a week.
+Мой бывший муж имеет право видеться с детьми один раз в неделю.
+
+Users can access their voice mail remotely.
+Пользователи могут получать доступ к своей голосовой почте удалённо.
+
+Hackers had illegally accessed information on more than 310,000 consumers.
+Хакеры получили незаконный доступ к информации о более чем 310000 потребителях.
+
+We cannot provide you with Internet access unless you agree to these terms.
+Мы не можем предоставить вам доступ в интернет, если вы не согласитесь с данными условиями.
+
+She had privileged access to the files.
+У неё был особый доступ к этим материалам.
+
+an urban underclass, who have limited access to health care
+городская беднота, которая имеет ограниченный доступ к медицинской помощи
+
+They have access to up-to-date information through a computer database.
+У них есть доступ к новейшей информации через компьютерную базу данных.
+
+Access to the site is closely controlled.
+Доступ к сайту тщательно контролируется.
+
+Only employees have access to bank records.
+Доступ к банковской документации есть только у сотрудников.
+
+How does one access the attic in this house?
+Как попасть на чердак в этом доме?
+
+The theatre has good access for the disabled.
+В театре имеется удобный доступ для инвалидов.
+
+We're trying to improve access for disabled visitors.
+Мы пытаемся улучшить доступ для посетителей с ограниченными физическими возможностями.
+
+Nesting places on the cliffs are difficult of access.
+Гнездовья на скалах труднодоступны.
+
+This card allows you to access your money at the touch of a button.
+Эта карта позволяет вам одним нажатием кнопки получить доступ к своим деньгам.
+
+In May 1949, Stalin conceded defeat and reopened land access to Berlin.
+В мае 1949 года Сталин признал поражение, и вновь открыл наземный доступ к Берлину.
+
+    `,`
+
+[AC] [words] [academic]
+
+I spent my academic career at one school.
+Я провёл всю свою научную карьеру в одном учебном заведении.
+
+He's not very academic.
+Он не очень хорошо успевает.
+
+The university press publishes academic titles.
+Университетская пресса публикует научные издания.
+
+This was not an academic exercise — soldiers' lives were at risk.
+Это упражнение не было чисто теоретическим: на кону стояла жизнь солдат.
+
+The system is failing most disastrously among less academic children.
+Эта система абсолютно не годится для детей, не склонных к учёбе.
+
+Neither is it an academic preachment on how worry might be conquered.
+Не является это и чисто теоретической проповедью о том, как можно победить беспокойство.
+
+He's not very academic, but he's good with his hands.
+С учёбой у него не очень, зато руки золотые.
+
+He found his niche in the academic world.
+Он нашёл свою нишу в научном мире.
+
+All that academic rigmarole was a waste of time.
+Вся эта академическая волокита оказалась пустой тратой времени.
+
+She received awards for her academic achievements.
+Она удостоилась наград за свои научные достижения.
+
+All this discussion, Sirs, is academic. The war has begun already.
+Все эти ваши речи, господа, — отвлечённая болтовня. Война уже началась.
+
+Her work is well thought of in academic circles.
+В академических кругах о её работе хорошего мнения.
+
+He only cares about sports. He has no interest in academics.
+Его волнует только спорт, а в учёбе он не заинтересован.
+
+The parents praised their children for their academic performance.
+Родители похвалили своих детей за успеваемость /успехи в учёбе/.
+
+The university's academic calendar runs from September to May.
+В этом университете учебный год длится с сентября по май.
+
+We need to have equal academic standards for male and female students.
+Нам нужны равные образовательные стандарты для студентов и студенток.
+
+an academic essay filled with jargon
+научная работа, полная специальных терминов
+
+He is no longer in the race for academic awards.
+Он больше не участвует в гонке за академические звания.
+
+The school has an above-average academic rating.
+Академический рейтинг данной школы — выше среднего.
+
+Her academic interests span a wide variety of topics.
+Её научные интересы охватывают широкий спектр тем.
+
+The board set tough academic standards for graduation.
+Министерство образования установило жёсткие академические требования к выпускникам.
+
+unequal academic standards for male and female students
+неравные образовательные стандарты для студентов и студенток
+
+The book appeals to academics and to the general public.
+Данная книга обращается к преподавателям и к широкой общественности.
+
+The book is not intended for a purely academic audience.
+Данная книга не предназначена для сугубо научной аудитории.
+
+Her family is proud of all her academic accomplishments.
+Родные гордятся всеми её научными достижениями.
+
+The market for specialist academic books is pretty small.
+Рынок специализированной научной литературы довольно мал.
+
+One of the qualifications for admission is an academic degree.
+Одним из требований при приёме является учёная степень.
+
+It's becoming increasingly difficult to acquire academic tenure.
+Получить академическую должность становится всё труднее.
+
+Academic staff are appointed on the recommendation of a committee.
+Академический персонал назначается по рекомендации комитета.
+
+the mores of academic life as opposed to those of the business world
+нравы, принятые в научных кругах, в отличие от нравов делового мира
+
+    `,`
+
+[AB] [words]
 
 There is a consensus that we should abstain.
 Мы все сошлись на том, что воздержимся от голосования.
@@ -1833,3 +1852,5 @@ investments that have accrued interest and dividends
     `,`
 
 `]);
+
+// ☰

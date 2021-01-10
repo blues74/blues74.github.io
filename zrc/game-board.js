@@ -476,7 +476,7 @@ class GameBoard {
         !/[а-яёЁА-Я]/.test(sentence) &&
         textIncludeWords(sentence, [firstWord, lastWord])
       ) {
-        let rus = '';
+        let rus = sentence;
         if (/[а-яёЁА-Я]/.test(sentences[i+1] || '')) {
           rus = sentences[i+1];
         }
