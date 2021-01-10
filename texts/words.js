@@ -1793,6 +1793,43 @@ payee of letter of credit
 payee of money order
 получатель по денежному переводу; получатель денежного перевода
 
+---
+
+Drunken troops ran amok in the town. [run/ran/run]
+Пьяные солдаты бесчинствовали в городе. 
+
+A mob runs amok(wild).
+Толпа выходит из-под контроля(буйствует).
+
+---
+
+The interest accrued to our account.
+На нашем счету наросли проценты. 
+
+The interest accrues.
+Проценты по вкладу накапливаются. 
+
+I have accrued 15 days of sick leave.
+У меня осталось 15 неиспользованных дней отпуска по болезни. 
+
+The house accrued to the oldest son.
+Дом отошёл (по наследству) старшему сыну. 
+
+Interest will accrue until payment is made.
+Проценты будут начисляться, пока не сделан платёж. 
+
+I'll get back all the money I invested, plus any interest and dividends that have accrued.
+Я верну себе все вложенные мной деньги, а также любые накопившиеся проценты и дивиденды. 
+
+The series B preferred stock will not accrue dividends.
+По привилегированным акциям серии B дивиденды не начисляются. 
+
+advantages accruing from the introduction of new technology
+преимущества, возникающие в результате внедрения новых технологий 
+
+investments that have accrued interest and dividends
+инвестиции, по которым накопились проценты и дивиденды 
+
     `,`
 
 `]);
