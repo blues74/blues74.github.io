@@ -42,7 +42,11 @@ function textIncludeWords(text, words) {
     'be', 'is', 'was', 'were', 'been', 'will',
     'all', 'to', 'as',
     'no', 'not', 'yes',
+    'duː', 'ɪn', 'ðɪs', 'aɪ',  'juː',  'ə', 'ɒv', 'ænd',
   ];
+
+
+
 
   for (word of words) {
     if (
@@ -162,7 +166,11 @@ class GameBoard {
     let x = ALL_KEYS[`${page}.${group}`];
     if(!x) return;
 
-    let arr = ALL_DATA[x.i][x.j].trim().split('\n');
+    let arr = ALL_DATA[x.i][x.j].trim()
+    .split('\n')
+    .map(item => (item || '').trim())
+    .filter(item => !!item);
+
     let meta = arr[0].trim();
 
     arr = arr.slice(1);

@@ -1,15 +1,6 @@
 TEXTS.basicMath.push(`
 [010] [basicMath]
 
-focus
-focusing
-beyond
-occasionally
-affect
-odometer
-rolls a bunch
-
-
     <eng>
 To round a number with more than two digits to the nearest ten, use the same method, focusing only on the ones and tens digits.
 After you understand how to round a number to the nearest ten, rounding a number to the nearest hundred, thousand, or beyond is easy.
@@ -34,9 +25,6 @@ tuː raʊnd ə ˈnʌmbə wɪð mɔː ðæn tuː ˈdɪʤɪts tuː ðə ˈnɪərɪ
 ɔːl ðə ˈdɪʤɪts tuː ðə raɪt ɒv ðə ˈnʌmbə jʊə ˈraʊndɪŋ tuː ʧeɪnʤ tuː 0.
 əˈkeɪʒnəli wɛn jʊə ˈraʊndɪŋ ə ˈnʌmbər ʌp, ə smɔːl ʧeɪnʤ tuː ðə wʌnz ænd tɛnz ˈdɪʤɪts əˈfɛkts ði ˈʌðə ˈdɪʤɪts.
 ðɪs ɪz ə lɒt laɪk wɛn ði əʊˈdɒmɪtər ɪn jɔː kɑː rəʊlz ə bʌnʧ ɒv 9 ˈəʊvə tuː 0, sʌʧ æz wɛn juː gəʊ frɒm 11,999 maɪlz tuː 12,000 maɪlz.
-
-
-
 
     <eng>
 Rollover: Rounding Numbers Up and Down

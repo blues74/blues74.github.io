@@ -3,7 +3,7 @@ TEXTS.basicMath.push(`
 
 <eng>
 In This Chapter
-- Understanding how place_value turns digits into numbers
+- Understanding how place_value turns_digits into_numbers
 - Rounding numbers to the nearest ten, hundred, or thousand
 - Calculating with the Big Four operations (adding, subtracting, multiplying, and dividing)
 - Getting_comfortable with long division
@@ -81,7 +81,7 @@ Place value assigns each digit a greater or lesser value depending upon where it
 Each place in a number is ten times greater than the place to its immediate right.
 <rus>
 Как и буквы алфавита, отдельные цифры не очень полезны.
-Однако при использовании в комбинации эти десять символов могут составлять числа, которые вам нравятся, используя значение места.
+При использовании их комбинации, однако, эти десять символов могут составлять числа, которые вам нравятся, используя значение места.
 Значение места назначает каждой цифре большее или меньшее значение в зависимости от того, где она появляется в числе.
 Каждое место в числе в десять раз больше, чем место с его прямым правом.
 <trn>
@@ -93,7 +93,7 @@ iːʧ pleɪs ɪn ə ˈnʌmbər ɪz tɛn taɪmz ˈgreɪtə ðæn ðə pleɪs tuː
 <eng>
 Although the digit 0 adds no value to a number, it can act as a placeholder.
 When a 0 appears to the right of at least one non-zero digit, it’s a placeholder.
-Placeholders are important for giving digits their proper place value.
+Placeholders are important for giving digits their proper place_value.
 In contrast, when a 0 isn’t to the right of any nonzero digit, it’s a leading zero.
 Leading zeros are unnecessary and can be removed from a number.
 <rus>
@@ -162,5 +162,50 @@ The first 0 is a leading zero, and the remaining 0s are placeholders.
 <trn>
 ðə fɜːst 0 ɪz ɪn ðə ˈhʌndrəd-ˈθaʊzəndz pleɪs, 4 ɪz ɪn ðə tɛn-ˈθaʊzəndz pleɪs, ðə nɛkst 0 ɪz ɪn ðə ˈθaʊzəndz pleɪs, 1 ɪz ɪn ðə ˈhʌndrədz pleɪs, 2 ɪz ɪn ðə tɛnz pleɪs, ænd ðə lɑːst 0 ɪz ɪn ðə wʌnz pleɪs, səʊ
 ðə fɜːst 0 ɪz ə ˈliːdɪŋ ˈzɪərəʊ, ænd ðə rɪˈmeɪnɪŋ 0 ɑː ˈpleɪsˌhəʊldəz.
+
+`,`
+
+[007] [basicMath] [quite]
+
+I am quite well.
+Я чувствую себя довольно хорошо. 
+
+The work is not quite finished.
+Работа не совсем закончена. 
+
+That is not quite what I said.
+Это не совсем то, что я сказал. / Я сказал не совсем так. 
+
+She's quite right, you know.
+Знаете, а ведь она в самом деле права. 
+
+I quite forgot your birthday.
+Я совсем забыла о твоём дне рождения. 
+
+It's quite the thing to do.
+Это именно то, что нужно сделать. 
+
+I am quite capable of doing it myself, thank you.
+Я вполне способен сделать это сам, спасибо. 
+
+No one realized quite what was happening.
+Никто до конца не осознавал, что происходило. 
+
+We've had quite an afternoon!
+Отличный у нас выдался денёк! 
+
+Quite why he left is unclear.
+Почему именно он ушёл — неясно. 
+
+They assured me that I was quite mistaken.
+Меня заверили, что я был совершенно не прав. 
+
+We hadn't quite made up our minds.
+Мы ещё не вполне решились. 
+
+Irene Franey, a little older than I, was quite a beauty.
+Ирэн Фрэни, которая была ненамного старше меня, была настоящей красавицей. 
+
+`,`
 
 `);
