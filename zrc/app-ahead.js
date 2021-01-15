@@ -16,6 +16,7 @@ const TEXTS = {
   words: [],
   wraith: [],
   multiplication_table: [],
+  atom: [],
 }
 
 try {

@@ -495,7 +495,7 @@ class GameBoard {
     if (!outArr.length) return;
 
     // if (!APP_DATA.options.showExamplesByOrder) {
-    //   outArr = _.shuffle(outArr);
+       outArr = _.shuffle(outArr);
     // }
 
     out += outArr.join('');
