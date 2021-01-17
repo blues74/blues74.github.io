@@ -35,6 +35,63 @@ consumeSignal --- consumeSignal
 core:loaded-shell-environment --- core:loaded-shell-environment
 
     `,`
+[top-packages] [atom]
+
+AtomEnvironment --- AtomEnvironment
+en'vironment --- ɪn'vaɪrənmənt --- окружающая среда, среда, окружение, окружающая обстановка, состояние, контекст --- en'vironment
+BufferedNodeProcess --- BufferedNodeProcess
+BufferedProcess --- BufferedProcess
+Clipboard --- Clipboard
+Color --- Color
+CommandRegistry --- CommandRegistry
+CompositeDisposable --- CompositeDisposable
+Config --- Config
+ContextMenuManager --- ContextMenuManager
+Cursor --- Cursor
+Decoration --- Decoration
+DeserializerManager --- DeserializerManager
+Directory --- Directory
+DisplayMarker --- DisplayMarker
+DisplayMarkerLayer --- DisplayMarkerLayer
+Disposable --- Disposable
+Dock --- Dock
+Emitter --- Emitter
+File --- File
+GitRepository --- GitRepository
+Grammar --- Grammar
+GrammarRegistry --- GrammarRegistry
+Gutter --- Gutter
+HistoryManager --- HistoryManager
+KeymapManager --- KeymapManager
+LayerDecoration --- LayerDecoration
+MarkerLayer --- MarkerLayer
+MenuManager --- MenuManager
+Notification --- Notification
+NotificationManager --- NotificationManager
+Package --- Package
+PackageManager --- PackageManager
+Pane --- Pane
+Panel --- Panel
+PathWatcher --- PathWatcher
+Point --- Point
+Project --- Project
+Range --- Range
+ScopeDescriptor --- ScopeDescriptor
+Selection --- Selection
+StyleManager --- StyleManager
+Task --- Task
+TextBuffer --- TextBuffer
+TextEditor --- TextEditor
+ThemeManager --- ThemeManager
+TooltipManager --- TooltipManager
+ViewRegistry --- ViewRegistry
+Workspace --- Workspace
+WorkspaceCenter --- WorkspaceCenter
+
+
+
+    `,`
+    `,`
     `,`
 `]);
 
