@@ -17,6 +17,9 @@ const TEXTS = {
   wraith: [],
   multiplication_table: [],
   atom: [],
+  lodash: [],
+  rxjs: [],
+  angular: [],
 }
 
 try {
