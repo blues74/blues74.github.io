@@ -151,7 +151,7 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
       <button style="height: 32px; margin-bottom: 8px;">Ду</button><br>
     </div>
     <div style="width: 10%; display: inline-block;">
-      <button style="height: 32px; margin-bottom: 8px;">Да</button><br>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Да</button><br>
       <button style="height: 32px; margin-bottom: 8px;">Бо</button><br/>
       <button style="height: 32px; margin-bottom: 8px;">ко</button><br/>    
       <button style="height: 32px; margin-bottom: 8px;">Ло</button><br/>
@@ -163,7 +163,7 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
       <button style="height: 32px; margin-bottom: 8px;">по</button><br/>
       <button style="height: 32px; margin-bottom: 8px;">Ро</button><br/>
       <button style="height: 32px; margin-bottom: 8px;">жо</button><br/>
-      <button style="height: 32px; margin-bottom: 8px;">До</button><br>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">До</button><br>
     </div>    
     <div style="width: 10%; display: inline-block;">
       <button style="height: 32px; margin-bottom: 8px;">Да</button><br>
