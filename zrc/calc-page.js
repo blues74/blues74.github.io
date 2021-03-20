@@ -135,23 +135,50 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
   </div>
 
   <div data-name="calcBoard" style="margin-left: 8px;">
-    <div style="width: 10%; display: inline-block;">
-      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДО</button><br-->
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Бу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ку</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛУ</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ну</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">СУ</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ту</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Фу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">МУ</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">пу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">РУ</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">жу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДУ</button><br>
+    <div style="display: inline-block; margin-right: 16px;">
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Бу</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ЛУ</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ку</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">СУ</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ну</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Фу</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ту</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">МУ</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">РУ</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">пу</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ДУ</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">жу</button><br/>
     </div>
-    <div style="width: 10%; display: inline-block;">
-      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br-->
+    <div style="display: inline-block; margin-right: 16px;">
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Бо</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ло</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ко</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Со</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">но</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Фо</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">то</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Мо</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ро</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">по</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">До</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">жо</button><br/>
+    </div>
+    <div style="display: inline-block;">
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ба</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ла</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">ка</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Са</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">на</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Фа</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">та</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ма</button><br/>    
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Ра</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">па</button><br/>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">Да</button>
+      <button style="height: 48px; width: 40px; margin-bottom: 8px; user-select: none;">жа</button><br/>
+    </div>
+
+    <!--div style="width: 30%; display: inline-block;">
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Бо</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ко</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛО</button><br/>
@@ -165,8 +192,7 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">жо</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДО</button><br>
     </div>    
-    <div style="width: 10%; display: inline-block;">
-      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br-->
+    <div style="width: 30%; display: inline-block;">
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ба</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ка</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛА</button><br/>
@@ -179,7 +205,7 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">РА</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">жа</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br>
-    </div>        
+    </div-->
   </div>
 
 </div></div>`;
