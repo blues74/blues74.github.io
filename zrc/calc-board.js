@@ -55,8 +55,6 @@ const freqHash = freqList.reduce((acc, item) => {
     return acc
 }, {})
 
-console.log('freqHash', freqHash);
-
 class CalcBoard {
     constructor($vc) {
         this.$el = null;
@@ -73,6 +71,8 @@ class CalcBoard {
         };
 
         const playSound = (sound, onlyStop) => {
+            console.log('sound', sound);
+
             if (playList[sound]) {
                 playList[sound].stop() // context.currentTime
                 delete playList[sound]
@@ -86,7 +86,6 @@ class CalcBoard {
             const masterGainNode = context.createGain()
             masterGainNode.gain.value = 1
 
-            console.log('sound', sound); 
             const oscillator = context.createOscillator()
 
             oscillator.frequency.value = freqHash[sound.toLowerCase()]
@@ -110,10 +109,12 @@ class CalcBoard {
             const sound = btn.innerText.toLowerCase();
 
             $(btn).on('mousedown', (e) => {
+                // console.log('mousedown')
                 playSound(sound)
             });
 
             $(btn).on('touchstart', (e) => {
+                // console.log('touchstart')
                 playSound(sound)
             });            
 
@@ -121,7 +122,7 @@ class CalcBoard {
                 playSound(sound, true)                
             });
 
-            $(btn).on('touchstart', (e) => {
+            $(btn).on('touchend', (e) => {
                 playSound(sound, true)                
             });            
         });
