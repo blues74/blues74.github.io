@@ -83,21 +83,31 @@ class CalcBoard {
 
             if (playList[sound]) {
                 playList[sound].stop(context.currentTime)
-                oscillator.disconnect()
+                playList[sound].disconnect()
                 delete playList[sound]
+
+                if (onlyStop && !oscillator) {
+                    oscillator = context.createOscillator()
+                    oscillator.type = 'sine'
+                    oscillator.connect(masterGainNode)
+    
+                    return
+                }
             }
 
-            if (onlyStop) {
-                oscillator = context.createOscillator()
-                oscillator.type = 'sine'
-                oscillator.connect(masterGainNode)
+            let lOscillator = oscillator
 
-                return
+            if (!lOscillator) {
+                lOscillator = context.createOscillator()
+                lOscillator.type = 'sine'
+                lOscillator.connect(masterGainNode)
             }
 
-            oscillator.frequency.value = freqHash[sound.toLowerCase()]
-            playList[sound] = oscillator;
-            oscillator.start(context.currentTime)
+            oscillator = null
+            
+            lOscillator.frequency.value = freqHash[sound.toLowerCase()]
+            playList[sound] = lOscillator;
+            lOscillator.start(context.currentTime)
         }        
 
         _.each(this.$el.find(`button`), btn => {
