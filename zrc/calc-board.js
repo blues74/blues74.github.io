@@ -75,15 +75,16 @@ class CalcBoard {
         masterGainNode.gain.value = 1
         masterGainNode.connect(context.destination)
         let oscillator = context.createOscillator()
-        oscillator.type = 'sine'        
+        oscillator.type = 'sine'
+        oscillator.connect(masterGainNode)
 
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
 
             if (playList[sound]) {
                 playList[sound].stop(context.currentTime)
+                oscillator.disconnect()
                 delete playList[sound]
-                masterGainNode.disconnect()
             }
 
             if (onlyStop) {
