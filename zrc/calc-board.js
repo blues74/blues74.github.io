@@ -70,11 +70,16 @@ class CalcBoard {
 
         };
 
+        const context = new AudioContext()
+        const masterGainNode = context.createGain()
+        masterGainNode.gain.value = 1
+        masterGainNode.connect(context.destination)
+
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
 
             if (playList[sound]) {
-                playList[sound].stop() // context.currentTime
+                playList[sound].stop(context.currentTime)
                 delete playList[sound]
             }
 
@@ -82,46 +87,31 @@ class CalcBoard {
                 return
             }
 
-            const context = new AudioContext()
-            const masterGainNode = context.createGain()
-            masterGainNode.gain.value = 1
-
             const oscillator = context.createOscillator()
-
             oscillator.frequency.value = freqHash[sound.toLowerCase()]
             oscillator.type = 'sine'
-            
-            masterGainNode.connect(context.destination)
-            oscillator.connect(masterGainNode)
-            
-            oscillator.start(context.currentTime)
-
             playList[sound] = oscillator;
-            
-            // setTimeout(() => {
-            //     // oscillator.stop(context.currentTime)
-            //     oscillator.stop()
-            //     // cb && cb()
-            // }, 2000)
+            oscillator.connect(masterGainNode)
+            oscillator.start(context.currentTime)
         }        
 
         _.each(this.$el.find(`button`), btn => {
             const sound = btn.innerText.toLowerCase();
 
-            $(btn).on('mousedown', (e) => {
-                console.log('mousedown')
-                playSound(sound)
-            });
+            // $(btn).on('mousedown', (e) => {
+            //     console.log('mousedown')
+            //     playSound(sound)
+            // });
 
             $(btn).on('touchstart', (e) => {
                 console.log('touchstart')
                 playSound(sound)
             });            
 
-            $(btn).on('mouseup', (e) => {
-                console.log('mouseup')
-                playSound(sound, true)                
-            });
+            // $(btn).on('mouseup', (e) => {
+            //     console.log('mouseup')
+            //     playSound(sound, true)                
+            // });
 
             $(btn).on('touchend', (e) => {
                 console.log('touchend')
