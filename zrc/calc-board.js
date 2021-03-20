@@ -69,12 +69,26 @@ class CalcBoard {
         const soundBy = {};
 
         const context = new AudioContext()
-        const masterGainNode = context.createGain()
-        masterGainNode.gain.value = 1
-        masterGainNode.connect(context.destination)
+        // const masterGainNode = context.createGain()
+
+        const yVolume = context.createGain()
+        const oVolume = context.createGain()
+        const aVolume = context.createGain()                
+
+        yVolume.gain.value = 1
+        oVolume.gain.value = .4
+        aVolume.gain.value = .2
+
+        yVolume.connect(context.destination)
+        oVolume.connect(context.destination)
+        aVolume.connect(context.destination)
+
+        // masterGainNode.gain.value = 1
+        // masterGainNode.connect(context.destination)
 
         let currOscil
         let currSound
+        let currVolume
 
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
@@ -102,9 +116,18 @@ class CalcBoard {
                 soundBy[sound] = oscil
             }
 
+            currVolume = yVolume
+
+            if (/о/.test(sound)) {
+                currVolume = oVolume
+            } else if (/а/.test(sound)) {
+                currVolume = aVolume
+            }
+
             currSound = sound
             currOscil = soundBy[sound]
-            currOscil.connect(masterGainNode)
+            currOscil.connect(currVolume)
+            // currOscil.connect(masterGainNode)
         }
 
         _.each(this.$el.find(`button`), btn => {
