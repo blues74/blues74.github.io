@@ -134,11 +134,11 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
 
   </div>
 
+  <div data-name="calcBoard">
+    <button data-name="xTest">hello</button>
+  </div>
 
 </div></div>`;
-
-
-
 
 const calcPage = {
   template: calcPageTpl,
@@ -186,7 +186,18 @@ const calcPage = {
       console.log('pageBeforeIn', page);
     },
     pageAfterIn: function(e, page) {
-      console.log('pageAfterIn', page);
+      console.log('pageAfterIn.e', e);
+      console.log('pageAfterIn.page', page);
+      console.log('pageAfterIn.this', this);
+
+      let calcBoard = new CalcBoard(this);
+      calcBoard.init(dyName('calcBoard'));
+
+      // pageAfterIn: function(e, page) {
+      //   //console.log('GamePage.pageAfterIn', page);
+      //   let gameBoard = new GameBoard(this);
+      //   gameBoard.init(dyName('gameBoard'));
+      // },      
     },
     pageBeforeOut: function(e, page) {
       console.log('pageBeforeOut', page);

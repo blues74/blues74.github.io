@@ -46,8 +46,6 @@ function textIncludeWords(text, words) {
   ];
 
 
-
-
   for (word of words) {
     if (
       word.length > 2 &&
@@ -158,8 +156,6 @@ class GameBoard {
       $(e.target).addClass('text-color-orange');
       panelVc.close();
     });
-
-
   }
 
   loadWords (page, group) {
