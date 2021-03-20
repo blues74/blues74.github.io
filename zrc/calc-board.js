@@ -111,34 +111,19 @@ class CalcBoard {
 
             $(btn).on('mousedown', (e) => {
                 playSound(sound)
-                // console.log(btn.innerText.toLowerCase());
             });
+
+            $(btn).on('touchstart', (e) => {
+                playSound(sound)
+            });            
 
             $(btn).on('mouseup', (e) => {
                 playSound(sound, true)                
-                // console.log(btn.innerText);
             });
+
+            $(btn).on('touchstart', (e) => {
+                playSound(sound, true)                
+            });            
         });
-
-        // _.each(this.$el.find(`button`), (btn) => {
-
-        // });
-
-        // dyName('xTest', this.$el).on('click', (e) => {
-        //     const oscillator = context.createOscillator()
-
-        //     oscillator.frequency.value = 400
-        //     oscillator.type = 'sine'
-            
-        //     masterGainNode.connect(context.destination)
-        //     oscillator.connect(masterGainNode)
-            
-        //     oscillator.start(context.currentTime)
-            
-        //     setTimeout(() => {
-        //         oscillator.stop(context.currentTime)
-        //         // cb && cb()
-        //     }, 1000)
-        // });        
     }
 }
