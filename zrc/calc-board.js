@@ -103,20 +103,29 @@ class CalcBoard {
             //     playSound(sound)
             // });
 
-            $(btn).on('touchstart', (e) => {
-                console.log('touchstart')
+            btn.addEventListener('touchstart', () => {
                 playSound(sound)
-            });            
+            });
+
+            // $(btn).on('touchstart', (e) => {
+            //     console.log('touchstart')
+            //     playSound(sound)
+            // });            
 
             // $(btn).on('mouseup', (e) => {
             //     console.log('mouseup')
             //     playSound(sound, true)                
             // });
 
-            $(btn).on('touchend', (e) => {
-                console.log('touchend')
-                playSound(sound, true)                
-            });            
+            // $(btn).on('touchend', (e) => {
+            //     console.log('touchend')
+            //     playSound(sound, true)                
+            // });
+            
+            btn.addEventListener('touchend', () => {
+                playSound(sound, true)
+            });
+
         });
     }
 }
