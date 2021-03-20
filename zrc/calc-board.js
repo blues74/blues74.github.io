@@ -71,7 +71,7 @@ class CalcBoard {
         };
 
         const playSound = (sound, onlyStop) => {
-            console.log('sound', sound);
+            console.log('sound', sound, onlyStop);
 
             if (playList[sound]) {
                 playList[sound].stop() // context.currentTime
@@ -109,20 +109,22 @@ class CalcBoard {
             const sound = btn.innerText.toLowerCase();
 
             $(btn).on('mousedown', (e) => {
-                // console.log('mousedown')
+                console.log('mousedown')
                 playSound(sound)
             });
 
             $(btn).on('touchstart', (e) => {
-                // console.log('touchstart')
+                console.log('touchstart')
                 playSound(sound)
             });            
 
             $(btn).on('mouseup', (e) => {
+                console.log('mouseup')
                 playSound(sound, true)                
             });
 
             $(btn).on('touchend', (e) => {
+                console.log('touchend')
                 playSound(sound, true)                
             });            
         });
