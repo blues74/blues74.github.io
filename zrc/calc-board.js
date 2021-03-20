@@ -74,6 +74,8 @@ class CalcBoard {
         const masterGainNode = context.createGain()
         masterGainNode.gain.value = 1
         masterGainNode.connect(context.destination)
+        let oscillator = context.createOscillator()
+        oscillator.type = 'sine'        
 
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
@@ -81,17 +83,19 @@ class CalcBoard {
             if (playList[sound]) {
                 playList[sound].stop(context.currentTime)
                 delete playList[sound]
+                masterGainNode.disconnect()
             }
 
             if (onlyStop) {
+                oscillator = context.createOscillator()
+                oscillator.type = 'sine'
+                oscillator.connect(masterGainNode)
+
                 return
             }
 
-            const oscillator = context.createOscillator()
             oscillator.frequency.value = freqHash[sound.toLowerCase()]
-            oscillator.type = 'sine'
             playList[sound] = oscillator;
-            oscillator.connect(masterGainNode)
             oscillator.start(context.currentTime)
         }        
 
