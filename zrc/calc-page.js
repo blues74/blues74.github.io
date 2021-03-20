@@ -136,49 +136,49 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
 
   <div data-name="calcBoard" style="margin-left: 8px;">
     <div style="width: 10%; display: inline-block;">
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">До</button><br>
+      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДО</button><br-->
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Бу</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ку</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Лу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛУ</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ну</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Су</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">СУ</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ту</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Фу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Му</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">МУ</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">пу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ру</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">РУ</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">жу</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ду</button><br>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДУ</button><br>
     </div>
     <div style="width: 10%; display: inline-block;">
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Да</button><br>
+      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br-->
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Бо</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ко</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ло</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛО</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">но</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Со</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">СО</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">то</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Фо</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Мо</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">МО</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">по</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ро</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">РО</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">жо</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">До</button><br>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДО</button><br>
     </div>    
     <div style="width: 10%; display: inline-block;">
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Да</button><br>
+      <!--button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br-->
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ба</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">ка</button><br/>    
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ла</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ЛА</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">на</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Са</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">СА</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">та</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">Фа</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ма</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">МА</button><br/>    
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">па</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Ра</button><br/>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">РА</button><br/>
       <button style="height: 32px; margin-bottom: 8px; user-select: none;">жа</button><br/>
-      <button style="height: 32px; margin-bottom: 8px; user-select: none;">Да</button><br>
+      <button style="height: 32px; margin-bottom: 8px; user-select: none;">ДА</button><br>
     </div>        
   </div>
 
