@@ -67,28 +67,21 @@ class CalcBoard {
         const $route = this.$vc.$route;
 
         const soundBy = {};
-
         const context = new AudioContext()
-        // const masterGainNode = context.createGain()
-
         const yVolume = context.createGain()
         const oVolume = context.createGain()
         const aVolume = context.createGain()                
+        let currOscil
+        let currSound
+        let currVolume
 
         yVolume.gain.value = 1
         oVolume.gain.value = .4
-        aVolume.gain.value = .15
+        aVolume.gain.value = .1
 
         yVolume.connect(context.destination)
         oVolume.connect(context.destination)
         aVolume.connect(context.destination)
-
-        // masterGainNode.gain.value = 1
-        // masterGainNode.connect(context.destination)
-
-        let currOscil
-        let currSound
-        let currVolume
 
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
@@ -102,11 +95,12 @@ class CalcBoard {
                 currOscil.disconnect()
                 currOscil = null
                 currSound = null
+                currVolume = null
             }
 
             if (onlyStop) {
                 return
-            }            
+            }
 
             if (!soundBy[sound]) {
                 const oscil = context.createOscillator()
@@ -162,5 +156,9 @@ class CalcBoard {
             });
 
         });
+    }
+
+    bindPanel() {
+
     }
 }
