@@ -77,7 +77,7 @@ class CalcBoard {
 
         yVolume.gain.value = 1
         oVolume.gain.value = .4
-        aVolume.gain.value = .2
+        aVolume.gain.value = .15
 
         yVolume.connect(context.destination)
         oVolume.connect(context.destination)
