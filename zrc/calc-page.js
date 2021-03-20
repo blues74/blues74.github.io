@@ -134,8 +134,52 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
 
   </div>
 
-  <div data-name="calcBoard">
-    <button data-name="xTest">hello</button>
+  <div data-name="calcBoard" style="margin-left: 8px;">
+    <div style="width: 10%; display: inline-block;">
+      <button style="height: 32px; margin-bottom: 8px;">До</button><br>
+      <button style="height: 32px; margin-bottom: 8px;">Бу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">ку</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Лу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">ну</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Су</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">ту</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Фу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Му</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">пу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Ру</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">жу</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Ду</button><br>
+    </div>
+    <div style="width: 10%; display: inline-block;">
+      <button style="height: 32px; margin-bottom: 8px;">Да</button><br>
+      <button style="height: 32px; margin-bottom: 8px;">Бо</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">ко</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Ло</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">но</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Со</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">то</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Фо</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Мо</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">по</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Ро</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">жо</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">До</button><br>
+    </div>    
+    <div style="width: 10%; display: inline-block;">
+      <button style="height: 32px; margin-bottom: 8px;">Да</button><br>
+      <button style="height: 32px; margin-bottom: 8px;">Ба</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">ка</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Ла</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">на</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Са</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">та</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">Фа</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Ма</button><br/>    
+      <button style="height: 32px; margin-bottom: 8px;">па</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Ра</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">жа</button><br/>
+      <button style="height: 32px; margin-bottom: 8px;">Да</button><br>
+    </div>        
   </div>
 
 </div></div>`;
