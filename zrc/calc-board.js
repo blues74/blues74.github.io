@@ -74,41 +74,42 @@ class CalcBoard {
         const masterGainNode = context.createGain()
         masterGainNode.gain.value = 1
         masterGainNode.connect(context.destination)
-        let oscillator = context.createOscillator()
-        oscillator.type = 'sine'
-        oscillator.connect(masterGainNode)
+        
+        let curr
+        let oscillator
+        let currSound
 
         const playSound = (sound, onlyStop) => {
             console.log('sound', sound, onlyStop);
 
-            if (playList[sound]) {
-                playList[sound].stop(context.currentTime)
-                playList[sound].disconnect()
-                delete playList[sound]
-
-                if (onlyStop && !oscillator) {
-                    oscillator = context.createOscillator()
-                    oscillator.type = 'sine'
-                    oscillator.connect(masterGainNode)
-    
-                    return
-                }
+            if (onlyStop && currSound !== sound) {
+                return
             }
 
-            let lOscillator = oscillator
-
-            if (!lOscillator) {
-                lOscillator = context.createOscillator()
-                lOscillator.type = 'sine'
-                lOscillator.connect(masterGainNode)
+            if (curr) {
+                curr.stop(context.currentTime)
+                curr.disconnect()
+                curr = null
+                currSound = null
             }
 
+            if (!oscillator) {
+                oscillator = context.createOscillator()
+                oscillator.type = 'sine'
+                oscillator.connect(masterGainNode)
+            }
+
+            if (onlyStop) {
+                return
+            }
+
+            curr = oscillator
             oscillator = null
-            
-            lOscillator.frequency.value = freqHash[sound.toLowerCase()]
-            playList[sound] = lOscillator;
-            lOscillator.start(context.currentTime)
-        }        
+
+            currSound = sound
+            curr.frequency.value = freqHash[sound.toLowerCase()]
+            curr.start(context.currentTime)
+        }
 
         _.each(this.$el.find(`button`), btn => {
             const sound = btn.innerText.toLowerCase();
