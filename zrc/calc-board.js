@@ -66,17 +66,14 @@ class CalcBoard {
         const $app = this.$vc.$app;
         const $route = this.$vc.$route;
 
-        const playList = {
-
-        };
+        const soundBy = {};
 
         const context = new AudioContext()
         const masterGainNode = context.createGain()
         masterGainNode.gain.value = 1
         masterGainNode.connect(context.destination)
-        
-        let curr
-        let oscillator
+
+        let currOscil
         let currSound
 
         const playSound = (sound, onlyStop) => {
@@ -86,29 +83,28 @@ class CalcBoard {
                 return
             }
 
-            if (curr) {
-                curr.stop(context.currentTime)
-                curr.disconnect()
-                curr = null
+            if (currOscil) {
+                // curr.stop(context.currentTime)
+                currOscil.disconnect()
+                currOscil = null
                 currSound = null
-            }
-
-            if (!oscillator) {
-                oscillator = context.createOscillator()
-                oscillator.type = 'sine'
-                oscillator.connect(masterGainNode)
             }
 
             if (onlyStop) {
                 return
+            }            
+
+            if (!soundBy[sound]) {
+                const oscil = context.createOscillator()
+                oscil.type = 'sine'
+                oscil.frequency.value = freqHash[sound.toLowerCase()]
+                oscil.start(context.currentTime)
+                soundBy[sound] = oscil
             }
 
-            curr = oscillator
-            oscillator = null
-
             currSound = sound
-            curr.frequency.value = freqHash[sound.toLowerCase()]
-            curr.start(context.currentTime)
+            currOscil = soundBy[sound]
+            currOscil.connect(masterGainNode)
         }
 
         _.each(this.$el.find(`button`), btn => {
