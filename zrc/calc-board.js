@@ -1,15 +1,66 @@
 const soundNames = [
-    'ду', 'жу', 'ру', 'пу', 'му', 'фу', 'ту', 'су', 'ну', 'лу', 'ку', 'бу',
-    'до', 'жо', 'ро', 'по', 'мо', 'фо', 'то', 'со', 'но', 'ло', 'ко', 'бо',
-    'да', 'жа', 'ра', 'па', 'ма', 'фа', 'та', 'са', 'на', 'ла', 'ка', 'ба',
-    'дэ', 'жэ', 'рэ', 'пэ', 'мэ', 'фэ', 'тэ', 'сэ', 'нэ', 'лэ', 'кэ', 'бэ',
+    'ды', 'жы', 'ры', 'пы', 'мы', 'фы', 'ты', 'сы', 'ны', 'лы', 'кы', 'бы', // большая
+    'ду', 'жу', 'ру', 'пу', 'му', 'фу', 'ту', 'су', 'ну', 'лу', 'ку', 'бу', // малая
+    'до', 'жо', 'ро', 'по', 'мо', 'фо', 'то', 'со', 'но', 'ло', 'ко', 'бо', // первая
+    'да', 'жа', 'ра', 'па', 'ма', 'фа', 'та', 'са', 'на', 'ла', 'ка', 'ба', // вторая
+    'дэ', 'жэ', 'рэ', 'пэ', 'мэ', 'фэ', 'тэ', 'сэ', 'нэ', 'лэ', 'кэ', 'бэ', // третья
 ]
 
-// ду жу ру пу   до жо ро по   да жа ра па
-// му фу ту су   мо фо то со   ма фа та са
-// ну лу ку бу   но ло ко бо   на ла ка ба
+const replaceSound = {
+    'ды': 'до',
+    'жы': 'жо',
+    'ры': 'ро',
+    'пы': 'по',
+    'мы': 'мо',
+    'фы': 'фо',
+    'ты': 'то',
+    'сы': 'со',
+    'ны': 'но',
+    'лы': 'ло',
+    'кы': 'ко',
+    'бы': 'бо',
+
+    'ду': 'до',
+    'жу': 'жо',
+    'ру': 'ро',
+    'пу': 'по',
+    'му': 'мо',
+    'фу': 'фо',
+    'ту': 'то',
+    'су': 'со',
+    'ну': 'но',
+    'лу': 'ло',
+    'ку': 'ко',
+    'бу': 'бо',
+
+    'дэ': 'до',
+    'жэ': 'жо',
+    'рэ': 'ро',
+    'пэ': 'по',
+    'мэ': 'мо',
+    'фэ': 'фо',
+    'тэ': 'то',
+    'сэ': 'со',
+    'нэ': 'но',
+    'лэ': 'ло',
+    'кэ': 'ко',
+    'бэ': 'бо',    
+}
 
 const freqList = [
+    /* БОЛЬШАЯ */
+	{name: 'ды', value: 65.41},
+	{name: 'жы', value: 69.30},
+	{name: 'ры', value: 73.91},    
+	{name: 'пы', value: 77.78},
+	{name: 'мы', value: 82.41},
+	{name: 'фы', value: 87.31},
+	{name: 'ты', value: 92.50},    
+	{name: 'сы', value: 98.00},
+	{name: 'ны', value: 103.80},
+	{name: 'лы', value: 110.00},
+	{name: 'кы', value: 116.54},
+	{name: 'бы', value: 123.48},    
     /* МАЛАЯ */
 	{name: 'ду', value: 130.82},
 	{name: 'жу', value: 138.59},
@@ -37,31 +88,31 @@ const freqList = [
 	{name: 'ко', value: 466.16},
 	{name: 'бо', value: 493.88},
     /* ВТОРАЯ */
-	{name: 'да', value: 523.25},
-	{name: 'жа', value: 554.36},
-	{name: 'ра', value: 587.32},
-	{name: 'па', value: 622.26},
-	{name: 'ма', value: 659.26},
-	{name: 'фа', value: 698.46},
-	{name: 'та', value: 739.98},
-	{name: 'са', value: 784.00},
-	{name: 'на', value: 830.60},
-	{name: 'ла', value: 880.00},
-	{name: 'ка', value: 932.32},
-	{name: 'ба', value: 987.75},
+	{name: 'дэ', value: 523.25},
+	{name: 'жэ', value: 554.36},
+	{name: 'рэ', value: 587.32},
+	{name: 'пэ', value: 622.26},
+	{name: 'мэ', value: 659.26},
+	{name: 'фэ', value: 698.46},
+	{name: 'тэ', value: 739.98},
+	{name: 'сэ', value: 784.00},
+	{name: 'нэ', value: 830.60},
+	{name: 'лэ', value: 880.00},
+	{name: 'кэ', value: 932.32},
+	{name: 'бэ', value: 987.75},
     /* ТРЕТЬЯ */
-	{name: 'дэ', value: 1046.5},
-	{name: 'жэ', value: 1108.70},
-	{name: 'рэ', value: 1174.60},
-	{name: 'пэ', value: 1244.50},
-	{name: 'мэ', value: 1318.50},
-	{name: 'фэ', value: 1396.90},
-	{name: 'тэ', value: 1480.00},
-	{name: 'сэ', value: 1568.00},
-	{name: 'нэ', value: 1661.20},
-	{name: 'лэ', value: 1720.00},
-	{name: 'кэ', value: 1864.60},
-	{name: 'бэ', value: 1975.50},    
+	{name: 'да', value: 1046.5},
+	{name: 'жа', value: 1108.70},
+	{name: 'ра', value: 1174.60},
+	{name: 'па', value: 1244.50},
+	{name: 'ма', value: 1318.50},
+	{name: 'фа', value: 1396.90},
+	{name: 'та', value: 1480.00},
+	{name: 'са', value: 1568.00},
+	{name: 'на', value: 1661.20},
+	{name: 'ла', value: 1720.00},
+	{name: 'ка', value: 1864.60},
+	{name: 'ба', value: 1975.50},    
 ];
 
 const freqHash = freqList.reduce((acc, item) => {
@@ -98,6 +149,13 @@ class CalcBoard {
         aVolume.connect(context.destination)
 
         const playSound = (sound, onlyStop) => {
+            sound = (sound || '').toLowerCase()
+            sound = replaceSound[sound] || sound
+
+            if (!freqHash[sound]) {
+                return
+            }
+
             console.log('sound', sound, onlyStop);
 
             if (onlyStop && currSound !== sound) {
@@ -119,7 +177,7 @@ class CalcBoard {
             if (!soundBy[sound]) {
                 const oscil = context.createOscillator()
                 oscil.type = 'sine'
-                oscil.frequency.value = freqHash[sound.toLowerCase()]
+                oscil.frequency.value = freqHash[sound]
                 oscil.start(context.currentTime)
                 soundBy[sound] = oscil
             }
