@@ -85,7 +85,7 @@ let resultStyle = `
 
 const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-content">
 
-  <div class="block-title">CALC</div>
+  <!--div class="block-title">CALC</div-->
   <!--div class="block">
 
     <div style="display: flex;" data-type="temp">
