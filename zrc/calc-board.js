@@ -2,6 +2,7 @@ const soundNames = [
     'ду', 'жу', 'ру', 'пу', 'му', 'фу', 'ту', 'су', 'ну', 'лу', 'ку', 'бу',
     'до', 'жо', 'ро', 'по', 'мо', 'фо', 'то', 'со', 'но', 'ло', 'ко', 'бо',
     'да', 'жа', 'ра', 'па', 'ма', 'фа', 'та', 'са', 'на', 'ла', 'ка', 'ба',
+    'дэ', 'жэ', 'рэ', 'пэ', 'мэ', 'фэ', 'тэ', 'сэ', 'нэ', 'лэ', 'кэ', 'бэ',
 ]
 
 // ду жу ру пу   до жо ро по   да жа ра па
@@ -48,6 +49,19 @@ const freqList = [
 	{name: 'ла', value: 880.00},
 	{name: 'ка', value: 932.32},
 	{name: 'ба', value: 987.75},
+    /* ТРЕТЬЯ */
+	{name: 'дэ', value: 1046.5},
+	{name: 'жэ', value: 1108.70},
+	{name: 'рэ', value: 1174.60},
+	{name: 'пэ', value: 1244.50},
+	{name: 'мэ', value: 1318.50},
+	{name: 'фэ', value: 1396.90},
+	{name: 'тэ', value: 1480.00},
+	{name: 'сэ', value: 1568.00},
+	{name: 'нэ', value: 1661.20},
+	{name: 'лэ', value: 1720.00},
+	{name: 'кэ', value: 1864.60},
+	{name: 'бэ', value: 1975.50},    
 ];
 
 const freqHash = freqList.reduce((acc, item) => {
@@ -114,7 +128,7 @@ class CalcBoard {
 
             if (/о/.test(sound)) {
                 currVolume = oVolume
-            } else if (/а/.test(sound)) {
+            } else if (/а/.test(sound) || /э/.test(sound) || /и/.test(sound)) {
                 currVolume = aVolume
             }
 
