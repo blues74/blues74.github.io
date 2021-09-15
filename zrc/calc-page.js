@@ -137,116 +137,80 @@ const calcPageTpl = `<div class="page" data-name="calc">${tmp}<div class="page-c
   <div data-name="calcBoard" style="margin: 16px 8px 0 8px;">
 
     <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">0</span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">3</span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">5</span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">7</span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">9</span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 24px; margin: 6px 0; user-select: none;"></span>
-      <span style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">12</span>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">бу</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ку</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">лу</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">зу</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">су</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ву</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">фу</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">му</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ну</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ру</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ту</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ду</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
     </div>      
 
     <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">мы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">фы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ты</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">сы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ны</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">лы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">кы</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">бы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ду</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">жу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ру</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">пу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">му</button>
-    </div>      
-
-    <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">лы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">кы</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">бы</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ду</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">жу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ру</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">пу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">му</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">фу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ту</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">су</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ну</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">лу</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">бо</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ко</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ло</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">зо</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">со</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">во</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">фо</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">мо</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">но</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ро</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">то</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">до</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
     </div>          
 
     <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ру</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">пу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">му</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">фу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ту</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">су</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ну</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">лу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ку</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">бу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">до</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">жо</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ро</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ба</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ка</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ла</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">за</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">са</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ва</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">фа</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ма</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">на</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ра</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">та</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">да</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
     </div>
 
     <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">су</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ну</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">лу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ку</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">бу</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">до</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">жо</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ро</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">по</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">мо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">фо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">то</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">со</button>
-    </div>    
-
-    <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">бу</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">до</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">жо</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ро</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">по</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">мо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">фо</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">то</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">со</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">но</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ло</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ко</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">бо</button>
-    </div>    
-
-    <div style="width: 10%; display: inline-flex; flex-direction: column;">
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">мо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">фо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">то</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">со</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">но</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">ло</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">ко</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">бо</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">дэ</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">жэ</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">рэ</button>
-      <button style="width: 100%; height: 24px; margin: 6px 0; user-select: none;">пэ</button>
-      <button style="width: 100%; height: 30px; margin: 3px 0; user-select: none;">мэ</button>
-    </div>          
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">бе</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ке</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ле</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">зе</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">се</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ве</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">фе</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ме</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">не</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">ре</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">те</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;">де</button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+      <button style="width: 100%; height: 24px; margin: 3px 0; user-select: none;"></button>
+    </div>
   </div>
 
   <!--div style="width: 24%; display: inline-flex; flex-direction: column;">
